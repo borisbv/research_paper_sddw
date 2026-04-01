@@ -1,0 +1,107 @@
+title: "Memorias de casas con piernas: voces de los que se fueron, voces de los que llegaron"
+title_en: "Memories of Houses with Legs: Voices of Those Who Left, Voices of Those Who Arrived"
+authors:
+  - name: "Erwin"
+    affiliation: "[Pendiente: institución]"
+    email: "[Pendiente: email institucional]"
+    orcid: "[Pendiente: ORCID]"
+journal: "Revista de Estudios Sociales (RES)"
+journal_issue: 100
+publisher: "Universidad de los Andes, Colombia"
+submission_window: "1-31 agosto 2026"
+status: draft
+language: es
+additional_languages:
+  - en  # resumen extendido en inglés requerido
+
+# Estilo de citación: Chicago Author-Date (última edición)
+citation_style: chicago-author-date
+
+# Formato de manuscrito
+format:
+  font: "Times New Roman"
+  font_size: 12
+  line_spacing: 1.5
+  page_size: carta
+  margins: "2.5 cm"
+  footnote_font_size: 10
+  footnote_spacing: sencillo
+
+# Límites de palabras (RES: 7.000-10.000 total incluyendo resúmenes, keywords, bibliografía y notas)
+word_limits:
+  total_min: 7000
+  total_max: 10000
+  abstract: "250-300"  # resumen extendido (cada versión)
+  # Presupuesto por sección (alineado con design.md)
+  introduction: 1200
+  related_work: 1500
+  methodology: 1200
+  results: 1800
+  discussion: 1200
+  conclusion: 400
+
+# Requisitos del resumen extendido (RES)
+abstract_requirements:
+  - "objetivo/contexto"
+  - "metodología"
+  - "conclusiones"
+  - "originalidad"
+  - "Sin citaciones ni abreviaciones"
+  - "En idioma original (español) + inglés"
+
+# Palabras clave: 4-6 en español e inglés
+keywords_es:
+  - "migración"
+  - "memoria del habitar"
+  - "investigación-creación"
+  - "dibujo proyectivo"
+  - "casas narrativas"
+keywords_en:
+  - "migration"
+  - "dwelling memory"
+  - "research-creation"
+  - "projective drawing"
+  - "narrative houses"
+keywords_count: 5
+
+# Convocatoria específica
+call_for_papers:
+  theme: "Hacer ciencias sociales desde América Latina y el Caribe"
+  axes:
+    - "Migración, desplazamiento y frontera"
+    - "Metodologías clásicas y emergentes"
+    - "Tensiones entre teoría y práctica"
+
+# Notas editoriales RES
+# Orden de secciones del manuscrito (IMRaD adaptado)
+sections:
+  - file: "sections/abstract.md"
+    name: "Resumen extendido / Abstract"
+    target_words: 275  # por versión (ES + EN)
+  - file: "sections/introduction.md"
+    name: "Introducción"
+    target_words: 1200
+  - file: "sections/related-work.md"
+    name: "Marco teórico y estado del arte"
+    target_words: 1500
+  - file: "sections/methodology.md"
+    name: "Metodología"
+    target_words: 1200
+  - file: "sections/results.md"
+    name: "Resultados"
+    target_words: 1800
+  - file: "sections/discussion.md"
+    name: "Discusión"
+    target_words: 1200
+  - file: "sections/conclusion.md"
+    name: "Conclusión"
+    target_words: 400
+
+editorial_notes:
+  - "No usar op. cit., ibid. o ibidem"
+  - "Siglas: primera vez entre paréntesis y en mayúscula después de la fórmula completa"
+  - "Citas textuales >4 renglones: formato cita larga, espacio sencillo, tamaño 11, márgenes reducidos"
+  - "Cuadros/tablas/imágenes numerados al final del documento"
+  - "Imágenes en archivo aparte (jpg o tiff 300 dpi, 240 pixeles)"
+  - "Incluir DOI en referencias cuando exista"
+  - "Nombres completos de autores/editores en referencias"

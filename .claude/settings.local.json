@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(kiro:steering)",
+      "Skill(kiro:steering:*)",
+      "Skill(kiro:spec-init)",
+      "Skill(kiro:spec-requirements)",
+      "Skill(research-lookup)"
+    ]
+  }
+}
