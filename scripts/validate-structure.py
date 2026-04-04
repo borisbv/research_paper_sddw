@@ -90,7 +90,7 @@ def validate_structure(base_path: Path) -> tuple[bool, list[str]]:
     else:
         print(f"[FAIL] Estructura: {complete}/{total} secciones completas para '{journal}'")
     for e in errors:
-        print(f"  → {e}")
+        print(f"  - {e}")
 
     return passed, errors
 

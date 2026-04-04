@@ -1,0 +1,17 @@
+extends: existence
+message: "Sigla '%s' detectada. Verifique que la primera aparicion incluya la formula completa seguida de la sigla entre parentesis."
+level: suggestion
+scope: text
+tokens:
+  - '\b[A-Z]{2,6}\b'
+exceptions:
+  - RES
+  - IMRaD
+  - DOI
+  - URL
+  - ORCID
+  - PDF
+  - HTML
+  - DOCX
+  - ISBN
+  - ISSN

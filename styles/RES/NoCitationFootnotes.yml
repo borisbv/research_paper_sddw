@@ -1,0 +1,12 @@
+extends: existence
+message: "Posible referencia en formato numerico '%s' en lugar de Chicago Author-Date. RES requiere (Apellido anio)."
+level: warning
+nonword: true
+tokens:
+  - 'cit. 1'
+  - 'cit. 2'
+  - 'cit. 3'
+  - 'Ref. 1'
+  - 'Ref. 2'
+  - 'ref. 1'
+  - 'ref. 2'

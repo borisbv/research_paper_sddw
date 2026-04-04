@@ -1,0 +1,88 @@
+#!/bin/bash
+# pre-commit hook -- Ejecuta validaciones del paper SDD
+# Instalado por: bash scripts/install-hooks.sh
+
+set -e
+
+BASE_DIR="$(git rev-parse --show-toplevel)"
+PYTHON="python"
+FAILED=0
+
+echo "========================================"
+echo "  Validaciones pre-commit (Paper SDD)"
+echo "========================================"
+
+# Si no existe paper/sections/, skip validaciones del paper
+if [ ! -d "$BASE_DIR/paper/sections" ]; then
+    echo ""
+    echo "  paper/sections/ no encontrado -- skip validaciones de contenido"
+
+    # Solo validar bib si existe
+    if [ -f "$BASE_DIR/references/references.bib" ] && [ -f "$BASE_DIR/scripts/tidy-bib.py" ]; then
+        echo ""
+        $PYTHON "$BASE_DIR/scripts/tidy-bib.py" --check || {
+            echo "  Ejecute: python scripts/tidy-bib.py"
+            FAILED=1
+        }
+    fi
+
+    echo ""
+    echo "========================================"
+    if [ $FAILED -eq 0 ]; then
+        echo "  RESULTADO: OK (paper no inicializado)"
+    else
+        echo "  RESULTADO: Hay validaciones fallidas"
+    fi
+    echo "========================================"
+    exit $FAILED
+fi
+
+# 1. Metadata schema
+if [ -f "$BASE_DIR/scripts/validate-metadata.py" ]; then
+    echo ""
+    $PYTHON "$BASE_DIR/scripts/validate-metadata.py" || FAILED=1
+fi
+
+# 2. Estructura del paper
+echo ""
+$PYTHON "$BASE_DIR/scripts/validate-structure.py" || FAILED=1
+
+# 3. Citaciones
+echo ""
+$PYTHON "$BASE_DIR/scripts/validate-citations.py" || FAILED=1
+
+# 4. Conteo de palabras
+echo ""
+$PYTHON "$BASE_DIR/scripts/validate-word-count.py" || FAILED=1
+
+# 5. BibTeX tidy (formato)
+if [ -f "$BASE_DIR/scripts/tidy-bib.py" ]; then
+    echo ""
+    $PYTHON "$BASE_DIR/scripts/tidy-bib.py" --check || {
+        echo "  Ejecute: python scripts/tidy-bib.py"
+        FAILED=1
+    }
+fi
+
+# 6. DOI check (offline para velocidad)
+echo ""
+$PYTHON "$BASE_DIR/scripts/check-bib-dois.py" --offline || FAILED=1
+
+# 7. Vale prose linter (soft-fail: no bloquea commit)
+if [ -f "$BASE_DIR/scripts/validate-prose.py" ]; then
+    echo ""
+    $PYTHON "$BASE_DIR/scripts/validate-prose.py" || true
+fi
+
+echo ""
+echo "========================================"
+if [ $FAILED -eq 0 ]; then
+    echo "  RESULTADO: Todas las validaciones pasaron"
+    echo "========================================"
+    exit 0
+else
+    echo "  RESULTADO: Hay validaciones fallidas"
+    echo "  El commit fue bloqueado. Corrija los errores."
+    echo "========================================"
+    exit 1
+fi

@@ -1,0 +1,10 @@
+extends: existence
+message: "Posible cita en formato LaTeX: '%s'. RES requiere Chicago Author-Date en texto plano."
+level: suggestion
+nonword: true
+raw:
+  - '\\cite\{'
+  - '\\citep\{'
+  - '\\citet\{'
+  - '\\autocite\{'
+  - '\\parencite\{'

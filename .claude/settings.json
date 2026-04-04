@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -qE '(git commit|git push)'; then cd /home/user/research_paper_sddw && python3 scripts/validate-structure.py && python3 scripts/validate-citations.py; fi"
+            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -qE '(git commit|git push)'; then BASE=$(git rev-parse --show-toplevel) && python \"$BASE/scripts/validate-structure.py\" && python \"$BASE/scripts/validate-citations.py\" && python \"$BASE/scripts/validate-metadata.py\"; fi"
           }
         ]
       }
@@ -17,7 +17,11 @@
         "hooks": [
           {
             "type": "command",
-            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -qE 'paper/sections/|paper/outline\\.md'; then cd /home/user/research_paper_sddw && python3 scripts/validate-word-count.py 2>/dev/null || true; fi"
+            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -qE 'paper/sections/|paper/outline\\.md'; then BASE=$(git rev-parse --show-toplevel) && python \"$BASE/scripts/validate-word-count.py\" 2>/dev/null || true; python \"$BASE/scripts/validate-prose.py\" 2>/dev/null || true; fi"
+          },
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -qE 'paper/metadata\\.yaml'; then BASE=$(git rev-parse --show-toplevel) && python \"$BASE/scripts/validate-metadata.py\" 2>/dev/null || true; fi"
           }
         ]
       }

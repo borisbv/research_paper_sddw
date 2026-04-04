@@ -90,6 +90,20 @@ def validate_word_counts(base_path: Path) -> tuple[bool, list[str]]:
         else:
             limits = DEFAULT_WORD_LIMITS.get(section_name, {"min": 100, "max": 1500})
 
+        # Normalizar: si limits es un int/str, tratarlo como target
+        if isinstance(limits, (int, float)):
+            limits = {"min": int(limits * 0.8), "max": int(limits * 1.2)}
+        elif isinstance(limits, str):
+            # Formato "250-300"
+            parts = limits.split("-")
+            if len(parts) == 2:
+                try:
+                    limits = {"min": int(parts[0]), "max": int(parts[1])}
+                except ValueError:
+                    limits = {"min": 100, "max": 1500}
+            else:
+                limits = {"min": 100, "max": 1500}
+
         min_w = limits.get("min", 0)
         max_w = limits.get("max", float("inf"))
 
@@ -124,7 +138,7 @@ def validate_word_counts(base_path: Path) -> tuple[bool, list[str]]:
         target = f"{min_w}-{max_w}" if max_w != float("inf") else f"{min_w}+"
         print(f"  {name:<20} {count:>5} palabras  [target: {target}]  [{st}]")
     for e in errors:
-        print(f"  → {e}")
+        print(f"  - {e}")
 
     return passed, errors
 

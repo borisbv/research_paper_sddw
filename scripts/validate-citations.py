@@ -102,7 +102,7 @@ def validate_citations(base_path: Path) -> tuple[bool, list[str]]:
     status = "PASS" if passed else "FAIL"
     print(f"[{status}] Citaciones: {len(all_cited_keys)} refs citadas, {len(bib_keys)} en .bib, ~{total_uncited} claims sin citar")
     for e in errors:
-        print(f"  → {e}")
+        print(f"  - {e}")
 
     return passed, errors
 

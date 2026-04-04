@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip list:*)",
+      "Bash(python:*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(where vale:*)",
+      "Bash(bash:*)",
+      "Bash([ ! -d \"$BASE_DIR/paper/sections\" ])",
+      "Bash(winget install:*)",
+      "Bash(winget search:*)",
+      "Bash(export PATH=\"$PATH:/c/Users/boris/AppData/Local/Microsoft/WinGet/Links\")",
+      "Bash(vale --version)",
+      "Bash(cmd //c \"where vale\")",
+      "Bash(ls /c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale*/)",
+      "Bash(ls /c/Users/boris/AppData/Local/Microsoft/WinGet/Links/vale*)",
+      "Bash(ls:*)",
+      "Bash($VALE:*)",
+      "Bash(/c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe paper/sections/test-vale.md)",
+      "Bash(/c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe --output=JSON paper/sections/test-vale.md)",
+      "Bash(/c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe paper/sections/test2.md)",
+      "Bash(/c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe paper/sections/test-final.md)",
+      "Bash(git add:*)"
+    ]
+  }
+}

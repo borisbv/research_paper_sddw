@@ -1,0 +1,6 @@
+extends: existence
+message: "Cita textual larga detectada. Si excede 4 renglones, use formato de cita larga (espacio sencillo, letra 11, margenes reducidos) segun normas RES."
+level: warning
+scope: blockquote
+tokens:
+  - '.{250,}'

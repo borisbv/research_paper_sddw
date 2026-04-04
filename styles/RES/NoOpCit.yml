@@ -1,0 +1,12 @@
+extends: existence
+message: "RES prohibe el uso de '%s'. Use la citacion completa (Chicago Author-Date)."
+level: error
+nonword: true
+tokens:
+  - op. cit.
+  - op.cit.
+  - ibid.
+  - ibidem
+  - idem
+  - loc. cit.
+  - loc.cit.
