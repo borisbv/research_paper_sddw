@@ -20,7 +20,8 @@
       "Bash(/c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe --output=JSON paper/sections/test-vale.md)",
       "Bash(/c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe paper/sections/test2.md)",
       "Bash(/c/Users/boris/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe paper/sections/test-final.md)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
