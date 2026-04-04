@@ -26,7 +26,10 @@
       "Skill(kiro:steering:*)",
       "Skill(kiro:spec-init)",
       "Skill(kiro:spec-requirements)",
-      "Skill(research-lookup)"
+      "Skill(research-lookup)",
+      "Skill(citation-management)",
+      "WebFetch(domain:api.crossref.org)",
+      "WebSearch"
     ]
   }
 }

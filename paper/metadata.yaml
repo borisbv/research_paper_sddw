@@ -1,0 +1,60 @@
+title: "[PROVISIONAL] Memorias de casas con piernas: voces de los que se fueron, voces de los que llegaron"
+title_en: "[PROVISIONAL] Memories of Houses with Legs: Voices of Those Who Left, Voices of Those Who Arrived"
+authors:
+  - name: "Erwin"
+    affiliation: ""
+    email: ""
+    academic_title: ""
+    research_group: ""
+    recent_publications: []
+journal: "Revista de Estudios Sociales"
+journal_abbreviation: "rev. estud. soc."
+journal_institution: "Universidad de los Andes, Colombia"
+journal_issue: 100
+journal_theme: "Hacer ciencias sociales desde América Latina y el Caribe"
+submission_url: "https://revistas.uniandes.edu.co/index.php/res/about/submissions"
+submission_window: "1-31 agosto 2026"
+status: draft
+language: es
+additional_languages:
+  - en  # resumen y título también en inglés
+citation_style: chicago-author-date
+license: "CC-BY-NC-ND 4.0"
+word_limits:
+  total_min: 7000
+  total_max: 10000
+  abstract_min: 250
+  abstract_max: 300
+  # Nota: la RES no especifica límites por sección individual,
+  # pero el total incluye resúmenes, bibliografía y notas.
+format:
+  font: "Times New Roman 12"
+  line_spacing: 1.5
+  page_size: "Carta"
+  margins: "2.5 cm"
+  footnotes_font: "Times New Roman 10"
+  footnotes_spacing: "sencillo"
+keywords_es:
+  - migración
+  - memoria
+  - hogar
+  - investigación-creación
+  - casas narrativas
+  - habitar migrante
+keywords_en:
+  - migration
+  - memory
+  - home
+  - research-creation
+  - narrative houses
+  - migrant dwelling
+ejes_convocatoria:
+  - "Problemas contemporáneos: migración, desplazamiento y frontera"
+  - "Metodologías clásicas y emergentes"
+  - "Tensiones entre teoría y práctica"
+type: "artículo de investigación-creación"
+procedencia:
+  nota: "[PENDIENTE — Completar antes del envío]"
+  proyecto: "[Nombre del proyecto de investigación del que hace parte el artículo]"
+  institucion_financiadora: "[Nombre de la institución financiadora, si aplica]"
+  # Req 1.8 RES: incluir información de procedencia del artículo y del proyecto de investigación

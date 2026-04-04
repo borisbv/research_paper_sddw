@@ -78,7 +78,7 @@ def validate_citations(base_path: Path) -> tuple[bool, list[str]]:
     # Check bib file
     bib_keys: set[str] = set()
     if bib_file.exists():
-        bib_text = bib_file.read_text()
+        bib_text = bib_file.read_text(encoding="utf-8")
         bib_keys = extract_bib_keys(bib_text)
 
         # Check for numeric citations (can't validate against bib keys)

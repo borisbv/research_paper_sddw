@@ -25,6 +25,11 @@ JOURNAL_REQUIRED_SECTIONS = {
     "PLOS ONE": ["abstract", "introduction", "methodology", "results", "discussion"],
     "IEEE": ["abstract", "introduction", "methodology", "results", "discussion", "conclusion"],
     "ACM": ["abstract", "introduction", "methodology", "results", "discussion", "conclusion"],
+    # IMRaD adaptado con marco teórico explícito (estructura RES / revistas latinoamericanas)
+    "Revista de Estudios Sociales": [
+        "abstract", "introduction", "marco-teorico",
+        "methodology", "results", "discussion", "conclusion",
+    ],
 }
 
 
