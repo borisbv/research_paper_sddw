@@ -2,18 +2,19 @@
 
 ## Overview
 
-Este diseño define la arquitectura editorial del manuscrito **"Memorias de casas con piernas: voces de los que se fueron, voces de los que llegaron"** para la Revista de Estudios Sociales (RES) #100. El paper transforma un borrador narrativo de ~1.500 palabras en un artículo académico completo de investigación-creación (7.000-10.000 palabras) que cumple estrictamente las normas editoriales de la RES y el formato Chicago Author-Date.
+Este diseño define la arquitectura editorial del manuscrito **"Memorias de casas con piernas: voces de los que se fueron, voces de los que llegaron"**, un artículo académico de investigación-creación (7.000-10.000 palabras) que cumple estrictamente las normas editoriales de la Revista de Estudios Sociales (RES) y el formato Chicago Author-Date, manteniendo neutralidad editorial para conservar validez académica sustantiva más allá del destino editorial específico.
 
-**Usuarios**: El autor (Erwin) como investigador-creador, los evaluadores de doble ciego de la RES, y la comunidad académica de ciencias sociales latinoamericanas.
+**Usuarios**: El autor (Erwin) como investigador-creador, los evaluadores de doble ciego, y la comunidad académica de ciencias sociales latinoamericanas.
 
-**Impacto**: Genera un manuscrito publicable que posiciona la investigación-creación como metodología legítima en ciencias sociales, dialogando con la convocatoria "Hacer ciencias sociales desde América Latina y el Caribe".
+**Impacto**: Genera un manuscrito publicable que posiciona la investigación-creación como metodología legítima en ciencias sociales, fundamentado en argumentos académicos sustantivos sobre migración, memoria, hogar y producción de conocimiento desde América Latina.
 
 ### Goals
 - Producir un manuscrito que cumpla al 100% las normas editoriales RES (formato, extensión, citación)
 - Mantener la voz artístico-poética del borrador original dentro de una estructura IMRaD rigurosa
 - Fundamentar toda afirmación con citaciones verificables en formato Chicago Author-Date
-- Integrar la obra visual (dibujos "Casa de paso") como parte constitutiva del argumento
-- Vincular explícitamente con al menos dos ejes de la convocatoria RES #100
+- Integrar la obra visual —dibujos "Casa de paso" de participantes e ilustraciones del investigador (Caminante, Casa_Padre, La_mudanza)— como parte constitutiva del argumento
+- Garantizar neutralidad editorial: justificar relevancia mediante argumentos sustantivos, sin mencionar explícitamente convocatoria, revista o número de edición en el cuerpo del manuscrito
+- Asegurar calidad lingüística: ortografía impecable, variedad léxica y fluidez de lectura
 
 ### Non-Goals
 - Generar datos nuevos de investigación (los 60 bitácoras ya existen)
@@ -171,9 +172,11 @@ El marco teórico se escribe primero porque establece los conceptos que todas la
 | 7.1-7.7 | Discusión | discussion.md, references.bib | Interpreta results con marco teórico | Después de resultados |
 | 8.1-8.5 | Conclusión | conclusion.md | Sintetiza discussion | Después de discusión |
 | 9.1-9.10 | Referencias Chicago | references.bib, todas las secciones | Formato Chicago Author-Date | Continuo |
-| 10.1-10.6 | Figuras | figures/, results.md, discussion.md | [Insertar Figura N aquí] | Paralelo a results |
-| 11.1-11.5 | Alineación convocatoria | introduction.md, discussion.md | Ejes de convocatoria | Transversal |
+| 10.1-10.8 | Material visual (figuras participantes + ilustraciones investigador) | figures/, results.md, discussion.md, introduction.md | [Insertar Figura N aquí], pie de figura | Paralelo a results |
+| 11.1-11.5 | Neutralidad editorial | Todas las secciones | Sin referencia a convocatoria/revista/edición | Transversal |
 | 12.1-12.6 | Coherencia argumentativa | Todas las secciones | Hilo argumental, glosario | Validación final |
+| 13.1-13.6 | Corrección ortográfica y tipográfica | Todas las secciones | Acentos, diacríticos, puntuación RAE | Transversal |
+| 14.1-14.7 | Fluidez y variedad léxica | Todas las secciones | Sinónimos, estructura oracional variada, sin guiones | Transversal |
 
 ## Components and Interfaces
 
@@ -188,7 +191,7 @@ El marco teórico se escribe primero porque establece los conceptos que todas la
 | conclusion.md | Sección | Sintetizar contribución e implicaciones | 8.1-8.5 | discussion.md (P0) | Service |
 | abstract.md | Sección | Resumen bilingüe del paper completo | 2.1-2.5 | Todas las secciones (P0) | Service |
 | references.bib | Datos | Bibliografía verificable Chicago Author-Date | 9.1-9.10 | CrossRef/DOI (P0) | State |
-| figures/ | Datos | Dibujos "Casa de paso" como figuras formales | 10.1-10.6 | temp_context/Dibujos casas (P0) | — |
+| figures/ | Datos | Dibujos "Casa de paso" + ilustraciones del investigador como figuras formales | 10.1-10.8 | temp_context/Dibujos casas (P0), temp_context/arte-autor (P0) | — |
 
 ### Dominio: Secciones del manuscrito
 
@@ -197,7 +200,7 @@ El marco teórico se escribe primero porque establece los conceptos que todas la
 | Campo | Detalle |
 |-------|---------|
 | Intent | Fundamentar la investigación en literatura de fenomenología del habitar, migración y afecto, arte como archivo, e investigación-creación |
-| Requirements | 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8 |
+| Requirements | 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 13.1-13.6, 14.1-14.7 |
 
 **Responsabilidades y restricciones**
 - Abordar 5 ejes temáticos: fenomenología del habitar, migración y afecto, prácticas cotidianas y espacio, arte como archivo/repertorio, investigación-creación como metodología
@@ -249,20 +252,20 @@ Invariantes:
 
 | Campo | Detalle |
 |-------|---------|
-| Intent | Posicionar el paper dentro de la convocatoria RES #100 y establecer pregunta de investigación, marco conceptual y contribución |
-| Requirements | 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8 |
+| Intent | Posicionar el paper y establecer pregunta de investigación, marco conceptual y contribución, sin referencias editoriales explícitas |
+| Requirements | 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 11.1, 11.2, 11.3 |
 
 **Responsabilidades y restricciones**
-- Presentar contexto migratorio latinoamericano
+- Presentar contexto migratorio latinoamericano como argumento sustantivo
 - Formular pregunta: ¿Qué se pierde y qué permanece cuando migra una casa?
 - Establecer "casas con piernas" como metáfora central / dispositivo artístico-antropológico
-- Vincular con al menos un eje de la convocatoria RES #100
+- Justificar pertinencia mediante argumentos conceptuales y empíricos, sin mencionar convocatoria, revista o número de edición
 - Incluir estructura del artículo al final
+- Posibilidad de integrar ilustración "Caminante" como representación visual de la metáfora central (Req 10.2)
 
 **Dependencias**
 - Inbound: marco-teorico.md — conceptos teóricos ya definidos (P0)
 - Outbound: references.bib — citas de conceptos mencionados (P0)
-- External: Convocatoria RES #100 — ejes temáticos (P1)
 
 **Contratos**: Service [x]
 
@@ -272,13 +275,12 @@ Invariantes:
 Entradas:
   - Borrador Erwin (sección Introducción como fuente principal)
   - Conceptos del marco teórico
-  - Ejes de la convocatoria RES #100
 
 Salidas:
   - Texto de ~1.500 palabras en español
   - Pregunta de investigación formulada explícitamente
   - Metáfora "casas con piernas" definida
-  - Vinculación con convocatoria articulada
+  - Relevancia justificada con argumentos sustantivos
   - Roadmap del artículo (último párrafo)
 
 Precondiciones:
@@ -287,7 +289,9 @@ Precondiciones:
 Postcondiciones:
   - Toda mención teórica tiene citación Chicago Author-Date
   - La contribución del paper está claramente articulada
-  - Al menos un eje de convocatoria vinculado explícitamente
+  - No contiene referencia explícita a convocatoria, revista o número de edición
+  - Ortografía impecable (acentos, diacríticos, puntuación RAE)
+  - Variedad léxica: sin repeticiones excesivas ni muletillas, sin guiones como puntuación
 
 Invariantes:
   - Extensión 1.200-1.800 palabras
@@ -296,6 +300,7 @@ Invariantes:
 
 **Implementation Notes**
 - Integración: La apertura puede usar fragmentos poéticos del borrador de Erwin ("Cuando una persona migra, también migra una casa") adaptados al registro académico
+- Neutralidad: La relevancia se justifica mediante argumentos sobre migración, memoria, hogar e investigación-creación, no mediante referencia a convocatorias editoriales
 - Riesgos: No sobrecargar con teoría (eso va en marco teórico); la introducción presenta, no profundiza
 
 #### methodology.md
@@ -353,13 +358,15 @@ Invariantes:
 
 | Campo | Detalle |
 |-------|---------|
-| Intent | Presentar los 5 arquetipos de casas narrativas con evidencia textual y visual |
-| Requirements | 6.1, 6.2, 6.3, 6.4, 6.5, 10.1, 10.3, 10.5, 10.6 |
+| Intent | Presentar los 5 arquetipos de casas narrativas con evidencia textual y visual (participantes e investigador) |
+| Requirements | 6.1, 6.2, 6.3, 6.4, 6.5, 10.1, 10.2, 10.3, 10.4, 10.5, 10.8 |
 
 **Responsabilidades y restricciones**
 - Presentar al menos 5 casas narrativas: Posguerra, Espíritus, Contemporánea, Padre/Madre, Universo Paralelo
 - Incluir fragmentos textuales de bitácoras como evidencia
-- Referenciar dibujos con [Insertar Figura N aquí]
+- Referenciar dibujos de participantes con [Insertar Figura N aquí]
+- Integrar ilustraciones del investigador (Casa_Padre, La_mudanza) donde sea argumentativamente pertinente (Req 10.2)
+- Distinguir en el texto entre ilustraciones del investigador y dibujos de participantes (Req 10.8)
 - Análisis transversal de patrones y divergencias
 - Dibujos como parte constitutiva, no ilustración
 
@@ -407,16 +414,17 @@ Invariantes:
 
 | Campo | Detalle |
 |-------|---------|
-| Intent | Interpretar resultados a la luz de la teoría y dialogar con la convocatoria RES #100 |
-| Requirements | 7.1, 7.2, 7.3, 7.4, 7.5, 7.6, 7.7, 11.1, 11.2, 11.3, 11.4, 11.5 |
+| Intent | Interpretar resultados a la luz de la teoría y vincular con debates sustantivos sobre migración y producción de conocimiento en América Latina |
+| Requirements | 7.1, 7.2, 7.3, 7.4, 7.5, 7.6, 7.7, 11.1, 11.4, 11.5 |
 
 **Responsabilidades y restricciones**
 - Argumento central: migrar es transformación del habitar, no solo desplazamiento
 - Abordar "migraciones invisibles"
 - Interpretar dibujos como tecnologías sensibles de memoria (Sturken 1997)
-- Vincular con eje convocatoria: hacer ciencias sociales desde América Latina
+- Vincular hallazgos con debates sustantivos sobre producción de conocimiento, migración y América Latina, sin mencionar convocatoria, revista o número de edición
 - Posicionar investigación-creación como producción legítima de conocimiento
 - Limitaciones y trabajo futuro
+- Integrar ilustraciones del investigador (Casa_Padre, La_mudanza) donde sea argumentativamente pertinente (Req 10.2)
 
 **Dependencias**
 - Inbound: results.md — arquetipos a interpretar (P0)
@@ -433,13 +441,12 @@ Entradas:
   - Resultados (arquetipos y análisis transversal)
   - Marco teórico (conceptos para interpretación)
   - Borrador Erwin (sección Discusión como fuente)
-  - Ejes de convocatoria RES #100
 
 Salidas:
   - Texto de ~1.500 palabras en español
   - Interpretación de cada arquetipo a la luz de la teoría
   - Concepto de "migraciones invisibles" desarrollado
-  - Vinculación explícita con convocatoria
+  - Vinculación con debates sustantivos (argumentos académicos, no editoriales)
   - Limitaciones y líneas futuras
 
 Precondiciones:
@@ -448,9 +455,11 @@ Precondiciones:
 
 Postcondiciones:
   - La pregunta de investigación tiene respuesta argumentada
-  - Al menos 2 ejes de convocatoria vinculados
+  - Relevancia articulada mediante argumentos sustantivos sobre migración y producción de conocimiento
+  - No contiene referencia explícita a convocatoria, revista o número de edición
   - Limitaciones reconocidas (mínimo 2)
   - Al menos 1 línea de trabajo futuro
+  - Ortografía impecable y variedad léxica adecuada
 
 Invariantes:
   - Extensión 1.200-1.800 palabras
@@ -459,6 +468,7 @@ Invariantes:
 
 **Implementation Notes**
 - Integración: El concepto de "migrante en su propio país" (borrador Erwin, caso de la madre de Daniel) es un hallazgo clave que debe desarrollarse
+- Neutralidad: La discusión dialoga con debates académicos sustantivos, no con ejes de una convocatoria editorial específica
 - Riesgos: La discusión debe evitar repetir resultados; debe interpretar, no redescribir
 
 #### conclusion.md
@@ -637,22 +647,42 @@ graph TB
 - **Referencias 1:1**: Todo (Apellido año) en texto tiene entrada en .bib; toda entrada en .bib es citada
 - **DOI verificable**: Cada entrada con DOI se valida contra CrossRef
 - **Formato Chicago**: Citas en texto y bibliografía siguen el formato exacto documentado en normas.md
-- **Figuras referenciadas**: Todo [Insertar Figura N aquí] tiene archivo correspondiente
+- **Figuras referenciadas**: Todo [Insertar Figura N aquí] tiene archivo correspondiente; cada figura tiene pie de figura con título, autor, técnica y año
+- **Figuras del investigador**: Las 3 ilustraciones (Caminante, Casa_Padre, La_mudanza) están referenciadas en secciones argumentativamente pertinentes
 - **Sin op. cit./ibid.**: Búsqueda negativa en todo el texto
 - **Palabras clave**: 4-6 en español y en inglés
 - **Título bilingüe**: Presente en español e inglés
+- **Neutralidad editorial**: Búsqueda negativa de menciones explícitas a convocatoria, nombre de revista o número de edición en el cuerpo del manuscrito (Req 11)
+- **Ortografía y diacríticos**: Todos los acentos ortográficos presentes (á, é, í, ó, ú), signos de apertura ¿ y ¡, diéresis, tildes; puntuación según normas RAE (Req 13)
+- **Sin guiones como puntuación**: Búsqueda negativa de guiones largos (—), medianos (–) y cortos (-) usados como recurso de puntuación dentro de párrafos (Req 14.7)
+- **Distinción material visual**: El texto distingue explícitamente entre ilustraciones del investigador y dibujos de participantes (Req 10.8)
 
 ### Validación de revisión (Soft Specs — requieren humano)
 - **Coherencia argumentativa**: Hilo desde introducción hasta conclusión
 - **Contribución clara**: ¿Se entiende qué aporta este paper?
 - **Metodología reproducible**: ¿Un par evaluador puede evaluar el rigor?
 - **Tono artístico-académico**: ¿El registro es coherente y apropiado?
-- **Vinculación con convocatoria**: ¿Es explícita y convincente?
+- **Neutralidad editorial**: ¿La relevancia se sostiene con argumentos sustantivos, sin depender de una convocatoria específica?
+- **Variedad léxica**: ¿La redacción evita repeticiones excesivas, muletillas y monotonía oracional? ¿Se alterna entre oraciones cortas y largas? (Req 14)
+- **Consistencia ortográfica**: ¿Se mantiene coherencia ortográfica a lo largo de todo el documento? (Req 13.5)
 
 ## Optional Sections
 
 ### Consideraciones éticas
 - Consentimiento informado de los 60 participantes (responsabilidad del autor, no del manuscrito)
 - Anonimización de fragmentos de bitácoras
-- Permisos de publicación de dibujos
+- Permisos de publicación de dibujos de participantes
+- Permisos de publicación de ilustraciones del investigador (Caminante, Casa_Padre, La_mudanza — el autor es el creador)
 - Mención de aprobación ética en la sección de Metodología
+
+### Material visual del investigador
+
+Las tres ilustraciones del investigador se integran como figuras formales del artículo:
+
+| Ilustración | Descripción | Sección pertinente | Rol argumentativo |
+|-------------|-------------|-------------------|-------------------|
+| Caminante | Casa que camina sobre piernas humanas | Introducción o Marco teórico | Representación visual de la metáfora central "casas con piernas" |
+| Casa_Padre | Figura humana que carga acumulación de casas con flores | Resultados o Discusión | Peso afectivo del hogar paterno, herencia habitacional |
+| La_mudanza | Figura que carga casa y camina sobre el agua | Resultados o Discusión | Acto de mudarse como traslado íntimo del hogar |
+
+Archivos fuente en `temp_context/arte-autor/` (JPG y WebP disponibles).

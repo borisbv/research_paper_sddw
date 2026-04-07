@@ -2,30 +2,42 @@
 
 <!-- STATUS: complete -->
 <!-- Normas RES: figuras al final del documento, formato JPG o TIFF, 300 dpi, 240 píxeles -->
-<!-- NOTA: Los archivos fuente están en PDF en temp_context/Dibujos casas/. Requieren conversión a JPG/TIFF 300 dpi (paso técnico posterior, fuera de alcance de este manuscrito) -->
+<!-- NOTA: Los archivos fuente de los dibujos de participantes están en PDF en temp_context/Dibujos casas/. Requieren conversión a JPG/TIFF 300 dpi (paso técnico posterior, fuera de alcance de este manuscrito). Las ilustraciones del investigador están disponibles en JPG y WebP en temp_context/arte-autor/. -->
 
 ## Correspondencia entre figuras y texto
 
-| Figura | Título | Archivo fuente | Marcador en texto | Sección |
-|--------|--------|---------------|-------------------|---------|
-| Figura 1 | Dibujos proyectivos de la Casa Posguerra: casa anterior fragmentada y casa soñada protegida | `temp_context/Dibujos casas/Casa de paso 1.pdf` | [Insertar Figura 1 aquí] | Resultados: Casa Posguerra |
-| Figura 2 | Dibujo proyectivo de la Casa de los Espíritus: puerta que se abre hacia adentro y hacia afuera | `temp_context/Dibujos casas/Casa de paso 2.pdf` | [Insertar Figura 2 aquí] | Resultados: Casa de los Espíritus |
-| Figura 3 | Dibujos proyectivos de la Casa Padre/Madre: casas como cuerpos, rostros en ventanas | `temp_context/Dibujos casas/Casa de paso 3.pdf` | [Insertar Figura 3 aquí] | Resultados: Casa Padre/Madre |
-| Figura 4 | Dibujos proyectivos de la Casa Universo Paralelo: arquitecturas imposibles y paisajes múltiples | `temp_context/Dibujos casas/Casa de paso 4.pdf` | [Insertar Figura 4 aquí] | Resultados: Casa Universo Paralelo |
-| Figura 5 | Cartografía afectiva: constelación de casas narrativas, obra del investigador | `temp_context/Dibujos casas/Casa de paso 5.pdf` | [Insertar Figura 5 aquí] | Resultados: Análisis transversal |
+| Figura | Título | Autoría | Archivo fuente | Marcador en texto | Sección |
+|--------|--------|---------|---------------|-------------------|---------|
+| Figura 1 | Contraste proyectivo "Mi casa" vs "Mi casa soñada" (Transición/Aspiración) | Participante (dibujo proyectivo) | `temp_context/Dibujos casas/Casa de paso 2.pdf` | [Insertar Figura 1 aquí] | Resultados: Casa Posguerra |
+| Figura 2 | Vínculo familiar y bienestar colectivo en la casa soñada | Participante Isabel de Florón (dibujo proyectivo) | `temp_context/Dibujos casas/Casa de paso 3.pdf` | [Insertar Figura 2 aquí] | Resultados: Casa Padre/Madre |
+| Figura 3 | Fusión de vivienda y espiritualidad | Participante Norma Romero (dibujo proyectivo) | `temp_context/Dibujos casas/Casa de paso 5.pdf` | [Insertar Figura 3 aquí] | Resultados: Casa de los Espíritus |
+| Figura 4 | *Caminante* | Erwin (investigador) | `temp_context/arte-autor/Caminante.jpg` | [Insertar Figura 4 aquí] | Introducción |
+| Figura 5 | *Casa_Padre* | Erwin (investigador) | `temp_context/arte-autor/Casa_Padre.jpg` | [Insertar Figura 5 aquí] | Discusión: Migrar como transformación del habitar |
+| Figura 6 | *La mudanza* | Erwin (investigador) | `temp_context/arte-autor/La_mudanza.jpg` | [Insertar Figura 6 aquí] | Discusión: Migraciones invisibles |
+
+## Pies de figura
+
+- **Figura 1.** Contraste proyectivo "Mi casa" vs "Mi casa soñada". Dibujo proyectivo realizado por persona participante (Casa de paso 2). Lápiz sobre papel, 2024-2025. Reproducido con consentimiento informado.
+- **Figura 2.** Vínculo familiar y bienestar colectivo en la casa soñada. Dibujo proyectivo de Isabel de Florón (Casa de paso 3). Lápiz y color sobre papel, 2024-2025. Reproducido con consentimiento informado.
+- **Figura 3.** Fusión de vivienda y espiritualidad. Dibujo proyectivo de Norma Romero (Casa de paso 5). Lápiz y color sobre papel, 2024-2025. Reproducido con consentimiento informado.
+- **Figura 4.** *Caminante*. Erwin. Ilustración digital a color. Año por confirmar con el autor. Archivo plástico del investigador.
+- **Figura 5.** *Casa_Padre*. Erwin. Ilustración en tinta monocromática (grises y azul oscuro). Año por confirmar con el autor. Archivo plástico del investigador.
+- **Figura 6.** *La mudanza*. Erwin. Acuarela a color. Año por confirmar con el autor. Archivo plástico del investigador.
 
 ## Verificación de correspondencia
 
 - [x] Figura 1 → [Insertar Figura 1 aquí] en results.md (Casa Posguerra)
-- [x] Figura 2 → [Insertar Figura 2 aquí] en results.md (Casa de los Espíritus)
-- [x] Figura 3 → [Insertar Figura 3 aquí] en results.md (Casa Padre/Madre)
-- [x] Figura 4 → [Insertar Figura 4 aquí] en results.md (Casa Universo Paralelo)
-- [x] Figura 5 → [Insertar Figura 5 aquí] en results.md (Análisis transversal)
+- [x] Figura 2 → [Insertar Figura 2 aquí] en results.md (Casa Padre/Madre)
+- [x] Figura 3 → [Insertar Figura 3 aquí] en results.md (Casa de los Espíritus)
+- [x] Figura 4 → [Insertar Figura 4 aquí] en introduction.md (definición de la metáfora "casas con piernas")
+- [x] Figura 5 → [Insertar Figura 5 aquí] en discussion.md (Migrar como transformación del habitar / Casa Padre/Madre)
+- [x] Figura 6 → [Insertar Figura 6 aquí] en discussion.md (Migraciones invisibles)
 
 ## Notas técnicas
 
-- **Formato actual**: PDF (archivos fuente en `temp_context/Dibujos casas/`)
-- **Formato requerido por RES**: JPG o TIFF, 300 dpi, 240 píxeles
-- **Acción pendiente**: Conversión de PDF a JPG/TIFF 300 dpi (paso técnico posterior, responsabilidad del autor)
-- **Permisos**: El autor/investigador es creador de las ilustraciones. Los dibujos de participantes requieren verificación de consentimiento informado para publicación (documentado en sección de Metodología)
-- **Ubicación en manuscrito final**: Las figuras se ubican al final del documento, según normas RES
+- **Dibujos de participantes (Figuras 1-3)**: formato actual PDF en `temp_context/Dibujos casas/`. Formato requerido por RES: JPG o TIFF, 300 dpi, 240 píxeles. Acción pendiente: conversión de PDF a JPG/TIFF 300 dpi (paso técnico posterior, responsabilidad del autor).
+- **Ilustraciones del investigador (Figuras 4-6)**: archivos fuente disponibles en `temp_context/arte-autor/` en JPG y WebP. Verificar resolución 300 dpi y dimensiones según normas RES; reexportar si es necesario.
+- **Permisos**: El autor/investigador (Erwin) es creador de las ilustraciones (Figuras 4-6) y conserva sus derechos. Los dibujos de participantes (Figuras 1-3) requieren verificación de consentimiento informado para publicación, documentado en la sección de Metodología.
+- **Distinción editorial**: el manuscrito distingue explícitamente entre los dibujos producidos por las personas participantes (evidencia empírica del trabajo de campo) y las ilustraciones de autoría del investigador (piezas plásticas con función conceptual e interpretativa).
+- **Metadatos pendientes**: confirmar con el autor el año de creación de las Figuras 4, 5 y 6 antes del envío final.
+- **Ubicación en manuscrito final**: las figuras se ubican al final del documento, según normas RES, manteniendo el orden secuencial 1 a 6.

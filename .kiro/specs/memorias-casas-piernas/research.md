@@ -73,6 +73,36 @@
 | Narrativo-ensayístico | Estructura más libre, tipo ensayo | Más afín al tono del borrador | No cumple norma RES para artículos de investigación | Descartado |
 | IMRaD adaptado con voz artística | IMRaD con registro que integre lo poético | Cumple norma + mantiene identidad del paper | Requiere balance cuidadoso | **Seleccionado** |
 
+### Neutralidad editorial del manuscrito
+- **Context**: El Req 11 se actualizó para exigir que el manuscrito sea agnóstico a la revista de postulación. Anteriormente, el diseño contemplaba vinculación explícita con ejes de la convocatoria RES #100.
+- **Sources Consulted**: requirements.md (Req 11.1-11.5), paper/sections/introduction.md, paper/sections/discussion.md
+- **Findings**:
+  - La introducción ya implementada justifica relevancia con argumentos sustantivos sobre migración, memoria, hogar e investigación-creación, sin mencionar la convocatoria — cumple Req 11
+  - La discusión vincula con debates sustantivos sin referencias editoriales explícitas — cumple Req 11
+  - Los Goals del diseño anterior incluían "Vincular explícitamente con al menos dos ejes de la convocatoria RES #100" — eliminado
+  - Las postcondiciones de introduction.md y discussion.md referían vinculación con convocatoria — reformuladas
+- **Implications**: El diseño actualizado no referencia ejes de convocatoria como objetivo del manuscrito. La relevancia se justifica argumentativamente, lo que además hace el paper adaptable a otras revistas.
+
+### Requisitos transversales de calidad lingüística (Reqs 13-14)
+- **Context**: Se añadieron Req 13 (corrección ortográfica y tipográfica) y Req 14 (fluidez y variedad léxica) como requisitos formales
+- **Sources Consulted**: requirements.md (Reqs 13.1-13.6, 14.1-14.7)
+- **Findings**:
+  - Req 13 exige acentos, diacríticos, puntuación RAE, consistencia ortográfica
+  - Req 14 exige variedad léxica, alternancia de estructuras oracionales, eliminación de muletillas repetitivas, prohibición de guiones como puntuación
+  - Ambos son transversales: aplican a TODAS las secciones del manuscrito
+  - La implementación actual tiene texto sin acentos (visible en introduction.md: "migracion" en lugar de "migración")
+- **Implications**: Cada sección requiere una pasada de corrección ortográfica (acentos, diacríticos) y de variedad léxica. Se añaden validaciones automáticas específicas.
+
+### Material visual del investigador (Req 10 ampliado)
+- **Context**: Req 10 ahora incluye 3 ilustraciones propias del investigador además de los dibujos de participantes
+- **Sources Consulted**: requirements.md (10.1-10.8), temp_context/arte-autor/
+- **Findings**:
+  - 3 ilustraciones disponibles: Caminante (JPG/WebP), Casa_Padre (JPG/WebP), La_mudanza (JPG/WebP)
+  - Cada una tiene sección pertinente definida en Req 10.2
+  - Req 10.8 exige distinguir explícitamente entre ilustraciones del investigador y dibujos de participantes
+  - El catálogo actual (figures/catalogo-figuras.md) tiene 3 figuras de participantes; debe ampliarse con las 3 del investigador
+- **Implications**: El catálogo de figuras necesita actualización. La numeración secuencial de figuras debe incluir las ilustraciones del investigador. Cada sección debe distinguir el tipo de material visual.
+
 ## Design Decisions
 
 ### Decision: Estructura IMRaD adaptada con voz artística
@@ -109,12 +139,36 @@
 - **Rationale**: Las referencias deben servir al argumento, no rellenar bibliografía
 - **Follow-up**: Verificar cada referencia contra CrossRef/DOI antes de incluir en .bib
 
+### Decision: Neutralidad editorial del manuscrito
+- **Context**: El Req 11 exige que el manuscrito sea agnóstico a la revista de postulación, sin mencionar convocatoria, revista o número de edición.
+- **Alternatives Considered**:
+  1. Mantener vinculación explícita con convocatoria RES #100 como estaba en el diseño original
+  2. Eliminar toda referencia a convocatoria y justificar relevancia con argumentos sustantivos
+- **Selected Approach**: Opción 2 — neutralidad editorial completa. La relevancia se justifica mediante argumentos sobre migración, memoria, hogar, investigación-creación y ciencias sociales latinoamericanas.
+- **Rationale**: Un manuscrito agnóstico conserva validez académica sustantiva y puede postularse a múltiples revistas sin modificaciones argumentales. Las secciones ya implementadas (introduction.md, discussion.md) ya cumplen esta condición.
+- **Trade-offs**: Se pierde la vinculación explícita con ejes de convocatoria, pero el contenido sustantivo cubre los mismos temas.
+- **Follow-up**: Verificar que ninguna sección del manuscrito contenga referencia explícita a la convocatoria, la revista o su número de edición.
+
+### Decision: Calidad lingüística como requisito transversal
+- **Context**: Los Reqs 13 y 14 son transversales, aplican a todas las secciones simultáneamente.
+- **Selected Approach**: Integrar las validaciones ortográficas y de variedad léxica en la Testing Strategy como hard specs (búsqueda de patrones) y soft specs (revisión humana de fluidez).
+- **Rationale**: La ortografía se puede validar automáticamente (acentos faltantes, guiones como puntuación), pero la variedad léxica requiere juicio humano.
+- **Follow-up**: Implementar pasada de corrección ortográfica en todas las secciones; Req 14.7 (sin guiones) es verificable automáticamente.
+
+### Decision: Integración de ilustraciones del investigador
+- **Context**: El Req 10.2 define 3 ilustraciones del investigador con secciones pertinentes específicas.
+- **Selected Approach**: Integrar las ilustraciones como figuras formales con numeración secuencial, después de las figuras de participantes, en las secciones indicadas por el requisito.
+- **Rationale**: Las ilustraciones no son decorativas; representan la dimensión artística de la investigación-creación y son parte constitutiva del argumento.
+- **Follow-up**: Actualizar catálogo de figuras; verificar que el texto distingue explícitamente entre ilustraciones del investigador y dibujos de participantes.
+
 ## Risks & Mitigations
 - **Riesgo 1: Extensión insuficiente** — El borrador tiene ~1.500 palabras para un target de 7.000-10.000. Mitigación: el outline detallado por sección asegura cobertura temática suficiente.
 - **Riesgo 2: Tono inconsistente** — Mezclar registro poético y académico puede resultar disonante. Mitigación: definir reglas claras de cuándo y dónde usar cada registro.
 - **Riesgo 3: Referencias no verificables** — Algunas fuentes del borrador podrían no tener DOI. Mitigación: verificar cada referencia contra CrossRef antes de incluir; marcar las no verificables.
 - **Riesgo 4: Material visual insuficiente** — Los PDFs podrían no cumplir requisitos técnicos de resolución. Mitigación: convertir y verificar calidad antes de enviar.
 - **Riesgo 5: Deadline agosto 2026** — Amplio pero requiere coordinación con el autor para datos faltantes (afiliación, consentimientos). Mitigación: crear checklist de información pendiente del autor.
+- **Riesgo 6: Texto sin acentos** — Las secciones implementadas están escritas sin acentos ortográficos (ej: "migracion" en lugar de "migración"). Mitigación: pasada sistemática de corrección ortográfica en todas las secciones antes de validación final.
+- **Riesgo 7: Guiones como puntuación** — El Req 14.7 prohíbe guiones dentro de párrafos; las secciones implementadas podrían contener este patrón. Mitigación: búsqueda y reemplazo automático.
 
 ## References
 - Normas RES: `temp_context/normas.md`

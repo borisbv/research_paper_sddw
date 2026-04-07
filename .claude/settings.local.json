@@ -29,7 +29,8 @@
       "Skill(research-lookup)",
       "Skill(citation-management)",
       "WebFetch(domain:api.crossref.org)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(python3 -c ':*)"
     ]
   }
 }
