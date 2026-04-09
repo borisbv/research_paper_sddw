@@ -2,7 +2,7 @@
 
 <!-- STATUS: complete -->
 <!-- TARGET WORDS: 1500 -->
-<!-- CURRENT WORDS: 1524 -->
+<!-- CURRENT WORDS: 1677 -->
 
 ## Enfoque: investigación-creación cualitativa
 
@@ -38,7 +38,15 @@ Finalmente, se aplicó la técnica del dibujo proyectivo, fundamentada en la tra
 
 ## Método de análisis: ensamblaje simbólico y sensible
 
-El análisis de los materiales producidos (bitácoras escritas, transcripciones de los diálogos y dibujos proyectivos) se realizó mediante lo que denominamos *ensamblaje simbólico y sensible*, un procedimiento de cartografía afectiva que integra texto, imagen y emoción en una trama interpretativa no lineal. Este método se fundamenta en la distinción que Taylor (2003) establece entre archivo y repertorio: las bitácoras y los dibujos operan simultáneamente como documentos materiales (archivo) y como activaciones de un saber encarnado en prácticas y gestos (repertorio). El análisis no buscó codificar categorías emergentes según protocolos de teoría fundamentada, sino identificar arquetipos simbólicos, las "casas narrativas", que condensan patrones de experiencia compartida, preservando la textura sensorial y afectiva de los testimonios. Este enfoque asume, con Didi-Huberman (2008), que incluso los trazos más frágiles portan una verdad testimonial irreductible, y que la tarea del investigador-creador es articular esas verdades en una constelación de sentido.
+El análisis de los materiales producidos (bitácoras escritas, transcripciones de los diálogos y dibujos proyectivos) se realizó mediante lo que denominamos *ensamblaje simbólico y sensible*, un procedimiento de cartografía afectiva que integra texto, imagen y emoción en una trama interpretativa no lineal. Este método se fundamenta en la distinción que Taylor (2003) establece entre archivo y repertorio: las bitácoras y los dibujos operan simultáneamente como documentos materiales (archivo) y como activaciones de un saber encarnado en prácticas y gestos (repertorio).
+
+Operativamente, el ensamblaje siguió cuatro etapas: (a) lectura y familiarización con bitácoras, transcripciones y dibujos; (b) identificación de patrones simbólicos recurrentes; (c) agrupación provisional en arquetipos o "casas narrativas"; y (d) revisión iterativa de cada arquetipo frente al corpus completo. Los dibujos proyectivos se analizaron de forma integrada con los textos: cada imagen se leyó junto con la bitácora del mismo participante como una sola unidad de sentido. Para distinguir su interpretación artística de los patrones emergidos del corpus, el investigador-creador mantuvo una bitácora de reflexividad donde separó sus asociaciones plásticas de las lecturas atribuibles a los materiales.
+
+El análisis no buscó codificar categorías emergentes según protocolos de teoría fundamentada, sino identificar arquetipos simbólicos, las "casas narrativas", que condensan patrones de experiencia compartida, preservando la textura sensorial y afectiva de los testimonios. Este enfoque asume, con Didi-Huberman (2008), que incluso los trazos más frágiles portan una verdad testimonial irreductible, y que la tarea del investigador-creador es articular esas verdades en una constelación de sentido.
+
+## Nota sobre el material visual
+
+El manuscrito distingue dos registros visuales: los dibujos proyectivos de las personas participantes constituyen evidencia empírica generada en el trabajo de campo y reproducida con consentimiento informado; las ilustraciones de autoría del investigador operan como dispositivo artístico-conceptual y no como dato empírico.
 
 ## Consideraciones éticas
 
@@ -46,4 +54,4 @@ La investigación se condujo bajo principios de ética del cuidado (Tronto 1993)
 
 ## Limitaciones
 
-Es necesario reconocer que este enfoque metodológico presenta limitaciones inherentes. La selección intencional de participantes y el tamaño de la muestra no permiten generalizar los hallazgos al conjunto de la población migrante en Chile. A esta limitación se suma una segunda: el ensamblaje simbólico y sensible, al priorizar la densidad interpretativa sobre la sistematicidad codificada, puede considerarse insuficientemente riguroso desde paradigmas positivistas o desde enfoques cualitativos que exigen protocolos de codificación estandarizados. Por último, la doble posición del investigador como creador artístico y analista introduce una reflexividad que, si bien enriquece la interpretación, también genera tensiones entre la producción estética y la producción de conocimiento, una tensión que, como se discutirá más adelante, es constitutiva de la investigación-creación y no un defecto a corregir.
+Es necesario reconocer que este enfoque metodológico presenta limitaciones inherentes. La selección intencional de participantes y el tamaño de la muestra no permiten generalizar los hallazgos al conjunto de la población migrante en Chile. A esta limitación se suma una segunda: el ensamblaje simbólico y sensible, al priorizar la densidad interpretativa sobre la sistematicidad codificada, puede considerarse insuficientemente riguroso desde paradigmas positivistas o desde enfoques cualitativos que exigen protocolos de codificación estandarizados; el análisis tampoco contó con triangulación externa ni revisión por pares independiente del proceso interpretativo. Por último, la doble posición del investigador como creador artístico y analista introduce una reflexividad que, si bien enriquece la interpretación, también genera tensiones entre la producción estética y la producción de conocimiento, una tensión que, como se discutirá más adelante, es constitutiva de la investigación-creación y no un defecto a corregir.
