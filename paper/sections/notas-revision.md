@@ -15,9 +15,12 @@
 
 ## 2. Pendientes de Formato y Estructura
 
-*   **Metadatos de Procedencia:** 
-    *   En `paper/metadata.yaml`, los campos bajo `procedencia:` (nombre del proyecto e institución financiadora) están marcados como `[PENDIENTE]`.
-    *   **Acción requerida:** Completar antes del envío final para cumplir con el requisito 1.8 de la RES.
+*   **Metadatos de Procedencia (MOCK — REEMPLAZAR ANTES DEL ENVÍO):**
+    *   En `paper/metadata.yaml`, los campos bajo `procedencia:` contienen valores **mock en mayúsculas** insertados durante la revisión `review-1` (08-04-2026) para no dejar el manuscrito con marcadores `[PENDIENTE]`:
+        - `nota:` `"MOCK — REEMPLAZAR ANTES DEL ENVÍO CON LOS VALORES REALES"`
+        - `proyecto:` `"PROYECTO MOCK DE INVESTIGACIÓN-CREACIÓN MEMORIAS DE CASAS CON PIERNAS"`
+        - `institucion_financiadora:` `"INSTITUCIÓN FINANCIADORA MOCK"`
+    *   **Acción requerida ANTES DEL ENVÍO:** sustituir estos tres valores mock por la información real (nombre exacto del proyecto e institución financiadora, o explícita ausencia de financiamiento). Cumple el requisito 1.8 de la RES solo cuando los valores reales reemplacen los mock.
 
 *   **Conversión de Figuras (actualizado 2026-04-07):**
     *   Los archivos ya fueron copiados a `figures/` con nomenclatura final:
@@ -30,7 +33,7 @@
     *   `results.md`: 1.744/2.000 palabras (87% del target). Espacio natural para añadir uno o dos fragmentos adicionales de bitácora en Casa Contemporánea o Casa Universo Paralelo, o ampliar el análisis transversal.
     *   **Nota:** ambas secciones están sobre el umbral del 50% y el conteo total del manuscrito (~9.420 palabras) sigue dentro del rango RES (7.000-10.000), por lo que no son bloqueantes.
 
-*   **Metadato pendiente en figuras:** confirmar con el autor el año de creación de las Figuras 4, 5 y 6 (`Caminante`, `Casa_Padre`, `La_mudanza`) antes del envío final, según lo registrado en `figures/catalogo-figuras.md`.
+*   **Metadato de figuras (resuelto 08-04-2026):** año de creación confirmado por el autor como **2024-2025** para las Figuras 4, 5 y 6 (`Caminante`, `Casa_Padre`, `La_mudanza`). Actualizado en `figures/catalogo-figuras.md`, `paper/sections/introduction.md` y `paper/sections/discussion.md`.
 
 ## 3. Resumen de Validaciones Exitosas (Hard Specs)
 

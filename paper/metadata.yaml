@@ -54,7 +54,11 @@ ejes_convocatoria:
   - "Tensiones entre teoría y práctica"
 type: "artículo de investigación-creación"
 procedencia:
-  nota: "[PENDIENTE — Completar antes del envío]"
-  proyecto: "[Nombre del proyecto de investigación del que hace parte el artículo]"
-  institucion_financiadora: "[Nombre de la institución financiadora, si aplica]"
+  nota: "MOCK — REEMPLAZAR ANTES DEL ENVÍO CON LOS VALORES REALES"
+  proyecto: "PROYECTO MOCK DE INVESTIGACIÓN-CREACIÓN MEMORIAS DE CASAS CON PIERNAS"
+  institucion_financiadora: "INSTITUCIÓN FINANCIADORA MOCK"
   # Req 1.8 RES: incluir información de procedencia del artículo y del proyecto de investigación
+  # ATENCIÓN: estos valores son MOCK. Ver paper/sections/notas-revision.md §2 antes del envío.
+conflict_of_interest: "El autor declara no tener conflictos de intereses en relación con este trabajo."
+# Req 6.2: statement de conflicto de intereses para inclusión en el manuscrito final
+# (nota al pie de la primera página o sección dedicada, según normas RES)

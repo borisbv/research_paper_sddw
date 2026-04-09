@@ -2,7 +2,7 @@
 
 <!-- STATUS: complete -->
 <!-- TARGET WORDS: 1500 -->
-<!-- CURRENT WORDS: 1323 -->
+<!-- CURRENT WORDS: 1461 -->
 
 ## La casa como mundo: fenomenología del habitar
 
@@ -33,6 +33,8 @@ Sturken (1997) introduce el concepto de tecnologías de la memoria para referirs
 El enfoque metodológico de este estudio se inscribe en el campo de la investigación-creación, entendida como modalidad de producción de conocimiento donde los procesos artísticos no ilustran hallazgos previos, sino que constituyen en sí mismos formas de indagación. Borgdorff (2012) argumenta que la investigación artística genera conocimiento que no puede ser producido por otros medios, un conocimiento encarnado, situado y performativo que desafía las fronteras disciplinares tradicionales. Ingold (2013) refuerza esta línea al proponer que el hacer (dibujar, construir, tejer) es una forma de conocer el mundo desde adentro, no una mera aplicación de conocimiento previamente adquirido. Manning (2016) añade que el "gesto menor", aquello que escapa a las categorías establecidas, tiene potencia epistemológica propia, capaz de abrir campos de pensamiento que la investigación convencional no alcanza.
 
 En el contexto latinoamericano, donde las ciencias sociales han mantenido una relación históricamente productiva con las artes y las humanidades, la investigación-creación ha encontrado un terreno particularmente fértil. Hernández Hernández (2008) fundamenta la investigación basada en las artes como propuesta para repensar los modos de producción de conocimiento en las ciencias sociales, argumentando que las prácticas artísticas permiten acceder a dimensiones de la experiencia humana que los métodos convencionales no logran captar. Delgado et al. (2017) documentan cómo la investigación-creación se ha consolidado en Colombia como escenario de convergencia entre modos de generación de conocimiento, legitimada tanto en las políticas científicas como en las prácticas académicas. Esta tradición resulta especialmente pertinente para un estudio que busca hacer ciencias sociales desde América Latina a través del diálogo entre arte, antropología y narrativa visual.
+
+En este horizonte latinoamericano, el dispositivo de las *casas con piernas* articula tres tradiciones teóricas que suelen operar por separado: la fenomenología del habitar (Bachelard 1957; Heidegger 1971; Pallasmaa 2005), los estudios sobre migración y afecto (Ahmed 2006; Brah 1996; Anzaldúa 1987) y las aproximaciones al arte como archivo y repertorio (Taylor 2003; Sturken 1997). La novedad no reside en sumarlas, sino en hacer que cada una corrija y tensione las limitaciones de las otras: la fenomenología aporta densidad ontológica al concepto de hogar, los estudios migratorios impiden que esa densidad se lea como universal, y la investigación-creación convierte esa tensión en un objeto producible, dibujable y narrable. El resultado es un dispositivo que permite estudiar el habitar migrante sin disolverlo en categorías socioeconómicas y sin confinarlo a la metáfora literaria, proponiendo una ruta de indagación propiamente latinoamericana.
 
 ## Vacío de investigación
 
