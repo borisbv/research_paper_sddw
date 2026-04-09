@@ -2,7 +2,7 @@
 
 <!-- STATUS: complete -->
 <!-- TARGET WORDS: 2000 -->
-<!-- CURRENT WORDS: 1744 -->
+<!-- CURRENT WORDS: 1921 -->
 
 El análisis de las 60 bitácoras, los encuentros de diálogo simbólico y los dibujos proyectivos dio origen a una constelación de *casas narrativas*: arquetipos simbólicos que condensan patrones de experiencia compartida sin reducir la singularidad de cada relato. Estas casas no constituyen categorías cerradas ni mutuamente excluyentes; funcionan, más bien, como figuras que permiten leer transversalmente las memorias del habitar migrante. A continuación se presentan cinco casas narrativas emergidas del ensamblaje simbólico y sensible, acompañadas de fragmentos textuales de las bitácoras y de los dibujos proyectivos que les dan cuerpo visual.
 
@@ -12,7 +12,11 @@ La Casa Posguerra emerge de los relatos de participantes cuyas familias experime
 
 > "Mi casa era grande, pero ya no existe. La recuerdo por el olor a pan que hacía mi abuela los domingos. Eso fue lo único que traje: la receta escrita en un papel que se dobló tantas veces que casi no se lee" (Participante 7, bitácora).
 
-Los dibujos de quienes habitan esta casa narrativa comparten un rasgo notable: las casas anteriores aparecen fragmentadas, con muros incompletos, techos abiertos, ventanas sin vidrios, mientras que las casas soñadas tienden a ser sólidas, cerradas, protegidas. El tránsito entre ambos dibujos revela un deseo de reconstrucción que no busca replicar lo perdido, sino crear un refugio nuevo donde el duelo pueda habitar sin destruir [Insertar Figura 1 aquí]. La Casa Posguerra encarna lo que Bachelard (1957) denomina la función de protección de la casa: cuando esa protección ha sido violentamente arrebatada, el habitar migrante se organiza en torno a la urgencia de restituirla.
+Los dibujos de quienes habitan esta casa narrativa comparten un rasgo notable: las casas anteriores aparecen fragmentadas, con muros incompletos, techos abiertos, ventanas sin vidrios, mientras que las casas soñadas tienden a ser sólidas, cerradas, protegidas. El tránsito entre ambos dibujos revela un deseo de reconstrucción que no busca replicar lo perdido, sino crear un refugio nuevo donde el duelo pueda habitar sin destruir.
+
+![**Figura 1.** Contraste proyectivo «Mi casa» vs «Mi casa soñada». Dibujo proyectivo realizado por persona participante (Casa de paso 2). Lápiz sobre papel, 2024-2025. Reproducido con consentimiento informado.](figures/figura-1.png)
+
+La Casa Posguerra encarna lo que Bachelard (1957) denomina la función de protección de la casa: cuando esa protección ha sido violentamente arrebatada, el habitar migrante se organiza en torno a la urgencia de restituirla.
 
 ## Casa de los Espíritus
 
@@ -20,7 +24,11 @@ La Casa de los Espíritus nombra una experiencia particular: la de quienes migra
 
 > "En mi casa siempre hubo una silla vacía en la mesa. Nadie hablaba de eso, pero todos sabíamos para quién era. Cuando llegué a Chile, lo primero que hice fue poner una silla extra. Mi esposa no entendía, pero yo necesitaba que él siguiera sentado con nosotros" (Participante 23, diálogo simbólico).
 
-Los dibujos asociados a esta casa narrativa presentan elementos que no pertenecen al registro de lo visible: sombras en las ventanas, figuras difusas en los umbrales, objetos que flotan. Uno de los participantes dibujó una casa con una puerta que se abre hacia adentro y hacia afuera simultáneamente, explicando que "la casa de mi infancia todavía me deja entrar cuando cierro los ojos" [Insertar Figura 3 aquí]. Esta casa resuena con la noción de repertorio de Taylor (2003): la memoria no reside en los objetos materiales, sino en las prácticas encarnadas, como el gesto de poner la silla o el ritual de nombrar al ausente, que se transmiten de cuerpo a cuerpo.
+Los dibujos asociados a esta casa narrativa presentan elementos que no pertenecen al registro de lo visible: sombras en las ventanas, figuras difusas en los umbrales, objetos que flotan. Uno de los participantes dibujó una casa con una puerta que se abre hacia adentro y hacia afuera simultáneamente, explicando que "la casa de mi infancia todavía me deja entrar cuando cierro los ojos".
+
+![**Figura 3.** Fusión de vivienda y espiritualidad. Dibujo proyectivo de Norma Romero (Casa de paso 5). Lápiz y color sobre papel, 2024-2025. Reproducido con consentimiento informado.](figures/figura-3.png)
+
+Esta casa resuena con la noción de repertorio de Taylor (2003): la memoria no reside en los objetos materiales, sino en las prácticas encarnadas, como el gesto de poner la silla o el ritual de nombrar al ausente, que se transmiten de cuerpo a cuerpo.
 
 ## Casa Contemporánea
 
@@ -29,6 +37,10 @@ La Casa Contemporánea agrupa las experiencias de quienes han migrado en las úl
 > "Mi casa ahora es una pieza en una casa compartida con otras cuatro familias. Mis hijos duermen en un colchón en el suelo. Pero en la pared pegué una foto del mar de mi pueblo. Eso es mi casa: esa foto" (Participante 41, bitácora).
 
 > "Llevé conmigo un mantel bordado por mi mamá. En cada casa nueva lo pongo en la mesa. No importa si la mesa es de plástico o de madera: con ese mantel, ya estoy en casa" (Participante 35, bitácora).
+
+> "Mi mamá nunca cruzó una frontera, pero ella se define a sí misma como 'migrante en su propio país'. Nació en una casa de Conchalí que ya no existe; la demolieron por una autopista. Después arrendó cuatro piezas en cuatro comunas distintas en quince años. Ella me enseñó que se puede migrar sin moverse del mapa, y que el duelo de una casa es igual de hondo cruces o no cruces un río" (Participante 33, diálogo simbólico).
+
+> "Trabajo limpiando casas ajenas. Conozco veinte cocinas que no son mías. La que sí es mía cabe en una repisa: ahí están mi termo, mi café, mi taza con la bandera. Mi casa son cuarenta centímetros de repisa y un café que sabe a Pereira" (Participante 40, bitácora).
 
 Los objetos de orientación afectiva descritos por Ahmed (2006) se manifiestan aquí con particular intensidad: una fotografía, un mantel, un aroma recreado en una cocina ajena. Los dibujos de la Casa Contemporánea muestran casas pequeñas, a veces reducidas a una habitación, pero con detalles interiores meticulosos: la disposición exacta de los objetos que se trajeron, los colores del país de origen, flores que no crecen en Chile pero que aparecen en los jardines soñados. La casa soñada, en este arquetipo, no es necesariamente una casa de regreso: es una casa donde lo que se trajo y lo que se encontró puedan finalmente coexistir.
 
@@ -40,7 +52,11 @@ La Casa Padre/Madre nombra una dimensión de la migración que no siempre se art
 
 > "¿Qué definición le otorgo a mi casa? Mi casa es donde está mi padre. Él ya no está en ningún lugar, entonces mi casa tampoco" (Participante 50, bitácora).
 
-Los dibujos de la Casa Padre/Madre revelan un patrón singular: las casas anteriores no se dibujan como edificios, sino como cuerpos. Aparecen brazos que envuelven, manos que sostienen, rostros que miran desde las ventanas [Insertar Figura 2 aquí]. Las casas soñadas, por su parte, tienden a incluir a las personas ausentes: la madre en el umbral, el padre en el jardín, los abuelos asomados a una ventana que da a un paisaje que mezcla el país de origen con el de destino. Estos dibujos constituyen lo que Sturken (1997) denomina tecnologías de la memoria: dispositivos visuales que articulan lo personal con lo colectivo, lo íntimo con lo político, produciendo una memoria que no es ni individual ni pública, sino algo entre ambas.
+Los dibujos de la Casa Padre/Madre revelan un patrón singular: las casas anteriores no se dibujan como edificios, sino como cuerpos. Aparecen brazos que envuelven, manos que sostienen, rostros que miran desde las ventanas.
+
+![**Figura 2.** Vínculo familiar y bienestar colectivo en la casa soñada. Dibujo proyectivo de Isabel de Florón (Casa de paso 3). Lápiz y color sobre papel, 2024-2025. Reproducido con consentimiento informado.](figures/figura-2.png)
+
+Las casas soñadas, por su parte, tienden a incluir a las personas ausentes: la madre en el umbral, el padre en el jardín, los abuelos asomados a una ventana que da a un paisaje que mezcla el país de origen con el de destino. Estos dibujos constituyen lo que Sturken (1997) denomina tecnologías de la memoria: dispositivos visuales que articulan lo personal con lo colectivo, lo íntimo con lo político, produciendo una memoria que no es ni individual ni pública, sino algo entre ambas.
 
 ## Casa Universo Paralelo
 
@@ -49,6 +65,8 @@ La Casa Universo Paralelo es quizás el arquetipo más difícil de asir, y por e
 > "Yo tengo dos casas y ninguna. Cuando estoy en Colombia extraño Chile y cuando estoy en Chile extraño Colombia. Mi casa de verdad es el avión, ese momento en que no estoy en ningún lado y puedo ser todo" (Participante 58, bitácora).
 
 > "Mi casa soñada tiene el patio de mi abuela en Haití, la cocina de mi departamento en Santiago y el techo de la casa de mi tía en República Dominicana. Es una casa imposible. Pero es la única que me contiene entera" (Participante 19, bitácora).
+
+> "Mi casa de antes está doce horas adelante. Cuando yo me acuesto en Santiago, mi madre se está despertando en Manila. Vivimos en el mismo planeta pero en relojes distintos. Mi casa es la conversación que tenemos en el borde de los dos relojes, antes de que ella prenda la radio" (Participante 36, diálogo simbólico).
 
 Esta casa narrativa resuena con la conciencia mestiza de Anzaldúa (1987): la capacidad de habitar simultáneamente múltiples mundos culturales sin resolver la tensión entre ellos. Los dibujos de la Casa Universo Paralelo presentan arquitecturas imposibles: casas con múltiples pisos que pertenecen a países distintos, puertas que se abren a paisajes diferentes, escaleras que conectan tiempos y no solo espacios. Lejos de representar una patología del desarraigo, estos dibujos expresan una creatividad simbólica extraordinaria: la capacidad de construir un hogar que no necesita un territorio fijo para existir.
 
