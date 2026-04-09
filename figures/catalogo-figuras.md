@@ -20,9 +20,9 @@
 - **Figura 1.** Contraste proyectivo "Mi casa" vs "Mi casa soñada". Dibujo proyectivo realizado por persona participante (Casa de paso 2). Lápiz sobre papel, 2024-2025. Reproducido con consentimiento informado.
 - **Figura 2.** Vínculo familiar y bienestar colectivo en la casa soñada. Dibujo proyectivo de Isabel de Florón (Casa de paso 3). Lápiz y color sobre papel, 2024-2025. Reproducido con consentimiento informado.
 - **Figura 3.** Fusión de vivienda y espiritualidad. Dibujo proyectivo de Norma Romero (Casa de paso 5). Lápiz y color sobre papel, 2024-2025. Reproducido con consentimiento informado.
-- **Figura 4.** *Caminante*. Erwin. Ilustración digital a color. Año por confirmar con el autor. Archivo plástico del investigador.
-- **Figura 5.** *Casa_Padre*. Erwin. Ilustración en tinta monocromática (grises y azul oscuro). Año por confirmar con el autor. Archivo plástico del investigador.
-- **Figura 6.** *La mudanza*. Erwin. Acuarela a color. Año por confirmar con el autor. Archivo plástico del investigador.
+- **Figura 4.** *Caminante*. Erwin. Ilustración digital a color, 2024-2025. Archivo plástico del investigador. No constituye dato empírico del trabajo de campo.
+- **Figura 5.** *Casa_Padre*. Erwin. Ilustración en tinta monocromática (grises y azul oscuro), 2024-2025. Archivo plástico del investigador. No constituye dato empírico del trabajo de campo.
+- **Figura 6.** *La mudanza*. Erwin. Acuarela a color, 2024-2025. Archivo plástico del investigador. No constituye dato empírico del trabajo de campo.
 
 ## Verificación de correspondencia
 
