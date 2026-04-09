@@ -60,7 +60,8 @@ $CommonArgs = @(
     "--metadata-file=$MetadataFile",
     "--bibliography=$BibliographyFile",
     "--citeproc",
-    "--from=markdown+yaml_metadata_block"
+    "--from=markdown+yaml_metadata_block",
+    "--resource-path=$RepoRoot"
 ) + $SectionFiles
 
 function Invoke-PandocExport {

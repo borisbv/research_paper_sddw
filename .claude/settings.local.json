@@ -30,7 +30,10 @@
       "Skill(citation-management)",
       "WebFetch(domain:api.crossref.org)",
       "WebSearch",
-      "Bash(python3 -c ':*)"
+      "Bash(python3 -c ':*)",
+      "Bash(powershell -ExecutionPolicy Bypass -File scripts/export-paper.ps1 -Format docx)",
+      "Bash(wc:*)",
+      "Bash(git reset:*)"
     ]
   }
 }
