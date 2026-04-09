@@ -1,0 +1,23 @@
+{
+  "feature_name": "review-1",
+  "description": "Revisión mayor del paper 'Memorias de casas con piernas' para resolver los problemas detectados en el peer-review: inconsistencia Daniel, opacidad analítica, ambigüedad epistémica ilustraciones/evidencia, y desarrollo insuficiente del concepto 'migraciones invisibles'.",
+  "created_at": "2026-04-07T00:00:00Z",
+  "updated_at": "2026-04-07T02:00:00Z",
+  "language": "es",
+  "phase": "implemented",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "ready_for_implementation": true
+}
