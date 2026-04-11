@@ -1,0 +1,60 @@
+title: "Redes sociales y migración: resignificación comunicativa en contextos transnacionales"
+title_en: "Social Media and Migration: Communicative Resignification in Transnational Contexts"
+authors:
+  - name: "Manuel [Apellido]"
+    affiliation: "Universidad, Chile"
+  - name: "Erwin [Apellido]"
+    affiliation: "Universidad, Chile"
+journal: "REIS"
+citation_style: "harvard"
+language: "es"
+status: "draft"
+word_limits:
+  total: {max: 9000}
+  abstract: "300-450"
+  introduction: "800-1200"
+  marco_teorico: "1500-2000"
+  methodology: "1000-1500"
+  results: "1500-2000"
+  discussion: "1500-2000"
+  conclusion: "800-1200"
+keywords_es:
+  - "resignificación"
+  - "migración transnacional"
+  - "redes sociales"
+  - "capital social"
+  - "familia transnacional"
+  - "co-presencia"
+  - "plataformas digitales"
+  - "Chile"
+keywords_en:
+  - "resignification"
+  - "transnational migration"
+  - "social media"
+  - "social capital"
+  - "transnational family"
+  - "co-presence"
+  - "digital platforms"
+  - "Chile"
+sections:
+  - file: "paper/sections/01_abstract.md"
+    name: "abstract"
+    target_words: 150
+  - file: "paper/sections/02_introduction.md"
+    name: "introduction"
+    target_words: 1000
+  - file: "paper/sections/03_marco_teorico.md"
+    name: "related-work"
+    target_words: 1800
+  - file: "paper/sections/04_methodology.md"
+    name: "methodology"
+    target_words: 1200
+  - file: "paper/sections/05_results_discussion.md"
+    name: "results"
+    target_words: 1500
+  - file: "paper/sections/05_results_discussion.md"
+    name: "discussion"
+    target_words: 1500
+  - file: "paper/sections/06_conclusions.md"
+    name: "conclusion"
+    target_words: 1000

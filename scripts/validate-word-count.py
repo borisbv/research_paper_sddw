@@ -65,20 +65,32 @@ def validate_word_counts(base_path: Path) -> tuple[bool, list[str]]:
     metadata = load_metadata(base_path)
     journal = metadata.get("journal", "default")
     custom_limits = metadata.get("word_limits", {})
+    defined_sections = metadata.get("sections", [])
 
     journal_limits = JOURNAL_WORD_LIMITS.get(journal, {})
-    sections_dir = base_path / "paper" / "sections"
+    paper_dir = base_path / "paper"
 
-    if not sections_dir.exists():
-        errors.append("FAIL: paper/sections/ no encontrado")
+    if not paper_dir.exists():
+        errors.append("FAIL: paper/ no encontrado")
         return False, errors
 
     total_words = 0
     section_results = []
 
-    for section_file in sorted(sections_dir.glob("*.md")):
-        section_name = section_file.stem
-        content = section_file.read_text()
+    # Si hay secciones definidas en metadata, usarlas. Si no, glob *.md
+    if defined_sections:
+        files_to_check = []
+        for s in defined_sections:
+            file_path = base_path / s['file']
+            if file_path.exists():
+                files_to_check.append((s['name'], file_path))
+            else:
+                errors.append(f"WARN: Archivo de sección no encontrado: {s['file']}")
+    else:
+        files_to_check = [(f.stem, f) for f in sorted(paper_dir.glob("*.md")) if f.name not in ["00_metadata.md", "review-report.md", "metadata.yaml"]]
+
+    for section_name, section_file in files_to_check:
+        content = section_file.read_text(encoding='utf-8')
         word_count = count_words(content)
         total_words += word_count
 

@@ -33,7 +33,7 @@ def find_vale() -> str | None:
 
 def validate_prose(base_path: Path) -> tuple[bool, list[str]]:
     errors = []
-    sections_dir = base_path / "paper" / "sections"
+    sections_dir = base_path / "paper"
     vale_ini = base_path / ".vale.ini"
 
     # Verificar que Vale esta instalado
@@ -51,18 +51,18 @@ def validate_prose(base_path: Path) -> tuple[bool, list[str]]:
 
     # Verificar que existan secciones
     if not sections_dir.exists():
-        print("[WARN] Prosa: paper/sections/ no encontrado -- skip")
+        print("[WARN] Prosa: paper/ no encontrado -- skip")
         return True, []
 
-    md_files = list(sections_dir.glob("*.md"))
+    md_files = [f for f in sections_dir.glob("*.md") if f.name not in ["00_metadata.md", "review-report.md"]]
     if not md_files:
-        print("[WARN] Prosa: no hay archivos .md en paper/sections/ -- skip")
+        print("[WARN] Prosa: no hay archivos .md en paper/ -- skip")
         return True, []
 
     # Ejecutar Vale con output JSON (usar path relativa para que matchee .vale.ini globs)
     try:
         result = subprocess.run(
-            [vale_path, "--output=JSON", "paper/sections"],
+            [vale_path, "--output=JSON", "paper"],
             capture_output=True,
             text=True,
             cwd=str(base_path),

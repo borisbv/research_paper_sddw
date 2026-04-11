@@ -25,7 +25,8 @@
       "Skill(kiro:spec-init)",
       "WebSearch",
       "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
-      "WebFetch(domain:www.ijlter.org)"
+      "WebFetch(domain:www.ijlter.org)",
+      "Skill(update-config)"
     ]
   }
 }

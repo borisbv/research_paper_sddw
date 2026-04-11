@@ -32,6 +32,25 @@ steering → requirements (revista + tema) → design (outline + specs por secci
 - Mantén el steering actualizado y verifica alineación con `/kiro:spec-status`
 - Think in English, generate responses in Spanish. All Markdown content written to project files MUST be written in Spanish unless the paper itself requires English.
 
+## Autonomía en Implementación de Tareas
+
+Al ejecutar `/kiro:spec-impl <feature>` sin especificar tarea, ejecuta TODAS las tareas pendientes de forma autónoma:
+
+1. Consulta las tareas pendientes con TaskList o leyendo `.kiro/specs/<feature>/tasks.md`
+2. Ejecuta cada tarea en secuencia sin pedir confirmación
+3. Al terminar una tarea, marca como completada y continúa con la siguiente
+4. Solo detente si hay un error bloqueante o una decisión que requiere criterio humano
+
+**Patrón de ejecución autónoma:**
+- Identifica todas las tareas `pending` o `in_progress`
+- Ejecuta tarea N → marca `completed` → ejecuta tarea N+1
+- Al finalizar todas, reporta un resumen de lo implementado
+
+**Cuándo pausar y consultar al humano:**
+- Ambigüedad en el diseño que afecta múltiples secciones
+- Decisión metodológica con impacto en resultados
+- Error en validación que requiere rediseño de spec
+
 ## Estructura del Paper (IMRaD por defecto)
 - Title & Abstract
 - Introduction (gap, hipótesis, alcance)

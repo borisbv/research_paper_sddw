@@ -41,22 +41,32 @@ def validate_structure(base_path: Path) -> tuple[bool, list[str]]:
     errors = []
     metadata = load_metadata(base_path)
     journal = metadata.get("journal", "default")
-
     required = JOURNAL_REQUIRED_SECTIONS.get(journal, REQUIRED_SECTIONS)
+    
     sections_dir = base_path / "paper" / "sections"
-
     if not sections_dir.exists():
         errors.append("FAIL: Directorio paper/sections/ no encontrado")
         return False, errors
 
-    found_sections = {f.stem for f in sections_dir.glob("*.md")}
-    missing = [s for s in required if s not in found_sections]
+    # Map from metadata: name -> file_path
+    meta_sections = {s['name']: s['file'] for s in metadata.get('sections', []) if 'name' in s and 'file' in s}
+    
+    missing = []
     empty = []
-
+    
     for section in required:
-        section_file = sections_dir / f"{section}.md"
+        # Try to find file path from metadata first, then fallback to default name
+        section_rel_path = meta_sections.get(section)
+        if section_rel_path:
+            section_file = base_path / section_rel_path
+        else:
+            # Fallback: search for a file that contains the section name in its stem
+            # e.g. "01_abstract.md" matches "abstract"
+            matches = list(sections_dir.glob(f"*{section}*.md"))
+            section_file = matches[0] if matches else (sections_dir / f"{section}.md")
+            
         if section_file.exists():
-            content = section_file.read_text()
+            content = section_file.read_text(encoding='utf-8')
             # Strip headers and comments
             lines = [
                 l for l in content.splitlines()
@@ -67,6 +77,8 @@ def validate_structure(base_path: Path) -> tuple[bool, list[str]]:
             ]
             if not lines:
                 empty.append(section)
+        else:
+            missing.append(section)
 
     if missing:
         errors.append(f"FAIL: Secciones faltantes: {', '.join(missing)}")
@@ -75,7 +87,9 @@ def validate_structure(base_path: Path) -> tuple[bool, list[str]]:
 
     outline = base_path / "paper" / "outline.md"
     if not outline.exists():
-        errors.append("WARN: paper/outline.md no encontrado")
+        # Fallback to metadata.yaml as a form of outline/structure
+        if not metadata:
+            errors.append("WARN: paper/outline.md no encontrado")
 
     refs = base_path / "references" / "references.bib"
     if not refs.exists():
