@@ -22,12 +22,22 @@ BIB_KEY_PATTERN = re.compile(r'@\w+\{([^,\s]+),')
 def extract_cited_keys(text: str) -> set[str]:
     """Extract all citation keys/numbers from text."""
     keys = set()
-    for pattern in CITATION_PATTERNS:
+    # Pattern 0, 1, 2 are comma-separated. Pattern 3 (author-date) is not.
+    for i, pattern in enumerate(CITATION_PATTERNS):
         for match in pattern.finditer(text):
             raw = match.group(1)
-            # Handle multiple keys: \cite{key1,key2}
-            for k in raw.split(','):
-                keys.add(k.strip())
+            if i == 3: # Author-date (Smith, 2023)
+                # Convert "Smith, 2023" to a likely bib key or just keep as is
+                # For this project, we'll try to match it against bib keys
+                keys.add(raw.strip())
+            else:
+                # Handle multiple keys: [1,2] or \cite{key1,key2} or [@key1; @key2]
+                # Split by comma or semicolon, then strip spaces and '@'
+                for k in re.split(r'[,;]', raw):
+                    clean_k = k.strip()
+                    if clean_k.startswith('@'):
+                        clean_k = clean_k[1:]
+                    keys.add(clean_k)
     return keys
 
 

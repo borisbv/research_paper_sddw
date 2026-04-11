@@ -1,0 +1,22 @@
+{
+  "name": "resignificacion-migrantes",
+  "description": "Paper sobre resignificación de las comunicaciones en contextos de migración",
+  "language": "es",
+  "phase": "task-9-completed",
+  "created_at": "2026-04-10T00:00:00Z",
+  "updated_at": "2026-04-10T17:00:00Z",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  }
+}
