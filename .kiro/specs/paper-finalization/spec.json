@@ -1,0 +1,14 @@
+{
+  "feature": "paper-finalization",
+  "version": "1.0.0",
+  "description": "Cierre del proyecto: consolidación del manuscrito, generación de documentos Word (DOCX) con imágenes y bibliografía APA 7, y traducción completa al inglés.",
+  "status": "requirements",
+  "owner": "Gemini CLI",
+  "target_venue": "Revista Migraciones",
+  "language": "es/en",
+  "metadata": {
+    "output_formats": ["docx", "pdf"],
+    "citation_style": "apa",
+    "translation_target": "English (Academic)"
+  }
+}

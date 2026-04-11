@@ -1,0 +1,14 @@
+{
+  "feature": "paper-refinement-peer-review",
+  "version": "1.0.0",
+  "description": "Resolución de observaciones del reporte de revisión por pares para la revista Migraciones (Scopus Q1/Q2): anonimización, rigor cualitativo, visión crítica de PNME 2024-2025 y formato de citas.",
+  "status": "requirements",
+  "owner": "Gemini CLI",
+  "target_venue": "Revista Migraciones",
+  "language": "es",
+  "metadata": {
+    "review_report": "paper/review-report.md",
+    "style_rules": "scientific-writing-fluid",
+    "critical_focus": ["Anonimización", "Codificación Cualitativa", "PNME 2024-2025"]
+  }
+}

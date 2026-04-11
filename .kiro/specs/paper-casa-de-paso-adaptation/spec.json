@@ -1,0 +1,14 @@
+{
+  "feature": "paper-casa-de-paso-adaptation",
+  "version": "1.0.0",
+  "description": "Modificación y adaptación del paper 'Casa de Paso' a las normas de la revista Migraciones (Scopus Q1/Q2), incorporando una visión crítica sobre políticas públicas y un estilo de prosa científica fluida.",
+  "status": "requirements",
+  "owner": "Gemini CLI",
+  "target_venue": "Revista Migraciones",
+  "language": "es",
+  "metadata": {
+    "source_file": "temp_context/Casa de paso_septiembre_2024.md",
+    "style_rules": "scientific-writing-fluid",
+    "critical_focus": ["Políticas Públicas", "Arquitectura Humanitaria", "Metodología UX"]
+  }
+}

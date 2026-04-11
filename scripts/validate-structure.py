@@ -56,7 +56,7 @@ def validate_structure(base_path: Path) -> tuple[bool, list[str]]:
     for section in required:
         section_file = sections_dir / f"{section}.md"
         if section_file.exists():
-            content = section_file.read_text()
+            content = section_file.read_text(encoding="utf-8")
             # Strip headers and comments
             lines = [
                 l for l in content.splitlines()

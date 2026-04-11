@@ -1,0 +1,29 @@
+title: "Arquitectura Humanitaria y Experiencia de Usuario: Un Prototipo de Vivienda Transitoria para la Integración Migrante en Chile"
+short_title: "Casa de Paso: Prototipo de Vivienda Temporal"
+journal: "Revista Migraciones"
+language: "es"
+authors:
+  - name: "Anónimo" # Para revisión doble ciego
+    affiliation: "IUEM - Universidad Pontificia Comillas (Target)"
+abstract: |
+  El fenómeno migratorio en Chile ha generado un déficit habitacional crítico que exige soluciones de transición dignas y sustentables. Este artículo reporta el diseño del prototipo "Casa de paso", fundamentado en la Metodología User Experience (UX) y el diseño universal. A través de una investigación cualitativa con 44 personas migrantes en situación irregular, se identificaron tres categorías clave para la habitabilidad: el hogar temporal, la vivienda modular y la vida cívica. Los resultados demuestran que la integración de la voz del usuario desde fases tempranas permite desarrollar arquitecturas humanitarias que no solo atienden la necesidad de refugio, sino que fortalecen la conexión emocional y la dignidad humana. El estudio concluye con una reflexión crítica sobre la Política Nacional de Migración y Extranjería (PNME) 2024-2025 y la necesidad de alinear la arquitectura de emergencia con las políticas públicas de integración urbana.
+keywords:
+  - Arquitectura Humanitaria
+  - Metodología UX
+  - Migración en Chile
+  - Vivienda de Transición
+  - Políticas Públicas
+venue: "Revista Migraciones (IUEM)"
+status: "review"
+word_count_limit: 9000
+citation_style: "apa"
+figures:
+  - id: "figure1"
+    path: "figures/figure1.jpg"
+    caption: "Categorías de análisis derivadas de la investigación cualitativa."
+  - id: "figure2"
+    path: "figures/figure2.jpg"
+    caption: "Lienzo de inspiración (Moodboard) con enfoque cultural caribeño."
+  - id: "figure3"
+    path: "figures/figure3.jpg"
+    caption: "Prototipo de alta fidelidad: Maqueta física del sistema modular."
