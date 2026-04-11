@@ -68,7 +68,7 @@ def validate_citations(base_path: Path) -> tuple[bool, list[str]]:
     all_text = ""
 
     for section_file in sorted(sections_dir.glob("*.md")):
-        content = section_file.read_text()
+        content = section_file.read_text(encoding='utf-8')
         all_text += content + "\n"
         keys = extract_cited_keys(content)
         all_cited_keys.update(keys)

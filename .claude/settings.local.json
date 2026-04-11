@@ -33,7 +33,9 @@
       "Bash(python3 -c ':*)",
       "Bash(powershell -ExecutionPolicy Bypass -File scripts/export-paper.ps1 -Format docx)",
       "Bash(wc:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.ijlter.org)"
     ]
   }
 }

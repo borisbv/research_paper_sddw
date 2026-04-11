@@ -56,7 +56,7 @@ def load_metadata(base_path: Path) -> dict:
     metadata_file = base_path / "paper" / "metadata.yaml"
     if not metadata_file.exists():
         return {}
-    with open(metadata_file) as f:
+    with open(metadata_file, encoding='utf-8') as f:
         return yaml.safe_load(f) or {}
 
 
@@ -78,7 +78,7 @@ def validate_word_counts(base_path: Path) -> tuple[bool, list[str]]:
 
     for section_file in sorted(sections_dir.glob("*.md")):
         section_name = section_file.stem
-        content = section_file.read_text()
+        content = section_file.read_text(encoding='utf-8')
         word_count = count_words(content)
         total_words += word_count
 

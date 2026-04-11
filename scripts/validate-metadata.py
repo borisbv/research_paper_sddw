@@ -36,7 +36,7 @@ def validate_metadata(base_path: Path) -> tuple[bool, list[str]]:
         return False, errors
 
     # Cargar metadata
-    with open(metadata_file) as f:
+    with open(metadata_file, encoding='utf-8') as f:
         metadata = yaml.safe_load(f)
 
     if not metadata:
@@ -45,7 +45,7 @@ def validate_metadata(base_path: Path) -> tuple[bool, list[str]]:
         return False, errors
 
     # Cargar schema
-    with open(schema_file) as f:
+    with open(schema_file, encoding='utf-8') as f:
         schema = json.load(f)
 
     if not HAS_JSONSCHEMA:
