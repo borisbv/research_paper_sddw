@@ -225,6 +225,6 @@ Depender de enviar emails manualmente cada vez que un nuevo suscriptor se regist
 
 ## Conexiones
 
-- **→ Capítulo 5 (Cómo piensa tu audiencia):** El mapa emocional de tu audiencia es la base de tu funnel emocional. Si no sabes qué siente tu audiencia antes de conocerte, qué quiere sentir y qué emoción impulsa su acción, tu funnel será técnicamente correcto pero emocionalmente vacío.
-- **→ Capítulo 10 (El gancho):** Tu contenido TOFU necesita hooks que capturen atención en los primeros segundos. Sin un gancho efectivo, nadie llega al call to action que lleva a tu lead magnet. El funnel empieza donde empieza la atención.
-- **→ Capítulo 21 (Venta ética):** La fase BOFU de tu funnel es donde la venta ocurre. El Capítulo 21 profundiza en cómo vender sin manipular, cómo usar la persuasión de forma responsable y cómo diseñar ofertas que respeten a tu audiencia mientras generan ingresos.
+- **Capítulo 5 (Cómo piensa tu audiencia)** proporciona la base del funnel emocional. Si no sabes qué siente tu audiencia antes de conocerte, qué quiere sentir y qué emoción impulsa su acción, tu funnel será técnicamente correcto pero emocionalmente vacío. El mapa emocional de audiencia es el plano de tu embudo.
+- **Capítulo 10 (El gancho: los primeros 3 segundos)** determina quién entra en tu funnel. Tu contenido TOFU necesita hooks que capturen atención en los primeros segundos. Sin un gancho efectivo, nadie llega al call to action que lleva a tu lead magnet. El funnel empieza donde empieza la atención.
+- **Capítulo 16 (Contenido por formato)** conecta la selección de formato con la etapa del funnel. Los reels son contenido de atracción (TOFU); los carruseles educativos son contenido de consideración (MOFU); las newsletters son contenido de conversión (BOFU). Cada formato cumple una función en el recorrido del seguidor hacia el cliente.

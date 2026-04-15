@@ -200,6 +200,6 @@ Repite este ejercicio cada trimestre. La marca personal no se establece y se olv
 
 ## Conexiones
 
-- **Capítulo 6 (Identidad emocional del creador)** define la firma emocional que este capítulo integra en un sistema operativo completo. Sin la claridad emocional del capítulo anterior, el sistema de marca no tiene fundamento sobre el cual construir coherencia.
+- **Capítulo 2 (Por qué las personas siguen, confían y compran)** explica los mecanismos de confianza parasocial y sesgos cognitivos que una marca personal activa de forma consistente. El sistema de marca no es una capa estética: es una arquitectura diseñada para generar confianza predecible a través de los mismos mecanismos que el Capítulo 2 documenta.
 - **Capítulo 15 (Estrategia multiplataforma)** aborda cómo implementar la coherencia horizontal en la práctica: qué adaptar entre plataformas y qué mantener intacto. La arquitectura de presencia digital que se define allí depende de tener un sistema de marca que viaje entre canales sin perder su identidad.
 - **Capítulo 18 (El creador como negocio)** conecta la marca personal con la monetización: cómo el posicionamiento de nicho y la diferenciación no son solo decisiones editoriales, sino decisiones de negocio que determinan qué modelos de monetización son viables y cuáles no.

@@ -174,6 +174,6 @@ Antes de lanzar tu próximo producto o servicio, responde estas preguntas por es
 
 ## Conexiones
 
-- **→ Capítulo 2 (Confianza y sesgos):** Los principios de Cialdini son herramientas, no armas. Este capítulo aborda el "cómo usar" esas herramientas con responsabilidad. La confianza que tardaste meses en construir (Capítulo 2) puede destruirse en un solo lanzamiento mal ejecutado.
-- **→ Capítulo 8 (Autenticidad y vulnerabilidad estratégica):** La venta ética es una extensión de la autenticidad. Si tu contenido es auténtico pero tu venta es manipuladora, la incoherencia erosiona todo lo que construiste. La autenticidad no termina donde empieza la monetización.
-- **→ Capítulo 23 (De seguidores a comunidad):** Los lanzamientos éticos fortalecen la comunidad. Los lanzamientos manipuladores la destruyen. Una comunidad que confía en ti compra de forma recurrente. Una comunidad que se siente usada abandona silenciosamente.
+- **Capítulo 2 (Confianza y sesgos)** recuerda que los principios de Cialdini son herramientas, no armas. Este capítulo aborda el "cómo usar" esas herramientas con responsabilidad. La confianza que tardaste meses en construir puede destruirse en un solo lanzamiento mal ejecutado.
+- **Capítulo 8 (Autenticidad y vulnerabilidad estratégica)** establece que la venta ética es una extensión de la autenticidad. Si tu contenido es auténtico pero tu venta es manipuladora, la incoherencia erosiona todo lo que construiste. La autenticidad no termina donde empieza la monetización.
+- **Capítulo 23 (De seguidores a comunidad)** conecta directamente con el impacto de la venta sobre el vínculo comunitario. Los lanzamientos éticos fortalecen la comunidad; los manipuladores la destruyen. Una comunidad que confía en ti compra de forma recurrente. Una que se siente usada abandona silenciosamente.

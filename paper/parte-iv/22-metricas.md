@@ -234,6 +234,6 @@ Completa esta plantilla con tus datos actuales y repítela cada mes para rastrea
 
 ## Conexiones
 
-- **→ Capítulo 3 (Las emociones que mueven audiencias):** Los compartidos y guardados son métricas emocionales: indican qué siente tu audiencia con tu contenido. Un post que se comparte masivamente activa identidad ("esto me representa"). Un post que se guarda activa utilidad ("esto me sirve"). Leer tus métricas intermedias es leer las emociones de tu audiencia.
-- **→ Capítulo 17 (Sistema de producción):** Las métricas informan qué contenido producir. Sin datos sobre qué formatos, temas y horarios generan más conversión (no más likes), tu sistema de producción opera a ciegas. El dashboard de métricas alimenta al calendario de contenido.
-- **→ Capítulo 20 (Funnels de conversión):** Cada etapa de tu funnel tiene métricas propias. Si no las mides, no sabes dónde se rompe el recorrido de seguidor a cliente. Las métricas de negocio son el termómetro de tu funnel.
+- **Capítulo 3 (Las emociones que mueven audiencias)** da sentido emocional a los números. Los compartidos y guardados son métricas emocionales: un post que se comparte masivamente activa identidad ("esto me representa"); uno que se guarda activa utilidad ("esto me sirve"). Leer tus métricas intermedias es leer las emociones de tu audiencia.
+- **Capítulo 17 (Sistema de producción)** depende de las métricas para tomar decisiones de contenido. Sin datos sobre qué formatos, temas y horarios generan conversión real (no likes), tu sistema de producción opera a ciegas. El dashboard de métricas alimenta al calendario de contenido.
+- **Capítulo 6 (Identidad emocional del creador)** cierra el ciclo entre intención y medición. Si definiste que tu firma emocional es inspirar, los guardados y los comentarios de gratitud son tus métricas clave. Las métricas emocionales validan si la identidad emocional que elegiste realmente resuena con tu audiencia.

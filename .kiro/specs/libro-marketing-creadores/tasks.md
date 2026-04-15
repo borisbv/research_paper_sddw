@@ -327,15 +327,15 @@
   - Diseñar ejercicios de observación y análisis de contenido viral
   - _Requirements: 9.2, 9.3, 9.4, 9.5, 9.6, 9.7, 9.8_
 
-- [ ] 10. Integración transversal y conexiones inter-capítulo
-- [ ] 10.1 Revisar y completar las secciones de Conexiones de todos los capítulos
+- [x] 10. Integración transversal y conexiones inter-capítulo
+- [x] 10.1 Revisar y completar las secciones de Conexiones de todos los capítulos
   - Verificar que cada capítulo tiene su sección Conexiones con 2-3 bullets referenciando capítulos de otros ejes
   - Asegurar que las conexiones son orgánicas y aportan valor (no forzadas)
   - Identificar oportunidades para retomar casos de Anatomía en capítulos posteriores desde otra dimensión
   - Verificar que la integración tridimensional se percibe al leer capítulos de cualquier parte
   - _Requirements: 1.1, 1.4, 1.5_
 
-- [ ] 10.2 Verificar coherencia entre las cinco partes
+- [x] 10.2 Verificar coherencia entre las cinco partes
   - Revisar que los conceptos introducidos en una parte son respetados y referenciados correctamente en las siguientes
   - Verificar consistencia terminológica a lo largo de todo el manuscrito
   - Asegurar que no hay contradicciones entre capítulos

@@ -40,6 +40,8 @@ Este glosario reúne los términos técnicos y de industria utilizados a lo larg
 
 **Feed:** Flujo de contenido que un usuario ve al abrir una plataforma. Cada plataforma tiene un feed con lógica de ordenamiento diferente (cronológico, algorítmico o híbrido). Ver Capítulo 12.
 
+**Firma emocional:** Combinación específica de 2-3 emociones que un creador elige activar de forma consistente en su contenido. Es la expresión práctica de la identidad emocional: si la identidad emocional es la postura estratégica (inspirar, acompañar, motivar), la firma emocional es la selección concreta de emociones que la materializan en cada pieza de contenido. Ver Capítulo 6.
+
 **Funnel (embudo de conversión):** Secuencia de etapas que recorre una persona desde que descubre a un creador hasta que se convierte en cliente. En el contexto del creador, el funnel incluye contenido de atracción, contenido de nurturing, lead magnet, secuencia de email y oferta. Ver Capítulo 20.
 
 **Funnel emocional:** Concepto que precede al funnel técnico. Describe la progresión emocional que una persona necesita recorrer (curiosidad → confianza → deseo → seguridad) antes de estar lista para comprar. Si el funnel emocional no está resuelto, el funnel técnico no convierte. Ver Capítulo 20.
@@ -97,6 +99,12 @@ Este glosario reúne los términos técnicos y de industria utilizados a lo larg
 **Storytelling:** Arte de estructurar información como narrativa para generar conexión emocional. En el contexto del creador, no se limita a "contar historias" sino a aplicar principios narrativos (conflicto, transformación, resolución) a cualquier formato de contenido. Ver Capítulo 9.
 
 **Tasa de conversión:** Porcentaje de personas que realizan una acción deseada respecto al total que tuvieron la oportunidad de hacerla. Ejemplo: si 100 personas visitan tu página de venta y 3 compran, la tasa de conversión es del 3%. Ver Capítulo 22.
+
+**TOFU (Top of Funnel):** Primera etapa del funnel de conversión, enfocada en descubrimiento y atracción. El contenido TOFU busca alcance máximo y primera impresión: reels, videos cortos, posts virales. La emoción dominante es la curiosidad. Ver Capítulo 20.
+
+**MOFU (Middle of Funnel):** Etapa intermedia del funnel de conversión, enfocada en consideración y nurturing. El contenido MOFU profundiza la relación: carruseles educativos, newsletters, tutoriales, historias personales. La emoción dominante es la confianza. Ver Capítulo 20.
+
+**BOFU (Bottom of Funnel):** Etapa final del funnel de conversión, enfocada en decisión y conversión. El contenido BOFU presenta la oferta: páginas de venta, testimonios, secuencias de email de lanzamiento, casos de éxito. La emoción dominante es la seguridad. Ver Capítulo 20.
 
 **Thumbnail (miniatura):** Imagen de portada de un video que funciona como hook visual. En YouTube, la miniatura es el factor más determinante para que alguien haga clic en tu video, por encima del título. Ver Capítulo 10.
 

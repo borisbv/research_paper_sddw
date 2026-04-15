@@ -232,6 +232,6 @@ Compara ambas versiones. La diferencia que percibes es la diferencia que percibe
 
 ## Conexiones
 
-- **Capítulo 7 (Marca personal como sistema)** define el tono como uno de los cuatro componentes del sistema de marca. Este capítulo profundiza en cómo construirlo, calibrarlo y mantenerlo coherente. El tono es la dimensión más difícil de documentar y la más fácil de percibir: la audiencia lo siente antes de poder describirlo.
+- **Capítulo 21 (Vender sin sonar frío)** demuestra que el tono es el factor que determina si un contenido de venta conecta o aliena. La misma oferta con tono cálido genera conversión; con tono frío, genera rechazo. Los principios de este capítulo son el fundamento para que la persuasión del Capítulo 21 funcione sin romper la relación con la audiencia.
 - **Capítulo 14 (Ingeniería de la viralidad)** conecta el ritmo emocional con la retención algorítmica. La edición psicológica que describe ese capítulo (cambios de ritmo, micro-momentos, progresión de tensión) es la aplicación del ritmo emocional al diseño de contenido orientado a distribución máxima.
 - **Capítulo 5 (Cómo piensa tu audiencia)** cierra el vínculo entre tono y audiencia. El mapa emocional de audiencia que se construye allí define qué emociones espera tu público. El tono de este capítulo es el instrumento con el que activas esas emociones de forma deliberada y consistente.

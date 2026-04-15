@@ -179,6 +179,6 @@ Las vistas en TikTok no son comparables a las vistas en YouTube ni a las impresi
 
 ## Conexiones
 
-- **Capítulo 12 (Cómo funcionan los algoritmos)** explica las señales de ranking de cada plataforma, que son la base para entender por qué el contenido nativo supera al contenido resubido. Cada plataforma tiene señales diferentes, y la adaptación es el proceso de alinear tu contenido con las señales específicas de cada una.
+- **Capítulo 5 (Cómo piensa tu audiencia)** proporciona la base para decidir en qué plataformas invertir. La investigación de audiencia revela dónde están tus seguidores, qué buscan en cada canal y cómo cambian sus expectativas entre plataformas. Sin ese diagnóstico, la estrategia multiplataforma es una apuesta a ciegas.
 - **Capítulo 7 (Marca personal como sistema)** aborda cómo mantener coherencia de marca a través de múltiples puntos de contacto. La presencia multiplataforma amplifica tu marca solo si la identidad emocional (tono, valores, postura) es consistente en todos los canales.
 - **Capítulo 19 (Fuentes de ingreso)** conecta la arquitectura de presencia digital con la estrategia de monetización. Las plataformas amplificadoras generan visibilidad; las conversoras generan ingresos. Entender qué rol cumple cada plataforma en tu funnel de negocio es lo que convierte la presencia multiplataforma en una estrategia de ingresos.

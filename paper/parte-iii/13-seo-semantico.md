@@ -168,6 +168,6 @@ Mide el tráfico de búsqueda de estas tres piezas durante las siguientes dos se
 
 ## Conexiones
 
-- **Capítulo 12 (Cómo funcionan los algoritmos)** establece el marco de señales de ranking dentro del cual opera el SEO semántico. El SEO no reemplaza la calidad del contenido; la amplifica haciéndola encontrable. Entender las señales algorítmicas te ayuda a priorizar qué optimizaciones tienen mayor impacto en cada plataforma.
-- **Capítulo 17 (Planificación y sistema de producción)** integra el SEO semántico en el flujo de trabajo de creación de contenido. La investigación de keywords no es un paso adicional: es parte del proceso de planificación que permite crear contenido que sirve tanto al feed como a la búsqueda.
+- **Capítulo 9 (Storytelling para creadores)** conecta la narrativa con la descubribilidad. Los títulos que combinan storytelling con intención de búsqueda superan a los puramente optimizados para SEO. Una estructura narrativa PAS en la descripción de un video no solo retiene al espectador: le dice al algoritmo que el contenido responde a una necesidad real.
+- **Capítulo 19 (Más allá del AdSense — fuentes de ingreso)** revela al SEO semántico como motor de ingresos pasivos. Un video de YouTube o un artículo de blog bien posicionado genera tráfico orgánico y ventas de afiliados o productos digitales durante años. El contenido evergreen optimizado es la fuente de ingreso más silenciosa y más persistente.
 - **Capítulo 5 (Cómo piensa tu audiencia)** conecta la investigación de audiencia con la investigación de keywords. Lo que tu audiencia busca es una expresión directa de lo que necesita, teme o desea. Las sugerencias de autocompletado de TikTok y YouTube son, en esencia, un mapa emocional de tu audiencia expresado en forma de búsquedas.

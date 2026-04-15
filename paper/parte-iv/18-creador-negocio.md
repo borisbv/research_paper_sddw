@@ -210,6 +210,6 @@ Completa esta evaluación para determinar tu punto de partida en la transición 
 
 ## Conexiones
 
-- **→ Capítulo 2 (Confianza y sesgos):** La escalera de valor funciona porque cada peldaño activa el principio de consistencia: quien pagó una vez, tiene mayor probabilidad de pagar de nuevo. La confianza construida con contenido gratuito reduce la fricción de la primera compra.
-- **→ Capítulo 20 (Funnels de conversión):** Este capítulo explica el "qué" (modelos de negocio y estructura). El Capítulo 20 explica el "cómo": el sistema técnico y emocional que convierte seguidores en clientes de forma predecible.
-- **→ Capítulo 25 (Sostenibilidad):** La transición a negocio no es solo una estrategia de ingresos: es una estrategia de supervivencia. Sin modelo económico, el burnout es inevitable. El Capítulo 25 aborda por qué la monetización responsable protege al creador, no lo corrompe.
+- **Capítulo 2 (Confianza y sesgos)** explica por qué la escalera de valor funciona: cada peldaño activa el principio de consistencia. Quien pagó una vez tiene mayor probabilidad de pagar de nuevo. La confianza construida con contenido gratuito reduce la fricción de la primera compra.
+- **Capítulo 7 (Marca personal como sistema)** conecta el posicionamiento de nicho con la viabilidad del modelo de negocio. No todos los modelos funcionan para todas las marcas: el posicionamiento y la diferenciación del Capítulo 7 determinan qué fuentes de ingreso son coherentes con tu audiencia y cuáles generan disonancia.
+- **Capítulo 25 (Sostenibilidad y visión a largo plazo)** posiciona la transición a negocio como estrategia de supervivencia. Sin modelo económico, el burnout es inevitable. El Capítulo 25 aborda por qué la monetización responsable protege al creador, no lo corrompe.

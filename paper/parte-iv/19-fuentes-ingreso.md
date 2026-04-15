@@ -217,6 +217,6 @@ Usa esta plantilla para diseñar tu portafolio de fuentes de ingreso.
 
 ## Conexiones
 
-- **→ Capítulo 7 (Marca personal como sistema):** Las fuentes de ingreso deben ser coherentes con tu marca. Si tu marca transmite cercanía y accesibilidad, un servicio de consultoría a 50.000 dólares genera disonancia. Si transmite expertise premium, una plantilla a 5 dólares puede debilitar la percepción de valor.
-- **→ Capítulo 13 (SEO semántico):** El contenido evergreen optimizado para búsqueda es el mejor aliado de los ingresos pasivos. Un video de YouTube bien posicionado puede generar ventas de afiliados o productos digitales durante años sin esfuerzo adicional.
-- **→ Capítulo 22 (Métricas que importan):** La diversificación solo funciona si puedes medir qué modelo genera valor real. Sin métricas claras por fuente de ingreso, no sabes cuál optimizar, cuál escalar y cuál abandonar.
+- **Capítulo 7 (Marca personal como sistema)** determina qué fuentes de ingreso son coherentes con tu posicionamiento. Si tu marca transmite cercanía y accesibilidad, un servicio de consultoría a 50.000 dólares genera disonancia. Si transmite expertise premium, una plantilla a 5 dólares puede debilitar la percepción de valor.
+- **Capítulo 13 (SEO semántico)** convierte el contenido evergreen en motor de ingresos pasivos. Un video de YouTube bien posicionado puede generar ventas de afiliados o productos digitales durante años sin esfuerzo adicional. El SEO es el aliado más silencioso de la monetización sostenible.
+- **Capítulo 23 (De seguidores a comunidad)** abre la puerta a modelos de ingresos recurrentes. Las membresías, los programas de acceso exclusivo y los productos comunitarios solo funcionan cuando existe una comunidad real. Sin pertenencia, la membresía es una suscripción; con pertenencia, es un vínculo que se renueva voluntariamente.

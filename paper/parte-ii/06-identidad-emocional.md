@@ -211,5 +211,5 @@ Si tu autodiagnóstico y las respuestas de tu audiencia no coinciden, tienes una
 ## Conexiones
 
 - **Capítulo 3 (Las emociones que mueven audiencias)** presenta el mapa de 8 emociones y su correlación con acciones del usuario. Ese mapa es la materia prima de este capítulo: la firma emocional se construye seleccionando conscientemente cuáles de esas emociones quieres activar de forma consistente.
-- **Capítulo 7 (Marca personal como sistema)** toma la identidad emocional definida aquí y la integra en un sistema operativo completo: tono, valores, posicionamiento de nicho y coherencia transversal. La identidad emocional es el cimiento; la marca personal es la estructura que se construye sobre él.
+- **Capítulo 17 (Planificación y sistema de producción)** convierte la identidad emocional en un flujo de trabajo sostenible. La firma emocional que defines aquí debe reflejarse en tu calendario de contenido: no como inspiración espontánea, sino como criterio de selección sistemático de temas, formatos y enfoques.
 - **Capítulo 22 (Métricas que importan)** cierra el ciclo: las métricas emocionales (guardados, compartidos, comentarios con carga emocional) son el indicador más fiable de si tu firma emocional está funcionando. Si sabes qué emoción quieres generar, sabes qué métricas mirar para verificar si lo estás logrando.

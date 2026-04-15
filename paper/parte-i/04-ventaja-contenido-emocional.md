@@ -162,6 +162,6 @@ Este ejercicio no es teórico. Es el método que creadores como MrBeast usan a e
 
 ## Conexiones
 
-- **Capítulo 1 (Neurobiología del scroll)** explica los mecanismos de dopamina y atención que este capítulo presupone. La ventaja del contenido emocional no es arbitraria: es consecuencia directa de cómo el sistema de recompensa del cerebro procesa la novedad y la activación.
+- **Capítulo 12 (Cómo funcionan los algoritmos)** traduce la ventaja emocional en ventaja algorítmica. Las plataformas miden retención, interacción y compartidos: exactamente las señales que el contenido emocional genera con mayor intensidad que el informativo. La evidencia de este capítulo explica por qué los algoritmos, sin proponérselo, premian la emoción.
 - **Capítulo 9 (Storytelling para creadores)** convierte la evidencia emocional-informativa en técnicas narrativas específicas. Las estructuras PAS, Before-After-Bridge y el viaje del héroe adaptado son herramientas para aplicar el ratio emocional-informativo en formatos concretos.
 - **Capítulo 20 (Funnels de conversión para creadores)** conecta la distinción entre lo que atrae (emocional) y lo que convierte (informativo) con el diseño de un recorrido del seguidor al cliente. El funnel emocional que precede al funnel técnico nace de los principios presentados en este capítulo.

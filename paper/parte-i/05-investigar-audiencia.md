@@ -196,6 +196,6 @@ Revisa y actualiza este mapa cada dos meses. Tu audiencia cambia, y tu comprensi
 
 ## Conexiones
 
-- **Capítulo 3 (Las emociones que mueven audiencias)** presenta el mapa general de ocho emociones y sus correlaciones con acciones del usuario. Este capítulo traduce ese mapa general a tu audiencia específica: no qué emociones existen, sino cuáles operan en las personas que te siguen y cómo detectarlas.
+- **Capítulo 15 (Estrategia multiplataforma)** revela que la misma audiencia se comporta de forma diferente según la plataforma. La investigación de audiencia no termina en un perfil único: cada canal muestra facetas distintas de las mismas personas. Lo que tu audiencia guarda en Instagram puede ser lo opuesto a lo que comenta en YouTube.
 - **Capítulo 7 (Marca personal como sistema)** utiliza el mapa emocional de audiencia como input para definir el posicionamiento de nicho. No puedes diferenciarte si no sabes qué necesita emocionalmente la audiencia que quieres servir. La investigación de audiencia precede a la estrategia de marca.
 - **Capítulo 22 (Métricas que importan)** complementa la escucha cualitativa con la lectura cuantitativa. Los guardados, los compartidos y los comentarios largos son las huellas numéricas de los estados emocionales que este capítulo enseña a detectar cualitativamente. Leer ambos juntos da la imagen completa.

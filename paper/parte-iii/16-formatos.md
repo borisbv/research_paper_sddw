@@ -191,5 +191,5 @@ Responde:
 ## Conexiones
 
 - **Capítulo 11 (Tono, lenguaje y ritmo emocional)** profundiza en cómo el tono y la estética (color, música, edición) funcionan como herramientas de conexión dentro de cada formato. El formato define las restricciones; el tono define la experiencia emocional dentro de esas restricciones.
-- **Capítulo 15 (Estrategia multiplataforma)** aborda cómo adaptar formatos entre plataformas. Este capítulo explica las fortalezas de cada formato en sí; el Capítulo 15 explica cómo llevar el mismo mensaje a formatos diferentes según la plataforma de destino.
+- **Capítulo 3 (Las emociones que mueven audiencias)** explica por qué cada formato activa emociones diferentes. El video corto genera dopamina y urgencia; el carrusel activa curiosidad secuencial; la newsletter profundiza confianza y empatía. Elegir formato no es una decisión técnica: es una decisión emocional sobre qué quieres que sienta tu audiencia.
 - **Capítulo 20 (Funnels de conversión)** conecta la selección de formato con la etapa del funnel. Los reels son contenido de atracción (top of funnel); los carruseles educativos son contenido de consideración (middle of funnel); las newsletters son contenido de conversión (bottom of funnel). Cada formato cumple una función en el recorrido del seguidor hacia el cliente.
