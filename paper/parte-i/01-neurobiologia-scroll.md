@@ -73,13 +73,24 @@ Ese momento de ruptura es la única ventana que tienes. Si en los primeros dos o
 
 Esto es lo que ocurrió con el video de Charli D'Amelio: el movimiento inesperado en un formato amateur interrumpió el patrón del scroll. No hacía falta un hook verbal, un título provocador ni una promesa de valor. La interrupción fue visual, instantánea y preatentiva. El cerebro del espectador se detuvo antes de que la persona decidiera detenerse.
 
+### El papel del cortisol y la norepinefrina: no todo es dopamina
+
+Aunque la dopamina domina la conversación sobre redes sociales, hay otros neurotransmisores que juegan un papel crucial en la retención de contenido. La norepinefrina, liberada ante estímulos que generan alerta o excitación moderada, potencia la formación de memoria. Esto explica un fenómeno que todo creador ha observado: el contenido que genera una reacción emocional intensa (sorpresa, indignación, ternura) se recuerda más y se comparte más que el contenido neutro, por informativo que sea.
+
+Jonah Berger y Katherine Milkman demostraron en su estudio de 2012, analizando casi 7.000 artículos del New York Times, que el contenido que evoca emociones de alta activación (asombro, ansiedad, ira) se comparte significativamente más que el que evoca emociones de baja activación (tristeza, relajación). El mecanismo no es solo psicológico: es fisiológico. Las emociones de alta activación incrementan la tasa cardíaca y la activación del sistema nervioso simpático, lo que prepara al cuerpo para la acción, incluyendo la acción de compartir.
+
+Por otro lado, el cortisol, la hormona del estrés, aparece cuando el contenido genera ansiedad o amenaza percibida. Títulos como "Lo que nadie te dice sobre el algoritmo" o "Estás cometiendo este error sin saberlo" activan una respuesta de estrés leve que mantiene al espectador en alerta. En dosis moderadas, este estrés agudo mejora la atención y la memoria. Pero en dosis excesivas, genera rechazo y fatiga. El creador que abusa de los hooks basados en miedo descubre que la audiencia desarrolla inmunidad, o peor, aversión.
+
+La clave está en el equilibrio: alternar entre estímulos dopaminérgicos (novedad, recompensa, curiosidad) y estímulos norepinéfricos (sorpresa, emoción, relevancia personal) sin caer en la sobreestimulación cortisólica. Tu contenido más efectivo probablemente combine los tres: abre con sorpresa (norepinefrina), mantiene con curiosidad (dopamina) y cierra con una emoción que el espectador quiere procesar (activación emocional que impulsa el compartido).
+
 ### Lo que esto significa para tu estrategia
 
-Los tres mecanismos (recompensa variable, economía de la atención e interrupción de patrón) operan de forma simultánea y forman el entorno real en el que tu contenido existe. No se trata de "trucos" ni de "hacks algorítmicos". Se trata de la biología de tu audiencia, y entenderla cambia fundamentalmente cómo diseñas lo que publicas:
+Los tres mecanismos principales (recompensa variable, economía de la atención e interrupción de patrón), modulados por el equilibrio entre dopamina, norepinefrina y cortisol, operan de forma simultánea y forman el entorno real en el que tu contenido existe. No se trata de "trucos" ni de "hacks algorítmicos". Se trata de la biología de tu audiencia, y entenderla cambia fundamentalmente cómo diseñas lo que publicas:
 
 - Tu contenido no es evaluado racionalmente. Es filtrado por un sistema nervioso que busca novedad, recompensa y relevancia emocional en fracciones de segundo.
 - La ventana de captura es de 2-3 segundos. Lo que ocurra en ese lapso determina si el resto de tu contenido existe o no para esa persona.
 - La dopamina no se libera por la calidad de tu contenido, sino por la incertidumbre y la novedad. Un video técnicamente perfecto pero predecible perderá frente a uno imperfecto que sorprenda.
+- El contenido que activa emociones de alta activación se comparte hasta un 30% más que el contenido emocionalmente neutro. Diseña para la emoción, no solo para la información.
 - El hábito de scroll ya está instalado. Las plataformas se encargaron de eso. Tu trabajo no es crear el hábito; es interceptarlo.
 
 ---
@@ -105,6 +116,17 @@ Si tu audiencia procesa el feed con el pensamiento rápido e intuitivo, tu conte
 **Principio 4: Respeta la economía de la atención.** Si los videos de menos de 15 segundos duplican la tasa de finalización respecto a los de 30-60 segundos, la implicación no es que todo deba ser breve. Es que cada segundo debe justificarse. Un video de 3 minutos puede funcionar si cada segmento de 30 segundos contiene un micro-hook que renueva el compromiso. MrBeast sistematizó esto: sus videos largos incluyen una interrupción de patrón cada 30 segundos. La duración no es el problema; la densidad de valor percibido sí lo es.
 
 **Principio 5: Sé la recompensa, no el ruido.** Tu contenido entra en un ciclo de recompensa variable que la plataforma ya instaló. La pregunta no es si el usuario está buscando recompensa (lo está), sino si tu contenido califica como tal. Las tres categorías de recompensa de Eyal te dan un marco: ¿tu contenido ofrece validación social (recompensa de la tribu)? ¿Información valiosa o una oportunidad (recompensa de la caza)? ¿Una sensación de logro, inspiración o autoexpresión (recompensa del yo)?
+
+### El ciclo emocional de una pieza de contenido
+
+Cada pieza de contenido efectiva sigue un arco emocional que refleja la secuencia neurobiológica descrita en este capítulo. No es un accidente que los mejores creadores estructuren sus videos y posts de forma similar, independientemente del nicho. El arco tiene cuatro fases:
+
+1. **Interrupción** (0-3 segundos): activa la norepinefrina y redirige la atención. Aquí opera la interrupción de patrón. No informas, no explicas, no vendes. Detienes.
+2. **Enganche** (3-15 segundos): transforma la atención reactiva en atención activa. La deuda de información mantiene al espectador porque su cerebro necesita cerrar la brecha. La dopamina anticipatoria sostiene el interés.
+3. **Desarrollo** (15 segundos en adelante): entrega el valor prometido con micro-hooks que renuevan el compromiso cada 10-30 segundos. Cada micro-hook es una pequeña interrupción de patrón dentro del contenido: un cambio de ritmo, un dato inesperado, una pregunta retórica.
+4. **Cierre emocional** (últimos segundos): genera la emoción de alta activación que impulsa la acción posterior. Un cierre que inspire asombro favorece los compartidos. Un cierre que genere utilidad práctica favorece los guardados. Un cierre que valide la identidad del espectador favorece los comentarios.
+
+Este arco no es una fórmula rígida. Es un mapa de la experiencia neurológica que tu audiencia atraviesa. Cuando una publicación "no funciona" y no sabes por qué, revisa en qué fase del arco se rompe la secuencia. En la mayoría de los casos, el problema está en las fases 1 o 2: el contenido nunca llegó a ser procesado conscientemente.
 
 ### Adapta tu formato a la biología atencional
 

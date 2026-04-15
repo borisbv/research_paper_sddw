@@ -342,8 +342,8 @@
   - Verificar que la progresión de nivel se mantiene (no hay regresiones a contenido básico)
   - _Requirements: 1.2, 2.1, 2.2, 2.3, 12.3_
 
-- [ ] 11. Validación y control de calidad del manuscrito
-- [ ] 11.1 Validar estructura y extensión de todos los capítulos
+- [x] 11. Validación y control de calidad del manuscrito
+- [x] 11.1 Validar estructura y extensión de todos los capítulos
   - Verificar que los 25 capítulos contienen los 6 bloques en orden correcto
   - Verificar extensión por capítulo dentro de los rangos establecidos
   - Verificar que cada capítulo de Parte III separa principios estables de datos fechados
@@ -351,7 +351,7 @@
   - Verificar que el módulo de Anexos contiene los 8 items especificados
   - _Requirements: 8.2, 5.9, 12.4_
 
-- [ ] 11.2 Validar fuentes y fundamentación
+- [x] 11.2 Validar fuentes y fundamentación
   - Verificar que toda afirmación cuantitativa o estadística tiene fuente identificable
   - Verificar que cada capítulo incluye al menos 1 dato verificable
   - Identificar datos con más de 18 meses de antigüedad y verificar si existen versiones actualizadas
@@ -359,7 +359,7 @@
   - Cruzar referencias del manuscrito contra el archivo de bibliografía
   - _Requirements: 8.3, 10.5, 10.6, 12.2_
 
-- [ ] 11.3 Validar tono, estilo y nivel
+- [x] 11.3 Validar tono, estilo y nivel
   - Revisar conformidad de todo el manuscrito con la guía de estilo editorial
   - Verificar que no hay explicaciones de nivel básico innecesarias
   - Verificar tratamiento consistente de anglicismos (definidos en primera aparición)
@@ -367,7 +367,7 @@
   - Verificar que los ejemplos provienen del ecosistema de creadores
   - _Requirements: 11.1, 11.2, 11.3, 11.5, 11.6, 2.1, 2.2_
 
-- [ ] 11.4* Preparar proceso de revisión por lectores beta
+- [x] 11.4* Preparar proceso de revisión por lectores beta
   - Diseñar cuestionario de evaluación por capítulo: nivel (básico/intermedio/avanzado), claridad, utilidad, engagement
   - Identificar al menos 3 lectores beta del perfil objetivo (creadores nivel intermedio)
   - Documentar plan de incorporación de feedback
