@@ -60,14 +60,33 @@ steering → requirements (revista + tema) → design (outline + specs por secci
 - [ ] Conclusiones soportadas por resultados
 
 ## Convenciones
-- Archivos del paper en `paper/` (markdown o LaTeX)
+- Archivos del libro/paper en `paper/` (markdown `.md` o Quarto `.qmd`)
+- Configuración Quarto en `_quarto.yml` (raíz del proyecto)
+- Output compilado en `_book/` (ignorado por git)
+- Screenshots de revisión en `_book/screenshots/`
 - Specs en `.kiro/specs/` (generadas por cc-sdd)
 - Steering en `.kiro/steering/`
 - Referencias en `references/references.bib`
 - Figuras en `figures/`
 - Datos en `data/`
-- Scripts de validación en `scripts/`
+- Scripts de build/validación en `scripts/`
 - Skills científicos en `.claude/skills/`
+
+## Pipeline Quarto (libro actual: "La Moneda Emocional")
+- **Build HTML**: `./scripts/build-book.sh html` → genera `_book/` + screenshots
+- **Build PDF**: `./scripts/build-book.sh pdf` (requiere TinyTeX: `quarto install tinytex`)
+- **Build DOCX**: `./scripts/build-book.sh docx`
+- **Build todo**: `./scripts/build-book.sh all`
+- **Preview en vivo**: `./scripts/build-book.sh preview` o `quarto preview`
+- **Screenshot capítulo**: `node scripts/screenshot-book.js --chapter 01`
+- **Instalar deps Playwright**: `npm install playwright && npx playwright install chromium`
+
+### Loop de revisión visual LLM
+1. Editar `paper/parte-X/XX-capitulo.md`
+2. `quarto render --to html` (rápido, solo HTML)
+3. `node scripts/screenshot-book.js --chapter XX`
+4. LLM lee `_book/screenshots/XX-slug.png` con la herramienta Read (multimodal)
+5. Correcciones → repetir
 
 ## Comandos disponibles
 - `/paper:init <tema> <revista>` — Inicia un nuevo paper con specs
