@@ -1,0 +1,22 @@
+# Quarto outputs
+_book/
+.quarto/
+*.aux
+*.log
+*.tex
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb

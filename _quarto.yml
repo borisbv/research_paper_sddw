@@ -1,0 +1,94 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "La Moneda Emocional"
+  subtitle: "Marketing para creadores que construyen audiencias reales"
+  author: "Boris Bustos"
+  date: today
+  language: es
+
+  chapters:
+    - index.qmd
+    - paper/00-introduccion.md
+    - part: "Parte I: Comprender — El algoritmo humano"
+      chapters:
+        - paper/parte-i/01-neurobiologia-scroll.md
+        - paper/parte-i/02-confianza-sesgos.md
+        - paper/parte-i/03-emociones-audiencias.md
+        - paper/parte-i/04-ventaja-contenido-emocional.md
+        - paper/parte-i/05-investigar-audiencia.md
+    - part: "Parte II: Conectar — Identidad, storytelling y marca emocional"
+      chapters:
+        - paper/parte-ii/06-identidad-emocional.md
+        - paper/parte-ii/07-marca-personal-sistema.md
+        - paper/parte-ii/08-autenticidad.md
+        - paper/parte-ii/09-storytelling.md
+        - paper/parte-ii/10-gancho.md
+        - paper/parte-ii/11-tono-ritmo.md
+    - part: "Parte III: Distribuir — Visibilidad, algoritmos y estrategia"
+      chapters:
+        - paper/parte-iii/12-algoritmos.md
+        - paper/parte-iii/13-seo-semantico.md
+        - paper/parte-iii/14-viralidad.md
+        - paper/parte-iii/15-multiplataforma.md
+        - paper/parte-iii/16-formatos.md
+        - paper/parte-iii/17-sistema-produccion.md
+    - part: "Parte IV: Convertir — Monetización, métricas y negocio"
+      chapters:
+        - paper/parte-iv/18-creador-negocio.md
+        - paper/parte-iv/19-fuentes-ingreso.md
+        - paper/parte-iv/20-funnels.md
+        - paper/parte-iv/21-venta-etica.md
+        - paper/parte-iv/22-metricas.md
+    - part: "Parte V: Escalar"
+      chapters:
+        - paper/parte-v/23-comunidad.md
+        - paper/parte-v/24-delegacion-ia.md
+        - paper/parte-v/25-sostenibilidad.md
+    - paper/26-cierre.md
+
+  appendices:
+    - paper/anexos/glosario.md
+    - paper/anexos/checklists-formato.md
+    - paper/anexos/ejercicios-viralidad.md
+    - paper/anexos/estructuras-guion.md
+    - paper/anexos/plantilla-contenido-emocional.md
+    - paper/anexos/plantilla-funnel.md
+    - paper/anexos/plantilla-mapa-emocional.md
+    - paper/anexos/proceso-lectores-beta.md
+    - paper/anexos/tech-stack.md
+
+bibliography: references/references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 3
+    lang: es
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    mermaid:
+      theme: default
+  pdf:
+    documentclass: scrbook
+    papersize: letter
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    lang: es
+    fig-cap-location: bottom
+    tbl-cap-location: top
+  docx:
+    toc: true
+    number-sections: true
+    lang: es
+
+execute:
+  echo: false
+  warning: false
+  message: false
