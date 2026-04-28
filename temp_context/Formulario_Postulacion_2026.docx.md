@@ -230,8 +230,13 @@ Las personas mayores que utilizan la intervención digital accesible presentará
 **2.3 METODOLOGÍA Y PROCEDIMIENTOS**
 
 **Diseño del estudio**  
-El estudio corresponde a una investigación aplicada en salud con enfoque mixto, que integra métodos cualitativos y cuantitativos. El diseño combina un enfoque centrado en el usuario, basado en metodologías de experiencia usuaria, con un diseño cuasi-experimental para la evaluación de la efectividad de la intervención en contextos de atención primaria.  
-La investigación se desarrollará mediante un proceso iterativo que incorpora la participación de personas mayores y actores del sistema de salud en distintas etapas del estudio, permitiendo abordar tanto la comprensión del problema como el desarrollo y evaluación de la intervención.
+El estudio corresponde a una investigación aplicada en salud con enfoque mixto, que integra métodos cualitativos y cuantitativos. El diseño combina un enfoque centrado en el usuario, basado en metodologías de experiencia de usuario (UX), con un diseño cuasi-experimental de tipo pretest-postest con grupo de comparación no equivalente, para la evaluación de la efectividad de la intervención en contextos de atención primaria.
+
+El componente cuasi-experimental contempla dos grupos conformados mediante asignación no aleatoria: el grupo intervención utilizará la aplicación digital accesible para acceder a la información clínica simplificada, mientras que el grupo de comparación recibirá la misma información en formato tradicional impreso. La asignación de los participantes a cada grupo se realizará por establecimiento o turno de atención (CESFAM o jornada), a fin de controlar el efecto de contaminación entre grupos. Las variables de comparabilidad entre grupos (edad, nivel educativo, uso previo de dispositivos digitales) serán evaluadas al inicio del estudio mediante prueba de equivalencia de línea base; en caso de diferencias sistemáticas, estas se controlarán como covariables en el análisis.
+
+Las mediciones se realizarán en dos momentos: (T0) antes de la exposición al material informativo y (T1) inmediatamente después, en sesión controlada. El evaluador que aplica y puntúa el test de comprensión operará ciego al grupo de asignación del participante.
+
+La investigación se desarrollará mediante un proceso iterativo que incorpora la participación de personas mayores y actores del sistema de salud en distintas etapas del estudio, permitiendo abordar tanto la comprensión del problema como el desarrollo y evaluación de la intervención. El proceso participativo será conducido metodológicamente por Daniela Godoy Donoso, co-investigadora especializada en metodologías de participación ciudadana aplicadas al diseño, cuya experiencia en co-diseño con comunidades en contextos vulnerables garantiza la pertinencia y rigor del proceso. El diagnóstico inicial incorpora además el análisis del entorno construido y las condiciones de accesibilidad física de los CESFAM participantes, a cargo de Cristhian Figueroa Martínez, investigador asociado con expertise en entorno construido y grupos vulnerables, aportando una dimensión territorial al diagnóstico de barreras de acceso a la información en salud.
 
 **Justificación del diseño**  
 El enfoque mixto permite abordar de manera integral el problema de investigación, considerando tanto el análisis de las barreras de comprensión de la información en salud como la medición del efecto de la intervención.  
@@ -279,7 +284,9 @@ Para el componente cualitativo, se considerará una muestra de 10 a 15 participa
 
 ## **Justificación del tamaño muestral**
 
-El tamaño propuesto permite realizar análisis comparativos preliminares y es consistente con estudios aplicados en CESFAM, priorizando la viabilidad del estudio.
+El tamaño muestral de 30 participantes por grupo (n total = 60) se fundamenta en un análisis de potencia estadística basado en la evidencia disponible. El estudio de referencia más cercano en diseño y población (Hendawi et al., 2022) reportó una mejora en comprensión del 36% al 76% en el grupo con intervención adaptada a distintos niveles de health literacy, equivalente a un tamaño de efecto grande (d ≈ 0.80). Aplicando este parámetro a la prueba estadística principal (t de Student para muestras independientes, bilateral), con α = 0.05 y potencia deseada de 0.80, el cálculo mediante la fórmula de Cohen arroja un tamaño muestral mínimo de n = 26 por grupo. La muestra propuesta (n = 30 por grupo) supera este mínimo, alcanzando una potencia observada de 0.87 bajo los mismos supuestos, lo que permite absorber una tasa de abandono de hasta 13% sin comprometer la potencia del estudio.
+
+Se asume un tamaño de efecto grande (d ≥ 0.80) como supuesto conservador dado el contraste entre la intervención experimental y el formato tradicional, consistente con las diferencias reportadas por Hendawi et al. (2022) y Chen et al. (2025). En caso de que el efecto observado sea de magnitud media (d = 0.50), los resultados se reportarán como exploratorios y se consignará explícitamente en el artículo la limitación de potencia estadística, recomendando la réplica con mayor muestra.
 
 ## **Variables del estudio**
 
@@ -295,25 +302,51 @@ Nivel de comprensión de la información en salud.
 
 ## **Instrumentos de medición**
 
-* Pruebas de comprensión de información en salud  
-* Escala de usabilidad (SUS o equivalente)  
-* Cuestionarios de percepción  
-* Entrevistas semiestructuradas
+**1. Test de comprensión de documentos clínicos (instrumento principal, elaboración ad hoc)**  
+Se desarrollará un test de comprensión basado en 2-3 documentos clínicos representativos del contexto de atención primaria (indicaciones médicas de alta, consentimientos informados, instrucciones para exámenes), seleccionados en coordinación con los CESFAM participantes. Cada versión del test contendrá 8-10 ítems de opción múltiple con 4 alternativas, evaluando la recuperación de información central (dosificación, instrucciones, advertencias) y la comprensión inferencial. El instrumento será validado por juicio de expertos (panel de 3 profesionales de salud APS) y piloteado con una muestra de 10-15 personas mayores previo al estudio principal. El puntaje se expresará como porcentaje de respuestas correctas (0-100%).
+
+**2. Newest Vital Sign — versión en español (NVS-E) (medición de línea base)**  
+El NVS-E (Weiss et al., 2005; adaptado y validado en población hispanohablante) se aplicará como medición de línea base de alfabetización funcional en salud, para caracterizar los grupos y controlar su efecto en el análisis. Evalúa la capacidad de leer y utilizar información de una etiqueta nutricional, con 6 preguntas de respuesta abierta. Puntuación: 0-6 (≤2: alta probabilidad de baja health literacy).
+
+**3. System Usability Scale — SUS (usabilidad)**  
+Escala validada de 10 ítems Likert (1-5) que genera un puntaje 0-100 (Lewis & Sauro, 2018). Se aplicará al grupo intervención tras el uso del prototipo (T1). Umbral de usabilidad aceptable: ≥68 puntos; umbral de usabilidad buena: ≥70 puntos. Se administrará únicamente al grupo intervención, ya que el grupo de comparación no interactúa con el prototipo digital.
+
+**4. Cuestionario de percepción de utilidad y satisfacción (elaboración ad hoc, 5 ítems Likert)**  
+Cinco ítems en escala Likert 1-5 evaluarán: percepción de utilidad del material para entender la información de salud, facilidad de uso, intención de uso futuro, satisfacción general y recomendación a otras personas mayores. Se aplicará al grupo intervención en T1.
+
+**5. Entrevistas semiestructuradas (componente cualitativo)**  
+Se realizarán 10-15 entrevistas en profundidad con una muestra intencionada de personas mayores participantes, seleccionadas para maximizar la variación en edad, nivel educativo y familiaridad con tecnología. Las entrevistas explorarán la experiencia subjetiva con la información clínica (antes y después), la percepción del prototipo y las barreras de comprensión identificadas en contexto. Duración estimada: 30-45 minutos.
 
 ## **Procedimiento**
 
-Se compararán dos condiciones:
+El estudio se desarrollará en sesiones individuales estructuradas en los CESFAM participantes, con una duración estimada de 45-60 minutos por participante. El procedimiento contempla las siguientes etapas:
 
-* Grupo intervención: uso de la intervención digital accesible  
-* Grupo comparación: uso de formatos tradicionales
+1. *Consentimiento informado y admisión:* Firma del consentimiento informado. Aplicación del cuestionario de caracterización sociodemográfica y del NVS-E (línea base de alfabetización en salud).
+2. *Pretest de comprensión (T0):* Aplicación del test de comprensión sobre el documento clínico en su versión original (sin intervención), igual para ambos grupos.
+3. *Exposición a la información:*
+   - **Grupo intervención:** el participante accede a la versión simplificada del documento clínico mediante el prototipo digital en tablet, con apoyo del evaluador para el ingreso al sistema si es necesario.
+   - **Grupo de comparación:** el participante recibe el mismo documento clínico en formato impreso tradicional, como es habitual en la práctica clínica del CESFAM.
+4. *Postest de comprensión (T1):* Aplicación del test de comprensión (versión equivalente y paralela al T0, mismas dimensiones, distintos ítems) sobre el mismo documento clínico.
+5. *Instrumentos adicionales (solo grupo intervención):* Aplicación del SUS y del cuestionario de percepción de utilidad (T1).
+6. *Cierre:* Agradecimiento y entrega de incentivo de participación ($15.000 para transporte y alimentación).
 
-Se evaluará la comprensión posterior a la exposición a la información.
+El evaluador que puntúa los tests de comprensión (T0 y T1) opera ciego a la condición de asignación del participante (intervención o comparación), a fin de minimizar el sesgo de evaluación. La asignación de participantes a grupos se realizará por CESFAM o jornada de atención, según la disponibilidad operativa de cada establecimiento.
 
 ## **Plan de análisis**
 
-Los datos cuantitativos serán analizados mediante estadística descriptiva y pruebas de comparación de medias.
+**Análisis cuantitativo**
 
-Los datos cualitativos serán analizados mediante análisis de contenido.
+*Estadística descriptiva:* Se calcularán medias, desviaciones estándar, medianas e IQR para variables continuas; frecuencias y porcentajes para variables categóricas. Se verificará la comparabilidad de los grupos en línea base (edad, escolaridad, puntaje NVS-E) mediante prueba t o Mann-Whitney según distribución.
+
+*Análisis principal:* La comparación del puntaje de comprensión (T1) entre el grupo intervención y el grupo de comparación se realizará mediante prueba t de Student para muestras independientes (si se cumple normalidad por prueba de Shapiro-Wilk, n<50) o prueba de Mann-Whitney U como alternativa no paramétrica. El nivel de significancia adoptado es α = 0.05 (bilateral). El tamaño del efecto se reportará mediante d de Cohen (para comparaciones paramétricas) o r de Rosenthal (para no paramétricas).
+
+*Análisis de covarianza (ANCOVA):* En caso de identificarse diferencias de línea base entre grupos en variables con potencial confundente (nivel educativo, puntaje NVS-E, uso previo de tecnología), se realizará un ANCOVA con el puntaje de comprensión T1 como variable dependiente, grupo como factor y las covariables identificadas.
+
+*Análisis intragrupo pre-post:* Se comparará el puntaje de comprensión T0 vs. T1 dentro de cada grupo mediante prueba t de muestras pareadas o prueba de Wilcoxon de rangos con signo, según normalidad.
+
+**Análisis cualitativo**
+
+Las entrevistas semiestructuradas serán transcritas verbatim y analizadas mediante análisis temático inductivo (Braun & Clarke, 2006) con apoyo de software de análisis cualitativo (Atlas.ti o equivalente). Se realizará triangulación entre dos investigadores independientes para verificar la fiabilidad interpretativa.
 
 ## **Outcome principal**
 
@@ -415,6 +448,8 @@ El proyecto será sometido a evaluación de un Comité de Ética Científico acr
 | María de los Ángeles Ferrer Mavárez | Universidad Tecnológica Metropolitana \- UTEM | Director(a) Alterno(a) | Co-liderazgo en diseño UX accesible, supervisión del componente de accesibilidad cognitiva, coordinación del co-diseño con personas mayores y actores de salud, dirección de estudiantes en formación. Doctora en Ciencias, más de 20 años en Diseño UX/DCU, publicaciones Scopus Q1/Q2, experiencia en proyectos de inclusión (ACCEX). | 48 | $12.500 | 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 3.4, 4.3, 4.4, 4.5, T.6 |
 | Sandra Cano Mazuera | Pontificia Universidad Católica de Valparaíso \- PUCV | Investigador(a) | Evaluación de usabilidad e interacción persona-computador, diseño de instrumentos de evaluación UX, análisis de datos de experiencia de usuario. Doctora en Ciencia de la Electrónica, investigadora en HCI, computación afectiva e interacción persona-computador. | 48 | Aporte institucional PUCV | 3.1, 3.2, 3.3, 3.4, 4.1, 4.2, 4.3, 4.4, 4.5, T.2 |
 | Ronald Enrique Méndez Sánchez | Universidad Tecnológica Metropolitana \- UTEM | Investigador(a) | Evaluación de usabilidad y testing UX, aplicación de metodología Design Thinking, evaluación de la intervención en contexto real con usuarios. Magíster en Ingeniería de Control y Automatización, Director Académico Diplomado UX Design UFT, co-autor de publicaciones indexadas en UX. | 48 | $12.500 | 2.2, 2.3, 3.1, 3.2, 3.3, 3.4, 4.3, 4.4, 4.5, T.3 |
+| Daniela Godoy Donoso | Universidad Tecnológica Metropolitana \- UTEM | Co-investigadora(a) | Diseño y facilitación del proceso de co-diseño participativo con personas mayores y profesionales de salud. Docente en Metodologías de Participación Ciudadana y Territorio y Urbanismo. Msc. Urban Regeneration. Directora del Departamento de Planificación y Ordenamiento Territorial, UTEM. Experiencia en procesos co-participativos en diseño con comunidades y grupos vulnerables (FIC-R GORE RM, Fundación Carolina/Telefónica). | 36 | $12.500 | 1.1, 1.3, 1.4, 1.5, 2.1, 2.2, 2.3 |
+| Cristhian Alfonso Figueroa Martínez | Universidad Tecnológica Metropolitana \- UTEM | Investigador(a) asociado(a) | Análisis del entorno construido y condiciones de accesibilidad en los CESFAM participantes; caracterización espacial y contextual del entorno de uso de la intervención digital; diagnóstico de condiciones físicas y territoriales que inciden en la comprensión de información en salud. Arquitecto, Magíster en Proyecto Urbano, Doctor of Philosophy in Transport Studies. Líneas: entorno construido, espacio público, barrios y grupos vulnerables. | 36 | $12.500 | 1.1, 1.2, 1.4, 1.5 |
 | Nicolás Matus | Pontificia Universidad Católica de Valparaíso \- PUCV | Investigador(a) | Diseño metodológico cuantitativo, análisis estadístico, evaluación de la experiencia desde perspectiva cultural e inclusiva. Doctor en Ingeniería Informática (PUCV) y Doctor en Estadística, Optimización y Matemática Aplicada (UMH, España), especializado en experiencia del estudiante y analítica educativa. | 48 | Aporte institucional PUCV | 1.4, 1.5, 4.1, 4.5, 4.6, 4.7, T.2 |
 | **PERSONAL TÉCNICO Y ADMINISTRATIVO**  |  |  |  |  |  |  |
 | Nombre / RUT | Institución | Cargo en el proyecto | Funciones y capacidades críticas que aporta al proyecto | Dedicación HH/mes | $/HH | Actividades por desarrollar en el proyecto (individualizadas en el plan de trabajo) |
@@ -432,6 +467,8 @@ El proyecto será sometido a evaluación de un Comité de Ética Científico acr
 | 3.- Sandra Cano Mazuera | 20 HH/mes (docencia PUCV, cargos administrativos) | 20 HH/mes | 20 HH/mes | 20 HH/mes |
 | 4.- Ronald Enrique Méndez Sánchez | 15 HH/mes (docencia UTEM, UGM, UFT; Designar) | 15 HH/mes | 15 HH/mes | 15 HH/mes |
 | 5.- Nicolás Matus | 20 HH/mes (docencia PUCV) | 20 HH/mes | 20 HH/mes | 20 HH/mes |
+| 6.- Daniela Godoy Donoso | 40 HH/mes (docencia UTEM; dirección Departamento de Planificación y Ordenamiento Territorial) | 40 HH/mes | 40 HH/mes | 40 HH/mes |
+| 7.- Cristhian Alfonso Figueroa Martínez | 30 HH/mes (docencia UTEM; investigación Departamento de Planificación y Ordenamiento Territorial) | 30 HH/mes | — | — |
 
 **3.2 ANTECEDENTES CURRICULARES DEL EQUIPO DE INVESTIGACIÓN** 
 
@@ -444,6 +481,10 @@ El proyecto será sometido a evaluación de un Comité de Ética Científico acr
 **Ronald Enrique Méndez Sánchez (Investigador):** Magíster en Ingeniería de Control y Automatización de Procesos, con especialización en Experiencia de Usuario y evaluación de usabilidad. Director Académico del Diplomado en UX Design en la Universidad Finis Terrae desde 2018. Docente en la UTEM y la Universidad Gabriela Mistral. Co-autor de publicaciones indexadas sobre metodología UX y del libro "UX: Una metodología de diseño eficiente" (2020). Director Ejecutivo de Designar Diseño Global.
 
 **Nicolás Matus (Investigador):** Doctor en Ingeniería Informática por la Pontificia Universidad Católica de Valparaíso y Doctor en Estadística, Optimización y Matemática Aplicada por la Universidad Miguel Hernández de Elche (España). Su investigación se centra en la evaluación de la experiencia del estudiante, factores culturales en educación e inclusión educativa. Cuenta con publicaciones en revistas y congresos internacionales, y experiencia en analítica de datos aplicada a contextos educativos y de experiencia de usuario.
+
+**Daniela Godoy Donoso (Co-investigadora):** Arquitecta, Msc. Urban Regeneration. Académica de la Universidad Tecnológica Metropolitana (UTEM) y Directora del Departamento de Planificación y Ordenamiento Territorial desde 2021. Sus líneas de investigación incluyen regeneración urbana, normativas territoriales y metodologías de participación ciudadana en el diagnóstico y el diseño urbano. Ha liderado y participado en proyectos que integran procesos co-participativos con comunidades en contextos de diseño, entre ellos el Proyecto FIC-R GORE RM "Aguas de Barrio" (2018-2020), el proyecto "Hacia un nuevo pacto digital en la planificación urbana" (Fundación Carolina/Telefónica España, 2021) y estudios de densificación y calidad urbana (VRAC-UTEM, 2018-2019). Imparte las asignaturas Metodologías de Participación Ciudadana Aplicadas al Diseño Urbano, Territorio y Urbanismo y Taller de Arquitectura. Su experticia en metodologías participativas aporta rigor metodológico al proceso de co-diseño de la intervención digital con personas mayores y profesionales de salud.
+
+**Cristhian Alfonso Figueroa Martínez (Investigador asociado):** Arquitecto, Magíster en Proyecto Urbano, Doctor of Philosophy in Transport Studies. Académico del Departamento de Planificación y Ordenamiento Territorial de la Universidad Tecnológica Metropolitana (UTEM). Sus líneas de investigación se centran en el entorno construido, el espacio público, las prácticas socio-espaciales y los barrios y grupos vulnerables. Su formación doctoral en Transport Studies aporta al proyecto una perspectiva analítica sobre los factores físicos, territoriales y de movilidad que condicionan el acceso de las personas mayores a los establecimientos de atención primaria y su entorno de interacción con información en salud. Contribuye al diagnóstico del contexto espacial de implementación del estudio en los CESFAM participantes.
 
 **3.3 PARTICIPACION DE INVESTIGADORES EN FORMACIÓN**
 
