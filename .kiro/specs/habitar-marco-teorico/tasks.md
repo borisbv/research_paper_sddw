@@ -102,14 +102,14 @@
   - Verificar accesibilidad de los DOIs de las referencias nuevas
   - _Requirements: 2.3, 2.4, 6.3, 6.4_
 
-- [ ] 9. Validación final del documento
-- [ ] 9.1 Validar integridad y preservación del original
+- [x] 9. Validación final del documento
+- [x] 9.1 Validar integridad y preservación del original
   - Comparar todo el texto fuera de corchetes con el documento original para confirmar que es idéntico
   - Verificar que ningún archivo en `temp_context/` fue modificado
   - Confirmar que el formato Markdown es válido para Quarto
   - _Requirements: 1.2, 1.3, 6.1, 6.2_
 
-- [ ] 9.2 Validar densidad bibliográfica y estilo
+- [x] 9.2 Validar densidad bibliográfica y estilo
   - Recorrer cada afirmación teórica y verificar que tiene al menos 5 citas distintas
   - Verificar que todas las citas nuevas corresponden a publicaciones Scopus 2020–2026
   - Contar palabras de secciones nuevas: "Modelos educativos" 250–350, "Apps TEA" 500–700
