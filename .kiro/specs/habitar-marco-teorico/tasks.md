@@ -93,7 +93,7 @@
   - Las transiciones deben usar conectores académicos naturales y mantener el hilo argumentativo
   - _Requirements: 3.3, 3.4, 4.4, 5.2_
 
-- [ ] 8. Compilación y verificación de referencias bibliográficas
+- [x] 8. Compilación y verificación de referencias bibliográficas
   - Agregar entre corchetes todas las nuevas entradas bibliográficas en la sección "Referencias bibliográficas"
   - Formato APA 7ª edición con DOI como enlace activo para cada entrada nueva
   - Mantener intactas todas las referencias originales

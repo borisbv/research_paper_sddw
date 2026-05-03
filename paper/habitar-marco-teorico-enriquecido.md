@@ -46,35 +46,41 @@ En el ámbito específico del TEA, el desfase entre cobertura normativa y práct
 
 **Referencias bibliográficas**
 
-[Alfaro Urrutia, J. E. (2022). Estudiantes con discapacidad entre inclusión e integración: Revisión sistemática de 10 años de tensiones y contradicciones. *Perspectiva Educacional, 61*(1), 152–180. [https://doi.org/10.4151/07189729-Vol.61-Iss.1-Art.1211](https://doi.org/10.4151/07189729-Vol.61-Iss.1-Art.1211)]
-
 [Al Jaffal, M. (2022). Barriers general education teachers face regarding the inclusion of students with autism. *Frontiers in Psychology, 13*, 873248. [https://doi.org/10.3389/fpsyg.2022.873248](https://doi.org/10.3389/fpsyg.2022.873248)]
+
+[Alfaro Urrutia, J. E. (2022). Estudiantes con discapacidad entre inclusión e integración: Revisión sistemática de 10 años de tensiones y contradicciones. *Perspectiva Educacional, 61*(1), 152–180. [https://doi.org/10.4151/07189729-Vol.61-Iss.1-Art.1211](https://doi.org/10.4151/07189729-Vol.61-Iss.1-Art.1211)]
 
 [Ames, M. E., Sihoe, C. E., Coombs, E. C., Foreman, S., Punt, K., Singh, V., Stack, T., & McMorris, C. A. (2025). Experiences of autistic students in postsecondary education: A review of reviews. *Autism in Adulthood*. Advance online publication. [https://doi.org/10.1089/aut.2024.0131](https://doi.org/10.1089/aut.2024.0131)]
 
 [Blaskowitz, M. G., Pustorino-Clevenger, A. M., Killion, M., & Shirlow, C. (2025). Are universities ready to support autistic students? A call to increase coordinated campus efforts. *Autism in Adulthood, 7*(4). [https://doi.org/10.1089/aut.2024.0293](https://doi.org/10.1089/aut.2024.0293)]
 
+Chung, K., & Chung, E. (2023). Randomized controlled pilot study of an app-based intervention for improving social skills, face perception, and eye gaze among youth with autism spectrum disorder. *Frontiers in Psychiatry, 14*, 1126290. [https://doi.org/10.3389/fpsyt.2023.1126290](https://doi.org/10.3389/fpsyt.2023.1126290)
+
 [Cruz, S., Zubizarreta, S. C. P., Costa, A. D., Araújo, R., Martinho, J., Tubío-Fungueiriño, M., Sampaio, A., González-Villar, A., Fernández-Prieto, M., & Cruz, R. (2024). Is there a bias towards males in the diagnosis of autism? A systematic review and meta-analysis. *Neuropsychology Review, 35*, 153–176. [https://doi.org/10.1007/s11065-023-09630-2](https://doi.org/10.1007/s11065-023-09630-2)]
 
-Chung, K., & Chung, E. (2023). Randomized controlled pilot study of an app-based intervention for improving social skills, face perception, and eye gaze among youth with autism spectrum disorder. *Frontiers in Psychiatry, 14*, 1126290. [https://doi.org/10.3389/fpsyt.2023.1126290](https://doi.org/10.3389/fpsyt.2023.1126290)
+Genovese, A., & Butler, M. G. (2023). The autism spectrum: Behavioral, psychiatric and genetic associations. *Genes, 14*(3), 677. [https://doi.org/10.3390/genes14030677](https://doi.org/10.3390/genes14030677)
 
 [Hirota, T., & King, B. H. (2023). Autism spectrum disorder: A review. *JAMA, 329*(2), 157–168. [https://doi.org/10.1001/jama.2022.23661](https://doi.org/10.1001/jama.2022.23661)]
 
 [Hume, K., Steinbrenner, J. R., Odom, S. L., Morin, K. L., Nowell, S. W., Tomaszewski, B., Szendrey, S., McIntyre, N. S., Yucesoy-Ozkan, S., & Savage, M. N. (2021). Evidence-based practices for children, youth, and young adults with autism: Third generation review. *Journal of Autism and Developmental Disorders, 51*(11), 4013–4032. [https://doi.org/10.1007/s10803-020-04844-2](https://doi.org/10.1007/s10803-020-04844-2)]
 
-Genovese, A., & Butler, M. G. (2023). The autism spectrum: Behavioral, psychiatric and genetic associations. *Genes, 14*(3), 677. [https://doi.org/10.3390/genes14030677](https://doi.org/10.3390/genes14030677)
-
-Kahn, J., Ducharme, P., Travers, B. G., & Gonzalez-Heydrich, J. (2021). A "proof of concept" randomized controlled trial of a video game-based biofeedback program to improve emotion regulation. *Frontiers in Psychiatry, 12*, 591906. [https://doi.org/10.3389/fpsyt.2021.591906](https://doi.org/10.3389/fpsyt.2021.591906)
-
-[Leung, P. W. S., Li, S. X., Tsang, C. S. O., Chow, B. L. C., & Wong, W. C. W. (2021). Effectiveness of using mobile technology to improve cognitive and social skills among individuals with autism spectrum disorder: Systematic literature review. *JMIR Mental Health, 8*(9), Article e20892. [https://doi.org/10.2196/20892](https://doi.org/10.2196/20892)]
+Kahn, J., Ducharme, P., Travers, B. G., & Gonzalez-Heydrich, J. (2021). A "proof of concept" randomized controlled trial of a video game-based biofeedback program to improve emotion regulation. *Frontiers in Psychiatry, 12*, 591906. [https://doi.org/10.3389/fpsyt.2021.591906](https://doi.org/10.3389/fpsyt.2021.591906)
 
 [Laronze, F., & N'kaoua, B. (2025). Technology to support the academic success of students with ASD at university: A systematic review. *Education and Training in Autism and Developmental Disabilities, 60*(1). [https://doi.org/10.1177/215416472506000106](https://doi.org/10.1177/215416472506000106)]
 
-Lee, J. H., Lee, T. S., Yoo, S., Lee, S. W., Jang, J. H., Choi, Y. J., & Park, Y. R. (2023). Metaverse-based social skills training programme for children with autism spectrum disorder to improve social interaction ability: An open-label, single-centre, randomised controlled pilot trial. *eClinicalMedicine, 62*, 102072. [https://doi.org/10.1016/j.eclinm.2023.102072](https://doi.org/10.1016/j.eclinm.2023.102072)
+Lee, J. H., Lee, T. S., Yoo, S., Lee, S. W., Jang, J. H., Choi, Y. J., & Park, Y. R. (2023). Metaverse-based social skills training programme for children with autism spectrum disorder to improve social interaction ability: An open-label, single-centre, randomised controlled pilot trial. *eClinicalMedicine, 62*, 102072. [https://doi.org/10.1016/j.eclinm.2023.102072](https://doi.org/10.1016/j.eclinm.2023.102072)
+
+[Leung, P. W. S., Li, S. X., Tsang, C. S. O., Chow, B. L. C., & Wong, W. C. W. (2021). Effectiveness of using mobile technology to improve cognitive and social skills among individuals with autism spectrum disorder: Systematic literature review. *JMIR Mental Health, 8*(9), Article e20892. [https://doi.org/10.2196/20892](https://doi.org/10.2196/20892)]
+
+Lima, Y. M., Santos, T. R. L., & Monteiro, R. A. O. (2021). Entre a inclusão e a exclusão: reflexões de professores sobre educandos com autismo em escola pública. Revista Tempos e Espaços em Educação, 14(33), e14098. [https://doi.org/10.20952/revtee.v14i33.14098](https://doi.org/10.20952/revtee.v14i33.14098)
 
 [Liu, Y., Ma, C., Zhang, M., Ma, X., Liu, T., Jia, F., & Du, L. (2025). Efficacy of gamified digital health interventions for children and adolescents with autism spectrum disorder: A systematic review and meta-analysis. *Child and Adolescent Psychiatry and Mental Health, 20*, Article 3. [https://doi.org/10.1186/s13034-025-01009-w](https://doi.org/10.1186/s13034-025-01009-w)]
 
-Lima, Y. M., Santos, T. R. L., & Monteiro, R. A. O. (2021). Entre a inclusão e a exclusão: reflexões de professores sobre educandos com autismo em escola pública. Revista Tempos e Espaços em Educação, 14(33), e14098. [https://doi.org/10.20952/revtee.v14i33.14098](https://doi.org/10.20952/revtee.v14i33.14098)
+López-Resa, P., & Moraleda-Sepúlveda, E. (2023). Early educational trajectories of children with autism spectrum disorder in Chile: Challenges and facilitators. *Frontiers in Education, 8*, 1259428. [https://doi.org/10.3389/feduc.2023.1259428](https://doi.org/10.3389/feduc.2023.1259428)
+
+Lord, C., Brugha, T. S., Charman, T., Cusack, J., Dumas, G., Frazier, T., Jones, E. J. H., Jones, R. M., Pickles, A., State, M. W., Taylor, J. L., & Veenstra-VanderWeele, J. (2020). Autism spectrum disorder. *Nature Reviews Disease Primers, 6*(5). [https://doi.org/10.1038/s41572-019-0138-4](https://doi.org/10.1038/s41572-019-0138-4)
+
+[Lord, C., Charman, T., Havdahl, A., Carbone, P., Anagnostou, E., Boyd, B., Carr, T., de Vries, P. J., Dissanayake, C., Divan, G., Freitag, C. M., Gotelli, M. M., Kasari, C., Knapp, M., Mundy, P., Plank, A., Scahill, L., Servili, C., Shattuck, P., … Thurm, A. (2022). The Lancet Commission on the future of care and clinical research in autism. *The Lancet, 399*(10321), 271–334. [https://doi.org/10.1016/S0140-6736(21)01541-5](https://doi.org/10.1016/S0140-6736(21)01541-5)]
 
 [Maenner, M. J., Warren, Z., Williams, A. R., Amoakohene, E., Bakian, A. V., Bilder, D. A., Durkin, M. S., Fitzgerald, R. T., Furnier, S. M., Hughes, M. M., Ladd-Acosta, C. M., McArthur, D., Pas, E. T., Salinas, A., Vehorn, A., Williams, S., Esler, A., Grzybowski, A., Hall-Lande, J., … Shaw, K. A. (2023). Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 11 sites, United States, 2020. *MMWR Surveillance Summaries, 72*(SS-2), 1–14. [https://doi.org/10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1)]
 
@@ -82,69 +88,62 @@ Lima, Y. M., Santos, T. R. L., & Monteiro, R. A. O. (2021). Entre a inclusão e 
 
 [McDonald, R. G., Cargill, M. I., Khawar, S., & Kang, E. (2024). Emotion dysregulation in autism: A meta-analysis. *Autism, 28*(12), 2969–2985. [https://doi.org/10.1177/13623613241257605](https://doi.org/10.1177/13623613241257605)]
 
-[Mittal, P., Bhadania, M., Tondak, N., Ajmera, P., Yadav, S., Kukreti, A., Kalra, S., & Ajmera, P. (2024). Effect of immersive virtual reality-based training on cognitive, social, and emotional skills in children and adolescents with autism spectrum disorder: A meta-analysis of randomized controlled trials. *Research in Developmental Disabilities, 151*, Article 104771. [https://doi.org/10.1016/j.ridd.2024.104771](https://doi.org/10.1016/j.ridd.2024.104771)]
-
-López-Resa, P., & Moraleda-Sepúlveda, E. (2023). Early educational trajectories of children with autism spectrum disorder in Chile: Challenges and facilitators. *Frontiers in Education, 8*, 1259428. [https://doi.org/10.3389/feduc.2023.1259428](https://doi.org/10.3389/feduc.2023.1259428)
-
-[Lord, C., Charman, T., Havdahl, A., Carbone, P., Anagnostou, E., Boyd, B., Carr, T., de Vries, P. J., Dissanayake, C., Divan, G., Freitag, C. M., Gotelli, M. M., Kasari, C., Knapp, M., Mundy, P., Plank, A., Scahill, L., Servili, C., Shattuck, P., … Thurm, A. (2022). The Lancet Commission on the future of care and clinical research in autism. *The Lancet, 399*(10321), 271–334. [https://doi.org/10.1016/S0140-6736(21)01541-5](https://doi.org/10.1016/S0140-6736(21)01541-5)]
-
-Lord, C., Brugha, T. S., Charman, T., Cusack, J., Dumas, G., Frazier, T., Jones, E. J. H., Jones, R. M., Pickles, A., State, M. W., Taylor, J. L., & Veenstra-VanderWeele, J. (2020). Autism spectrum disorder. *Nature Reviews Disease Primers, 6*(5). [https://doi.org/10.1038/s41572-019-0138-4](https://doi.org/10.1038/s41572-019-0138-4)
-
 [McGoldrick, E., Munroe, A., Ferguson, R., Byrne, C., & Doherty, M. (2025). Autistic SPACE for inclusive education. *Autism & Developmental Language Impairments, 10*. [https://doi.org/10.1177/27546330251370655](https://doi.org/10.1177/27546330251370655)]
 
 [Minuk, A., Shurr, J., Chahine, S., & Berish, F. (2024). Trends in the inclusive classroom placement of students with autism spectrum disorder: A retrospective study. *Education and Training in Autism and Developmental Disabilities, 59*(1). [https://doi.org/10.1177/215416472405900107](https://doi.org/10.1177/215416472405900107)]
 
+[Mittal, P., Bhadania, M., Tondak, N., Ajmera, P., Yadav, S., Kukreti, A., Kalra, S., & Ajmera, P. (2024). Effect of immersive virtual reality-based training on cognitive, social, and emotional skills in children and adolescents with autism spectrum disorder: A meta-analysis of randomized controlled trials. *Research in Developmental Disabilities, 151*, Article 104771. [https://doi.org/10.1016/j.ridd.2024.104771](https://doi.org/10.1016/j.ridd.2024.104771)]
+
+Montenegro-Rueda, M., Fernández-Cerero, J., & Fernández-Batanero, J. M. (2025). Transition to university: Concerns and support perceived by students with autism spectrum disorder. *British Journal of Special Education*. Advance online publication. [https://doi.org/10.1111/1467-8578.70089](https://doi.org/10.1111/1467-8578.70089)
+
+Montiel-Nava, C., Montenegro, M. C., Ramirez, A. C., Valdez, D., Rosoli, A., Garcia, R., Garrido, G., Cukier, S., Rattazzi, A., & Paula, C. S. (2024). Age of autism diagnosis in Latin American and Caribbean countries. *Autism, 28*(1), 68–81. [https://doi.org/10.1177/13623613221147345](https://doi.org/10.1177/13623613221147345)
+
 [Nahiduzzaman, M., et al. (2025). The global prevalence of autism spectrum disorder in children: A systematic review and meta-analysis. *Osong Public Health and Research Perspectives*. [https://doi.org/10.24171/j.phrp.2024.0286](https://doi.org/10.24171/j.phrp.2024.0286)]
 
-Montenegro-Rueda, M., Fernández-Cerero, J., & Fernández-Batanero, J. M. (2025). Transition to university: Concerns and support perceived by students with autism spectrum disorder. *British Journal of Special Education*. Advance online publication. [https://doi.org/10.1111/1467-8578.70089](https://doi.org/10.1111/1467-8578.70089)
-
-Montiel-Nava, C., Montenegro, M. C., Ramirez, A. C., Valdez, D., Rosoli, A., Garcia, R., Garrido, G., Cukier, S., Rattazzi, A., & Paula, C. S. (2024). Age of autism diagnosis in Latin American and Caribbean countries. *Autism, 28*(1), 68–81. [https://doi.org/10.1177/13623613221147345](https://doi.org/10.1177/13623613221147345)
-
-Paula, C. S., Cukier, S., Cunha, G. R., Irarrázaval, M., Montiel-Nava, C., Garcia, R., Garrido, G., Valdez, D., Bordini, D., Caetano, S. C., Rattazzi, A., Rosoli, A., & Swanson, J. (2020). Challenges, priorities, barriers to care, and stigma in families of people with autism: Similarities and differences among six Latin American countries. *Autism, 24*(8), 2228–2242. [https://doi.org/10.1177/1362361320940073](https://doi.org/10.1177/1362361320940073)
+Paula, C. S., Cukier, S., Cunha, G. R., Irarrázaval, M., Montiel-Nava, C., Garcia, R., Garrido, G., Valdez, D., Bordini, D., Caetano, S. C., Rattazzi, A., Rosoli, A., & Swanson, J. (2020). Challenges, priorities, barriers to care, and stigma in families of people with autism: Similarities and differences among six Latin American countries. *Autism, 24*(8), 2228–2242. [https://doi.org/10.1177/1362361320940073](https://doi.org/10.1177/1362361320940073)
 
 [Perrelet, V., Veyre, A., Chawki, L., Margot, C., & Cappe, É. (2025). What are we targeting when we support inclusive education for autistic students? A systematic review of 233 empirical studies and call for community partnerships. *Autism, 29*(12), 2927–2940. [https://doi.org/10.1177/13623613251352223](https://doi.org/10.1177/13623613251352223)]
 
 [Petersson-Bloom, L., & Hansson, E. (2025). A systematic research review on teachers' self-efficacy in educating autistic students. *Autism & Developmental Language Impairments, 10*. [https://doi.org/10.1177/23969415251392318](https://doi.org/10.1177/23969415251392318)]
 
-Petersson-Bloom, L., & Holmqvist, M. (2022). Strategies in supporting inclusive education for autistic students: A systematic review of qualitative research results. *Autism & Developmental Language Impairments, 7*. [https://doi.org/10.1177/23969415221123429](https://doi.org/10.1177/23969415221123429)
+Petersson-Bloom, L., & Holmqvist, M. (2022). Strategies in supporting inclusive education for autistic students: A systematic review of qualitative research results. *Autism & Developmental Language Impairments, 7*. [https://doi.org/10.1177/23969415221123429](https://doi.org/10.1177/23969415221123429)
 
 [Restoy, D., Oriol-Escude, M., Alonzo-Castillo, T., Magan-Maganto, M., Canal-Bedia, R., Diez-Villoria, E., Gisbert-Gustemps, L., Setien-Ramos, I., Martinez-Ramirez, M., Ramos-Quiroga, J. A., & Lugo-Marin, J. (2024). Emotion regulation and emotion dysregulation in children and adolescents with autism spectrum disorder: A meta-analysis of evaluation and intervention studies. *Clinical Psychology Review, 109*, Article 102410. [https://doi.org/10.1016/j.cpr.2024.102410](https://doi.org/10.1016/j.cpr.2024.102410)]
 
-Roman-Urrestarazu, A., Tyson, A., Gatica-Bahamonde, G., van Kessel, R., Yang, J., Mansilla, C., Zuniga, I., Méndez-Fadol, A., Larrain, B., Garcia, R., Koch, D., Ford, T., Groot, W., Pavlova, M., & Czabanowska, K. (2025). Bayesian prevalence of autism and unmet special education needs in Chile in a sample of three million school-age children. *Autism*. [https://doi.org/10.1177/13623613251342310](https://doi.org/10.1177/13623613251342310)
+Roman-Urrestarazu, A., Tyson, A., Gatica-Bahamonde, G., van Kessel, R., Yang, J., Mansilla, C., Zuniga, I., Méndez-Fadol, A., Larrain, B., Garcia, R., Koch, D., Ford, T., Groot, W., Pavlova, M., & Czabanowska, K. (2025). Bayesian prevalence of autism and unmet special education needs in Chile in a sample of three million school-age children. *Autism*. [https://doi.org/10.1177/13623613251342310](https://doi.org/10.1177/13623613251342310)
 
-[Shaw, K. A., et al. (2025). Prevalence and early identification of autism spectrum disorder among children aged 4 and 8 years — ADDM Network, 16 sites, United States, 2022. *MMWR Surveillance Summaries, 74*(SS-2), 1–22. [https://doi.org/10.15585/mmwr.ss7402a1](https://doi.org/10.15585/mmwr.ss7402a1)]
+Salari, N., Rasoulpoor, S., Rasoulpoor, S., Shohaimi, S., Jafarpour, S., Abdoli, N., Khaledi-Paveh, B., & Mohammadi, M. (2022). The global prevalence of autism spectrum disorder: A comprehensive systematic review and meta-analysis. *Italian Journal of Pediatrics, 48*(1), 112. [https://doi.org/10.1186/s13052-022-01310-w](https://doi.org/10.1186/s13052-022-01310-w)
 
 [Sandgreen, H., Frederiksen, L. H., & Bilenberg, N. (2021). Digital interventions for autism spectrum disorder: A meta-analysis. *Journal of Autism and Developmental Disorders, 51*, 3138–3152. [https://doi.org/10.1007/s10803-020-04778-9](https://doi.org/10.1007/s10803-020-04778-9)]
 
 [Scarcella, I., Marino, F., Failla, C., Doria, G., Chila, P., Minutoli, R., Vetrano, N., Vagni, D., Pignolo, L., Di Cara, M., Settimo, C., Quartarone, A., Cerasa, A., & Pioggia, G. (2023). Information and communication technologies-based interventions for children with autism spectrum conditions: A systematic review of randomized control trials from a positive technology perspective. *Frontiers in Psychiatry, 14*, Article 1212522. [https://doi.org/10.3389/fpsyt.2023.1212522](https://doi.org/10.3389/fpsyt.2023.1212522)]
 
+[Shaw, K. A., et al. (2025). Prevalence and early identification of autism spectrum disorder among children aged 4 and 8 years — ADDM Network, 16 sites, United States, 2022. *MMWR Surveillance Summaries, 74*(SS-2), 1–22. [https://doi.org/10.15585/mmwr.ss7402a1](https://doi.org/10.15585/mmwr.ss7402a1)]
+
 [Sherwood, K. L., Smith, M. J., & Eldredge, M. A. (2024). The need for technology-aided instruction and intervention policy for autistic youth. *Journal of Disability Policy Studies, 35*(1), 54–64. [https://doi.org/10.1177/10442073221150603](https://doi.org/10.1177/10442073221150603)]
 
 [Soares, E. E., Bausback, K., Beard, C. L., Higinbotham, M., Bunge, E. L., & Gengoux, G. W. (2021). Social skills training for autism spectrum disorder: A meta-analysis of in-person and technological interventions. *Journal of Technology in Behavioral Science, 6*, 166–180. [https://doi.org/10.1007/s41347-020-00177-0](https://doi.org/10.1007/s41347-020-00177-0)]
 
-Salari, N., Rasoulpoor, S., Rasoulpoor, S., Shohaimi, S., Jafarpour, S., Abdoli, N., Khaledi-Paveh, B., & Mohammadi, M. (2022). The global prevalence of autism spectrum disorder: A comprehensive systematic review and meta-analysis. *Italian Journal of Pediatrics, 48*(1), 112. [https://doi.org/10.1186/s13052-022-01310-w](https://doi.org/10.1186/s13052-022-01310-w)
-
-Talantseva, O. I., Romanova, R. S., Shurdova, E. M., Dolgorukova, T. A., Sologub, P. S., Titova, O. S., Kleeva, D. F., & Grigorenko, E. L. (2023). The global prevalence of autism spectrum disorder: A three-level meta-analysis. *Frontiers in Psychiatry, 14*, 1071181. [https://doi.org/10.3389/fpsyt.2023.1071181](https://doi.org/10.3389/fpsyt.2023.1071181)
+Talantseva, O. I., Romanova, R. S., Shurdova, E. M., Dolgorukova, T. A., Sologub, P. S., Titova, O. S., Kleeva, D. F., & Grigorenko, E. L. (2023). The global prevalence of autism spectrum disorder: A three-level meta-analysis. *Frontiers in Psychiatry, 14*, 1071181. [https://doi.org/10.3389/fpsyt.2023.1071181](https://doi.org/10.3389/fpsyt.2023.1071181)
 
 [Tomaszewski, B., Klinger, L. G., & Pugliese, C. E. (2022). Self-determination in autistic transition-aged youth without intellectual disability. *Journal of Autism and Developmental Disorders, 52*(9), 4067–4078. [https://doi.org/10.1007/s10803-021-05280-6](https://doi.org/10.1007/s10803-021-05280-6)]
 
 [Valentine, A. Z., Brown, B. J., Groom, M. J., Young, E., Hollis, C., & Hall, C. L. (2020). A systematic review evaluating the implementation of technologies to assess, monitor and treat neurodevelopmental disorders: A map of the current evidence. *Clinical Psychology Review, 80*, Article 101870. [https://doi.org/10.1016/j.cpr.2020.101870](https://doi.org/10.1016/j.cpr.2020.101870)]
 
-Vidal-Esteve, M. I., Muntaner, J. J., & Moreno-Tallón, F. (2023). The pillars of inclusive education for students with ASD: A scoping review based on the case of Spain. *International Journal of Developmental Disabilities*. [https://doi.org/10.1080/20473869.2023.2173837](https://doi.org/10.1080/20473869.2023.2173837)
+Vidal-Esteve, M. I., Muntaner, J. J., & Moreno-Tallón, F. (2023). The pillars of inclusive education for students with ASD: A scoping review based on the case of Spain. *International Journal of Developmental Disabilities*. [https://doi.org/10.1080/20473869.2023.2173837](https://doi.org/10.1080/20473869.2023.2173837)
 
-Wang, L., Wang, B., Wu, C., Wang, J., & Sun, M. (2024). The growing challenge of autism spectrum disorder: A comprehensive review of etiology, diagnosis, and therapy in children. *International Journal of Developmental Disabilities*. [https://doi.org/10.1080/26895293.2024.2415057](https://doi.org/10.1080/26895293.2024.2415057)
-
-White, S. W., Smith, I. C., Miyazaki, Y., Conner, C. M., Elias, R., & Capriola-Hall, N. N. (2021). Improving transition to adulthood for students with autism: A randomized controlled trial of STEPS. *Journal of Clinical Child and Adolescent Psychology, 50*(2), 248–260. [https://doi.org/10.1080/15374416.2019.1669157](https://doi.org/10.1080/15374416.2019.1669157)
+Wang, L., Wang, B., Wu, C., Wang, J., & Sun, M. (2024). The growing challenge of autism spectrum disorder: A comprehensive review of etiology, diagnosis, and therapy in children. *International Journal of Developmental Disabilities*. [https://doi.org/10.1080/26895293.2024.2415057](https://doi.org/10.1080/26895293.2024.2415057)
 
 [Wang, T., Ma, Y., Du, X., Li, C., Peng, Z., Wang, Y., Yin, H., & Li, N. (2024). Digital interventions for autism spectrum disorders: A systematic review and meta-analysis. *Pediatric Investigation, 8*(3), 224–236. [https://doi.org/10.1002/ped4.12417](https://doi.org/10.1002/ped4.12417)]
 
-[Yang, X., Wu, J., Ma, Y., Yu, J., Cao, H., Zeng, A., Fu, R., Tang, Y., & Ren, Z. (2025). Effectiveness of virtual reality technology interventions in improving the social skills of children and adolescents with autism: Systematic review. *Journal of Medical Internet Research, 27*, Article e60845. [https://doi.org/10.2196/60845](https://doi.org/10.2196/60845)]
+White, S. W., Smith, I. C., Miyazaki, Y., Conner, C. M., Elias, R., & Capriola-Hall, N. N. (2021). Improving transition to adulthood for students with autism: A randomized controlled trial of STEPS. *Journal of Clinical Child and Adolescent Psychology, 50*(2), 248–260. [https://doi.org/10.1080/15374416.2019.1669157](https://doi.org/10.1080/15374416.2019.1669157)
+
+Xu, F., Gage, N., Zeng, S., Zhang, M., Iun, A., O'Riordan, M., & Kim, E. (2024). The use of digital interventions for children and adolescents with autism spectrum disorder: A meta-analysis. *Journal of Autism and Developmental Disorders, 56*(2), 499–515. [https://doi.org/10.1007/s10803-024-06563-4](https://doi.org/10.1007/s10803-024-06563-4)
 
 [Yáñez-Véliz, F., et al. (2025). Liderar la implementación de la ley TEA en escuelas inclusivas en Chile. *Revista Estudios de Políticas Públicas, 11*(1), 86–101. [https://doi.org/10.5354/0719-6296.2025.77574](https://doi.org/10.5354/0719-6296.2025.77574)]
 
-Xu, F., Gage, N., Zeng, S., Zhang, M., Iun, A., O'Riordan, M., & Kim, E. (2024). The use of digital interventions for children and adolescents with autism spectrum disorder: A meta-analysis. *Journal of Autism and Developmental Disorders, 56*(2), 499–515. [https://doi.org/10.1007/s10803-024-06563-4](https://doi.org/10.1007/s10803-024-06563-4)
+[Yang, X., Wu, J., Ma, Y., Yu, J., Cao, H., Zeng, A., Fu, R., Tang, Y., & Ren, Z. (2025). Effectiveness of virtual reality technology interventions in improving the social skills of children and adolescents with autism: Systematic review. *Journal of Medical Internet Research, 27*, Article e60845. [https://doi.org/10.2196/60845](https://doi.org/10.2196/60845)]
+
+Zainal, M. S., & Zahri, A. F. (2025). Charting the future of inclusive autism support: A global bibliometric study on educational and transitional issues. *International Journal of Learning, Teaching and Educational Research, 24*(9). [https://doi.org/10.26803/ijlter.24.9.15](https://doi.org/10.26803/ijlter.24.9.15)
 
 [Zeidan, J., Fombonne, E., Scorah, J., Ibrahim, A., Durkin, M. S., Saxena, S., Yusuf, A., Shih, A., & Elsabbagh, M. (2022). Global prevalence of autism: A systematic review update. *Autism Research, 15*(5), 778–790. [https://doi.org/10.1002/aur.2696](https://doi.org/10.1002/aur.2696)]
-
-Zainal, M. S., & Zahri, A. F. (2025). Charting the future of inclusive autism support: A global bibliometric study on educational and transitional issues. *International Journal of Learning, Teaching and Educational Research, 24*(9). [https://doi.org/10.26803/ijlter.24.9.15](https://doi.org/10.26803/ijlter.24.9.15)
-
