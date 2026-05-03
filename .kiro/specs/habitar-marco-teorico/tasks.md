@@ -59,7 +59,7 @@
   - Respetar reglas de estilo: prosa continua, tono formal, conectores académicos
   - _Requirements: 2.1, 2.5, 3.1, 3.2, 5.1, 5.2, 5.3, 5.4, 5.5_
 
-- [ ] 5. Escritura de la sección Modelos educativos en Chile
+- [x] 5. Escritura de la sección Modelos educativos en Chile
   - Insertar entre corchetes contenido completo de 250–350 palabras reemplazando el placeholder
   - Cubrir la evolución de los modelos educativos chilenos relevantes para TEA: desde modelos conductistas hacia la inclusión
   - Incluir referencias a la Ley de Inclusión Escolar, Decreto 170, Programas de Integración Escolar (PIE) y sus desafíos
@@ -69,15 +69,15 @@
   - Usar prosa continua, conectores académicos, negrita para conceptos clave, cursiva para términos técnicos
   - _Requirements: 4.1, 4.3, 5.1, 5.2, 5.3, 5.4, 5.5_
 
-- [ ] 6. Escritura de la sección Uso de apps para personas TEA
-- [ ] 6.1 Desarrollar contenido sobre apps para personas TEA en general
+- [x] 6. Escritura de la sección Uso de apps para personas TEA
+- [x] 6.1 Desarrollar contenido sobre apps para personas TEA en general
   - Insertar entre corchetes contenido de 250–350 palabras sobre el panorama general de apps y herramientas digitales orientadas a personas TEA
   - Cubrir tipos de apps (comunicación aumentativa, habilidades sociales, organización, aprendizaje), plataformas más utilizadas y evidencia de eficacia
   - Incluir al menos 5 referencias Scopus 2020–2026 con formato APA
   - Usar prosa continua con transición coherente desde la sección anterior (Modelos educativos)
   - _Requirements: 4.2, 4.3, 5.1, 5.2, 5.3, 5.4, 5.5_
 
-- [ ] 6.2 Desarrollar contenido sobre apps específicas para adolescentes TEA
+- [x] 6.2 Desarrollar contenido sobre apps específicas para adolescentes TEA
   - Insertar entre corchetes contenido de 250–350 palabras enfocado en adolescentes TEA
   - Cubrir apps para autorregulación emocional, habilidades sociales en contexto adolescente y transición académica
   - Conectar con las apps ya mencionadas en el planteamiento del problema (Yface, Mightier, metaverso) para dar continuidad narrativa
@@ -85,7 +85,7 @@
   - Integrar transición coherente hacia la sección de cierre o la siguiente sección del paper
   - _Requirements: 4.2, 4.3, 4.4, 5.1, 5.2, 5.3, 5.4, 5.5_
 
-- [ ] 7. Transiciones narrativas y correcciones de consistencia
+- [x] 7. Transiciones narrativas y correcciones de consistencia
   - Insertar entre corchetes oración de transición en el quiebre entre "trayectorias educativas tempranas" y "modelos pedagógicos tradicionales" en el planteamiento del problema
   - Insertar entre corchetes oración de transición en el quiebre entre "ensayos controlados en programas de transición" y "las tecnologías tipo app emergen"
   - Insertar entre corchetes reformulación de "países de ingresos bajos y medios" por referencia regional (e.g., "Latinoamérica y otras regiones con menor producción científica") usando formato `[CORRECCIÓN: cambiar "X" por "Y"]`
