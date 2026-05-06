@@ -1,0 +1,22 @@
+{
+  "feature_name": "paper-memorias-casas-piernas-res100",
+  "created_at": "2026-05-05T12:00:00Z",
+  "updated_at": "2026-05-05T15:00:00Z",
+  "language": "es",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": false
+    }
+  },
+  "ready_for_implementation": false
+}

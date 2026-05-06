@@ -26,7 +26,9 @@
       "WebSearch",
       "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
       "WebFetch(domain:www.ijlter.org)",
-      "Skill(kiro:spec-tasks)"
+      "Skill(kiro:spec-tasks)",
+      "Skill(kiro:spec-requirements)",
+      "Skill(kiro:spec-design)"
     ]
   }
 }

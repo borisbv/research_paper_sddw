@@ -25,3 +25,6 @@ Archivos de referencia para el paper **"Memorias de casas con piernas"**.
 - El esbozo inicial es un punto de partida; requiere desarrollo significativo en todas las secciones.
 - La revista objetivo es la RES (Colombia), número 100, con deadline de agosto 2026.
 - El paper aborda migración, memoria y hogar desde una perspectiva artística-antropológica.
+- Incluye las imagenes de entrevistados y del artista en el paper
+
+
