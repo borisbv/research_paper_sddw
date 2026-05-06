@@ -28,7 +28,8 @@
       "WebFetch(domain:www.ijlter.org)",
       "Skill(kiro:spec-tasks)",
       "Skill(kiro:spec-requirements)",
-      "Skill(kiro:spec-design)"
+      "Skill(kiro:spec-design)",
+      "Skill(kiro:spec-impl)"
     ]
   }
 }

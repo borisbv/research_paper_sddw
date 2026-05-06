@@ -1,9 +1,9 @@
 {
   "feature_name": "paper-memorias-casas-piernas-res100",
   "created_at": "2026-05-05T12:00:00Z",
-  "updated_at": "2026-05-05T15:00:00Z",
+  "updated_at": "2026-05-06T15:30:00Z",
   "language": "es",
-  "phase": "tasks-generated",
+  "phase": "done",
   "approvals": {
     "requirements": {
       "generated": true,
@@ -15,8 +15,21 @@
     },
     "tasks": {
       "generated": true,
-      "approved": false
+      "approved": true
     }
   },
-  "ready_for_implementation": false
+  "ready_for_implementation": true,
+  "implementation": {
+    "total_tasks": 12,
+    "completed_tasks": 12,
+    "completed_at": "2026-05-06T15:30:00Z"
+  },
+  "validation_summary": {
+    "word_count": 7854,
+    "references": 20,
+    "figures": 5,
+    "abstracts_in_range": true,
+    "citations_1to1": true,
+    "all_hard_checks_passed": true
+  }
 }
