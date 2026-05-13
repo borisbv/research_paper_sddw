@@ -1,0 +1,33 @@
+{
+  "name": "habitar-revision-metodologia",
+  "description": "Revisión metodológica del paper HabiTAR: reestructuración de la sección de Metodología desde design thinking hacia etapas secuenciales de ciencias sociales, atendiendo 15 observaciones del revisor",
+  "language": "es",
+  "status": "completed",
+  "phases": {
+    "requirements": "approved",
+    "design": "approved",
+    "tasks": "approved",
+    "implementation": "completed",
+    "validation": "completed"
+  },
+  "summary": {
+    "total_tasks": 13,
+    "completed_tasks": 13,
+    "reviewer_observations": 15,
+    "observations_addressed": 15,
+    "files_created": [
+      "paper/00-titulo-abstract.md",
+      "paper/01-introduccion.md",
+      "paper/02-marco-teorico.md",
+      "paper/03-pregunta-objetivos.md",
+      "paper/04-metodologia.md",
+      "paper/05-referencias.md",
+      "paper/revisiones/observaciones-revisor.md"
+    ],
+    "requirements_covered": [
+      "REQ-1", "REQ-2", "REQ-3", "REQ-4", "REQ-5",
+      "REQ-6", "REQ-7", "REQ-8", "REQ-9", "REQ-10"
+    ]
+  },
+  "completed_at": "2026-05-12"
+}
