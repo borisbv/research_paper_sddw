@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Gantt - Proyecto FONDECYT CEA 2027</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface-hover: #334155;
+            --border: #334155;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --etapa1: #6366f1;
+            --etapa2: #8b5cf6;
+            --etapa3: #ec4899;
+            --etapa4: #f59e0b;
+            --etapa5: #10b981;
+            --etapa6: #06b6d4;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .header h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            background: linear-gradient(135deg, var(--accent), #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .legend-item:hover {
+            border-color: var(--text-muted);
+        }
+
+        .legend-item.inactive {
+            opacity: 0.35;
+        }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .gantt-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            overflow-x: auto;
+        }
+
+        .gantt-wrapper {
+            min-width: 1100px;
+            position: relative;
+        }
+
+        /* Timeline header */
+        .timeline-header {
+            display: flex;
+            margin-left: 280px;
+            margin-bottom: 0.25rem;
+            position: relative;
+            height: 40px;
+        }
+
+        .timeline-year {
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent);
+            position: absolute;
+            transform: translateX(-50%);
+        }
+
+        .timeline-months {
+            display: flex;
+            margin-left: 280px;
+            margin-bottom: 1rem;
+            position: relative;
+            height: 20px;
+        }
+
+        .timeline-month {
+            text-align: center;
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            position: absolute;
+            transform: translateX(-50%);
+        }
+
+        /* Grid lines */
+        .grid-lines {
+            position: absolute;
+            top: 0;
+            left: 280px;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+        }
+
+        .grid-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: var(--border);
+            opacity: 0.4;
+        }
+
+        .grid-line.year {
+            background: var(--text-muted);
+            opacity: 0.3;
+        }
+
+        /* Today marker */
+        .today-marker {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ef4444;
+            z-index: 10;
+        }
+
+        .today-label {
+            position: absolute;
+            top: -22px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.65rem;
+            color: #ef4444;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        /* Sections */
+        .gantt-section {
+            margin-bottom: 0.5rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            padding: 0.6rem 0;
+            margin-bottom: 0.25rem;
+        }
+
+        .section-label {
+            width: 280px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding-left: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .section-line {
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        /* Task rows */
+        .task-row {
+            display: flex;
+            align-items: center;
+            height: 36px;
+            position: relative;
+            border-radius: 6px;
+            transition: background 0.15s;
+        }
+
+        .task-row:hover {
+            background: rgba(255,255,255,0.03);
+        }
+
+        .task-label {
+            width: 280px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            padding-left: 1.25rem;
+            flex-shrink: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .task-bar-area {
+            flex: 1;
+            position: relative;
+            height: 100%;
+        }
+
+        .task-bar {
+            position: absolute;
+            height: 22px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: white;
+            opacity: 0.85;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .task-bar:hover {
+            opacity: 1;
+            height: 26px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            z-index: 5;
+        }
+
+        /* Tooltip */
+        .tooltip {
+            display: none;
+            position: fixed;
+            background: #1a1a2e;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 0.85rem 1rem;
+            font-size: 0.8rem;
+            z-index: 100;
+            pointer-events: none;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+            max-width: 320px;
+        }
+
+        .tooltip.visible { display: block; }
+
+        .tooltip-title {
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+            font-size: 0.85rem;
+        }
+
+        .tooltip-detail {
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .tooltip-detail span {
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        /* Stats bar */
+        .stats {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            text-align: center;
+            min-width: 140px;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body { padding: 1rem; }
+            .gantt-container { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Carta Gantt - Proyecto FONDECYT CEA</h1>
+    <p>Enero 2028 - Diciembre 2031 &middot; 6 Etapas &middot; 28 Actividades</p>
+</div>
+
+<div class="legend" id="legend"></div>
+
+<div class="gantt-container">
+    <div class="gantt-wrapper" id="gantt"></div>
+</div>
+
+<div class="stats">
+    <div class="stat">
+        <div class="stat-value">4 a&ntilde;os</div>
+        <div class="stat-label">Duraci&oacute;n total</div>
+    </div>
+    <div class="stat">
+        <div class="stat-value">6</div>
+        <div class="stat-label">Etapas</div>
+    </div>
+    <div class="stat">
+        <div class="stat-value">28</div>
+        <div class="stat-label">Actividades</div>
+    </div>
+    <div class="stat">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Art&iacute;culos WoS/Scopus</div>
+    </div>
+</div>
+
+<div class="tooltip" id="tooltip">
+    <div class="tooltip-title" id="tooltip-title"></div>
+    <div class="tooltip-detail" id="tooltip-detail"></div>
+</div>
+
+<script>
+const sections = [
+    {
+        name: "Etapa 1 - OE1: Experiencias estudiantiles",
+        color: "#6366f1",
+        tasks: [
+            { id: "1.1", name: "Revisi\u00f3n de literatura", start: "2028-01-01", days: 120 },
+            { id: "1.2", name: "Selecci\u00f3n de participantes", start: "2028-03-01", days: 90 },
+            { id: "1.3", name: "Dise\u00f1o de instrumentos y \u00e9tica", start: "2028-02-01", days: 120 },
+            { id: "1.4", name: "Entrevistas semiestructuradas", start: "2028-05-01", days: 150 },
+            { id: "1.5", name: "Card sorting exploratorio", start: "2028-06-01", days: 120 },
+            { id: "1.6", name: "Transcripci\u00f3n y an\u00e1lisis", start: "2028-08-01", days: 120 },
+            { id: "1.7", name: "Perfiles anal\u00edticos de experiencia", start: "2028-10-01", days: 90 },
+            { id: "1.8", name: "Congreso cient\u00edfico", start: "2028-11-01", days: 60 },
+        ]
+    },
+    {
+        name: "Etapa 2 - OE2: An\u00e1lisis de apps",
+        color: "#8b5cf6",
+        tasks: [
+            { id: "2.1", name: "Revisi\u00f3n y selecci\u00f3n de apps", start: "2028-09-01", days: 90 },
+            { id: "2.2", name: "Matrices y r\u00fabricas de inspecci\u00f3n", start: "2028-10-01", days: 90 },
+            { id: "2.3", name: "An\u00e1lisis comparativo de apps", start: "2029-01-01", days: 90 },
+            { id: "2.4", name: "Inspecci\u00f3n experta estructurada", start: "2029-02-01", days: 120 },
+            { id: "2.5", name: "Observaci\u00f3n internacional", start: "2029-03-01", days: 90 },
+            { id: "2.6", name: "Matriz comparativa y categorizaci\u00f3n", start: "2029-04-01", days: 90 },
+            { id: "2.7", name: "Art\u00edculo WoS/Scopus", start: "2029-05-01", days: 120 },
+        ]
+    },
+    {
+        name: "Etapa 3 - OE3: Exploraci\u00f3n con usuarios",
+        color: "#ec4899",
+        tasks: [
+            { id: "3.1", name: "Selecci\u00f3n de apps para exploraci\u00f3n", start: "2029-05-01", days: 60 },
+            { id: "3.2", name: "Protocolos de verbalizaci\u00f3n concurrente", start: "2029-06-01", days: 60 },
+            { id: "3.3", name: "Sesiones de exploraci\u00f3n guiada", start: "2029-07-01", days: 120 },
+            { id: "3.4", name: "Sistematizaci\u00f3n y an\u00e1lisis", start: "2029-09-01", days: 120 },
+            { id: "3.5", name: "Art\u00edculo WoS/Scopus", start: "2029-11-01", days: 120 },
+        ]
+    },
+    {
+        name: "Etapa 4 - OE4: Integraci\u00f3n participativa",
+        color: "#f59e0b",
+        tasks: [
+            { id: "4.1", name: "Integraci\u00f3n transversal de hallazgos", start: "2029-10-01", days: 120 },
+            { id: "4.2", name: "Talleres Ketso con estudiantes CEA", start: "2030-01-01", days: 120 },
+            { id: "4.3", name: "Talleres Ketso con expertos", start: "2030-02-01", days: 120 },
+            { id: "4.4", name: "Integraci\u00f3n comparativa participativa", start: "2030-04-01", days: 120 },
+            { id: "4.5", name: "Retroalimentaci\u00f3n con actores clave", start: "2030-05-01", days: 90 },
+            { id: "4.6", name: "Art\u00edculo WoS/Scopus y congresos", start: "2030-06-01", days: 150 },
+        ]
+    },
+    {
+        name: "Etapa 5 - OE4: Criterios de evaluaci\u00f3n",
+        color: "#10b981",
+        tasks: [
+            { id: "5.1", name: "R\u00fabricas y pautas de evaluaci\u00f3n", start: "2030-05-01", days: 90 },
+            { id: "5.2", name: "Validaci\u00f3n experta de criterios", start: "2030-07-01", days: 90 },
+            { id: "5.3", name: "Grupos focales con estudiantes CEA", start: "2030-08-01", days: 90 },
+            { id: "5.4", name: "Sistematizaci\u00f3n y triangulaci\u00f3n", start: "2030-09-01", days: 120 },
+            { id: "5.5", name: "Art\u00edculo WoS/Scopus", start: "2030-11-01", days: 120 },
+        ]
+    },
+    {
+        name: "Etapa 6: Difusi\u00f3n y transferencia",
+        color: "#06b6d4",
+        tasks: [
+            { id: "6.1", name: "Materiales de difusi\u00f3n acad\u00e9mica", start: "2031-01-01", days: 180 },
+            { id: "6.2", name: "Seminarios y talleres de transferencia", start: "2031-04-01", days: 180 },
+            { id: "6.3", name: "Participaci\u00f3n en congresos", start: "2031-07-01", days: 180 },
+        ]
+    }
+];
+
+// Timeline config
+const projectStart = new Date("2028-01-01");
+const projectEnd = new Date("2031-12-31");
+const totalDays = (projectEnd - projectStart) / (1000 * 60 * 60 * 24);
+
+function dateToOffset(dateStr) {
+    const d = new Date(dateStr);
+    return ((d - projectStart) / (1000 * 60 * 60 * 24)) / totalDays * 100;
+}
+
+function daysToWidth(days) {
+    return (days / totalDays) * 100;
+}
+
+function formatDate(dateStr) {
+    const months = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
+    const d = new Date(dateStr);
+    return `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
+}
+
+function addDays(dateStr, days) {
+    const d = new Date(dateStr);
+    d.setDate(d.getDate() + days);
+    return d.toISOString().split("T")[0];
+}
+
+// Build legend
+const legendEl = document.getElementById("legend");
+const activeFilters = new Set(sections.map((_, i) => i));
+
+sections.forEach((section, i) => {
+    const item = document.createElement("div");
+    item.className = "legend-item";
+    item.innerHTML = `<div class="legend-dot" style="background:${section.color}"></div>${section.name.split(":")[0].trim()}`;
+    item.addEventListener("click", () => {
+        if (activeFilters.has(i)) {
+            activeFilters.delete(i);
+            item.classList.add("inactive");
+        } else {
+            activeFilters.add(i);
+            item.classList.remove("inactive");
+        }
+        document.querySelectorAll(`.gantt-section[data-section="${i}"]`).forEach(el => {
+            el.style.display = activeFilters.has(i) ? "" : "none";
+        });
+    });
+    legendEl.appendChild(item);
+});
+
+// Build Gantt
+const gantt = document.getElementById("gantt");
+let html = "";
+
+// Timeline years
+html += `<div class="timeline-header">`;
+for (let y = 2028; y <= 2031; y++) {
+    const offset = dateToOffset(`${y}-01-01`);
+    const nextYear = dateToOffset(`${y + 1}-01-01`);
+    const center = offset + (Math.min(nextYear, 100) - offset) / 2;
+    html += `<div class="timeline-year" style="left:${center}%">${y}</div>`;
+}
+html += `</div>`;
+
+// Timeline months
+html += `<div class="timeline-months">`;
+const monthNames = ["E","F","M","A","M","J","J","A","S","O","N","D"];
+for (let y = 2028; y <= 2031; y++) {
+    for (let m = 0; m < 12; m++) {
+        const offset = dateToOffset(`${y}-${String(m+1).padStart(2,"0")}-15`);
+        if (m % 3 === 0) {
+            const fullMonths = ["Ene","Abr","Jul","Oct"];
+            html += `<div class="timeline-month" style="left:${offset}%">${fullMonths[m/3]}</div>`;
+        }
+    }
+}
+html += `</div>`;
+
+// Content area with grid
+html += `<div style="position:relative">`;
+
+// Grid lines
+html += `<div class="grid-lines">`;
+for (let y = 2028; y <= 2032; y++) {
+    const offset = dateToOffset(`${y}-01-01`);
+    if (offset <= 100) {
+        html += `<div class="grid-line year" style="left:${offset}%"></div>`;
+    }
+    if (y <= 2031) {
+        for (let q = 1; q <= 3; q++) {
+            const mo = q * 3 + 1;
+            const qOffset = dateToOffset(`${y}-${String(mo).padStart(2,"0")}-01`);
+            html += `<div class="grid-line" style="left:${qOffset}%"></div>`;
+        }
+    }
+}
+
+// Today marker
+const today = new Date();
+if (today >= projectStart && today <= projectEnd) {
+    const todayOffset = ((today - projectStart) / (1000 * 60 * 60 * 24)) / totalDays * 100;
+    html += `<div class="today-marker" style="left:${todayOffset}%"><div class="today-label">Hoy</div></div>`;
+}
+html += `</div>`;
+
+// Sections and tasks
+sections.forEach((section, si) => {
+    html += `<div class="gantt-section" data-section="${si}">`;
+    html += `<div class="section-header">`;
+    html += `<div class="section-label" style="color:${section.color}">${section.name}</div>`;
+    html += `<div class="section-line" style="background:${section.color}30"></div>`;
+    html += `</div>`;
+
+    section.tasks.forEach(task => {
+        const left = dateToOffset(task.start);
+        const width = daysToWidth(task.days);
+        const endDate = addDays(task.start, task.days);
+
+        html += `<div class="task-row">`;
+        html += `<div class="task-label">${task.id} ${task.name}</div>`;
+        html += `<div class="task-bar-area">`;
+        html += `<div class="task-bar"
+            style="left:${left}%; width:${width}%; background: linear-gradient(135deg, ${section.color}, ${section.color}cc)"
+            data-title="${task.id} ${task.name}"
+            data-start="${formatDate(task.start)}"
+            data-end="${formatDate(endDate)}"
+            data-days="${task.days}"
+            data-section="${section.name.split(':')[0].trim()}"
+        >${task.days}d</div>`;
+        html += `</div></div>`;
+    });
+
+    html += `</div>`;
+});
+
+html += `</div>`; // close relative container
+gantt.innerHTML = html;
+
+// Tooltip behavior
+const tooltip = document.getElementById("tooltip");
+const tooltipTitle = document.getElementById("tooltip-title");
+const tooltipDetail = document.getElementById("tooltip-detail");
+
+document.querySelectorAll(".task-bar").forEach(bar => {
+    bar.addEventListener("mouseenter", (e) => {
+        tooltipTitle.textContent = bar.dataset.title;
+        tooltipDetail.innerHTML = `
+            <span>${bar.dataset.section}</span><br>
+            Inicio: <span>${bar.dataset.start}</span><br>
+            Fin: <span>${bar.dataset.end}</span><br>
+            Duraci\u00f3n: <span>${bar.dataset.days} d\u00edas</span>
+        `;
+        tooltip.classList.add("visible");
+    });
+
+    bar.addEventListener("mousemove", (e) => {
+        const x = e.clientX + 16;
+        const y = e.clientY - 10;
+        tooltip.style.left = (x + tooltip.offsetWidth > window.innerWidth ? e.clientX - tooltip.offsetWidth - 16 : x) + "px";
+        tooltip.style.top = y + "px";
+    });
+
+    bar.addEventListener("mouseleave", () => {
+        tooltip.classList.remove("visible");
+    });
+});
+</script>
+
+</body>
+</html>
