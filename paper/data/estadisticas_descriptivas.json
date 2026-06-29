@@ -1,0 +1,17 @@
+{
+  "usabilidad": {
+    "media": 4.25,
+    "mediana": 4.33,
+    "desviacion_estandar": 0.73
+  },
+  "robustez": {
+    "media": 3.26,
+    "mediana": 3.0,
+    "desviacion_estandar": 1.22
+  },
+  "operabilidad": {
+    "media": 1.7,
+    "mediana": 1.5,
+    "desviacion_estandar": 1.54
+  }
+}

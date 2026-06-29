@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiro Framework | Technical Deep Dive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #020617;
+            --primary: #0ea5e9;
+            --secondary: #6366f1;
+            --accent: #f43f5e;
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --code-bg: #1e293b;
+            --glass: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            overflow: hidden;
+        }
+
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            transition: transform 0.8s cubic-bezier(0.85, 0, 0.15, 1);
+        }
+
+        .slide {
+            min-width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem;
+            position: relative;
+            text-align: center;
+        }
+
+        .progress-bar {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 0.75rem;
+            z-index: 100;
+        }
+
+        .progress-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--glass-border);
+            transition: all 0.3s ease;
+        }
+
+        .progress-dot.active {
+            background: var(--primary);
+            box-shadow: 0 0 15px var(--primary);
+            width: 30px;
+            border-radius: 5px;
+        }
+
+        h1 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        h2 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: clamp(1.8rem, 4vw, 2.5rem); margin-bottom: 1.5rem; color: var(--primary); text-transform: uppercase; letter-spacing: 2px; }
+        h3 { color: var(--accent); margin-bottom: 1rem; font-size: 1.4rem; }
+        p { font-size: 1.1rem; color: var(--text-dim); max-width: 850px; margin: 0 auto; line-height: 1.6; }
+
+        .definition-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            max-width: 1100px;
+            text-align: left;
+            margin-top: 2rem;
+        }
+
+        .glass-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            backdrop-filter: blur(8px);
+            transition: border-color 0.3s;
+        }
+
+        .glass-card:hover { border-color: var(--primary); }
+
+        code { font-family: 'Fira Code', monospace; background: var(--code-bg); padding: 0.2rem 0.4rem; border-radius: 4px; color: var(--primary); }
+
+        .diagram-container {
+            margin-top: 2rem;
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .controls-hint {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            background: var(--glass);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid var(--glass-border);
+        }
+
+        /* SVG Styles */
+        .box { fill: var(--glass); stroke: var(--primary); stroke-width: 2; }
+        .label { fill: white; font-size: 12px; font-weight: 600; text-anchor: middle; font-family: 'Inter', sans-serif; }
+        .link { stroke: var(--text-dim); stroke-width: 1.5; fill: none; stroke-dasharray: 4; }
+        
+        .status-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            background: var(--primary);
+            color: white;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="presentation-container" id="presentation">
+        
+        <!-- Slide 1: Intro -->
+        <section class="slide">
+            <div class="status-badge">NIVEL: AVANZADO</div>
+            <h1>Arquitectura Interna <br> del Framework Kiro</h1>
+            <p>Descifrando el motor de orquestación científica que potencia el Spec-Driven Development (SDD).</p>
+        </section>
+
+        <!-- Slide 2: ¿Qué es un Skill? -->
+        <section class="slide">
+            <h2>Anatomía de un "Skill"</h2>
+            <p>Más que un simple script, un Skill es una unidad de inteligencia encapsulada y determinista.</p>
+            <div class="definition-grid">
+                <div class="glass-card">
+                    <h3>Contrato y Mandatos</h3>
+                    <p>Cada Skill posee un <code>SKILL.md</code> que actúa como su "instrucción maestra". Define triggers de activación y mandatos inviolables para garantizar salidas coherentes y libres de alucinaciones.</p>
+                </div>
+                <div class="glass-card">
+                    <h3>Workflow Interno</h3>
+                    <p>Implementa procesos multi-etapa. Por ejemplo, <code>scientific-writing</code> desglosa la tarea en: (1) Outlining basado en evidencia y (2) Transformación a prosa académica fluida, validando cada paso.</p>
+                </div>
+                <div class="glass-card">
+                    <h3>Dependencias Cruzadas</h3>
+                    <p>Los Skills operan en red. <code>scientific-writing</code> invoca a <code>research-lookup</code> para verificar datos en tiempo real antes de redactar una sola palabra del manuscrito.</p>
+                </div>
+                <div class="glass-card">
+                    <h3>Validación Mandatoria</h3>
+                    <p>Incluyen reglas de calidad no negociables, como la verificación de DOIs en <code>citation-management</code> o el cumplimiento de guías éticas en la generación de abstracts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Orquestación Interna -->
+        <section class="slide">
+            <h2>Internal Orchestration</h2>
+            <div class="diagram-container">
+                <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                    <!-- The Kernel -->
+                    <rect x="300" y="150" width="200" height="100" rx="10" class="box" style="stroke: var(--accent);"/>
+                    <text x="400" y="205" class="label" style="fill: var(--accent);">KIRO KERNEL</text>
+                    <text x="400" y="230" class="label" style="font-size: 10px;">(Orchestrator)</text>
+
+                    <!-- Inputs/State -->
+                    <rect x="50" y="50" width="180" height="60" rx="8" class="box" />
+                    <text x="140" y="85" class="label">TARGET STATE (YAML)</text>
+
+                    <rect x="50" y="290" width="180" height="60" rx="8" class="box" />
+                    <text x="140" y="325" class="label">SPEC FILES (.kiro/specs)</text>
+
+                    <!-- Outputs/Skills -->
+                    <rect x="570" y="50" width="180" height="60" rx="8" class="box" />
+                    <text x="660" y="85" class="label">GEMINI/CLAUDE SKILLS</text>
+
+                    <rect x="570" y="290" width="180" height="60" rx="8" class="box" />
+                    <text x="660" y="325" class="label">VALIDATION SCRIPTS</text>
+
+                    <!-- Links -->
+                    <path d="M 230 80 L 300 170" class="link" />
+                    <path d="M 230 320 L 300 230" class="link" />
+                    <path d="M 500 170 L 570 80" class="link" />
+                    <path d="M 500 230 L 570 320" class="link" />
+                </svg>
+            </div>
+            <p style="margin-top: 1rem; font-size: 1rem;">Kiro sincroniza el estado del proyecto con las especificaciones técnicas para disparar los Skills adecuados en cada fase.</p>
+        </section>
+
+        <!-- Slide 4: Comandos Críticos -->
+        <section class="slide">
+            <h2>Comandos Maestros</h2>
+            <div class="definition-grid">
+                <div class="glass-card">
+                    <h3><code>/kiro:research-init</code></h3>
+                    <p>Configura el motor. Define si el target es <code>paper</code> o <code>book</code>, inicializa estructuras y ajusta los flags de validación automática para toda la sesión.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>/kiro:spec-gap-analysis</code></h3>
+                    <p>Ejecuta la IA para detectar la brecha de conocimiento. Orquesta <code>research-lookup</code> y <code>literature-review</code> para validar la novedad de la especificación actual.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>/kiro:paper-status</code></h3>
+                    <p>Visión 360° de la investigación. Monitorea el progreso de cada sección, detecta inconsistencias y señala tareas críticas pendientes en tiempo real.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>/kiro:spec-design</code></h3>
+                    <p>El corazón de SDD. Transforma requisitos científicos abstractos en una arquitectura técnica (Spec), garantizando la coherencia lógica antes de escribir.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>/kiro:paper-validate</code></h3>
+                    <p>Orquestador de calidad. Ejecuta automáticamente la batería de validaciones (estructura, citas, tono académico) para asegurar el rigor científico.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>/kiro:paper-review</code></h3>
+                    <p>Simulación de revisión por pares. Realiza una auditoría crítica del manuscrito basada en criterios de evaluación de revistas de alto impacto (Q1).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 5: Skills de Alto Impacto -->
+        <section class="slide">
+            <h2>Skills: Los Pilares Lógicos</h2>
+            <div class="definition-grid">
+                <div class="glass-card">
+                    <h3><code>scientific-writing</code></h3>
+                    <p>El motor de generación. Aplica estructuras IMRAD y transforma especificaciones técnicas en prosa de alta calidad científica, asegurando la inclusión de figuras y tablas mandatorias según el formato de la revista.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>citation-management</code></h3>
+                    <p>Integridad bibliográfica total. Valida DOIs, recupera metadatos faltantes y sincroniza archivos BibTeX para asegurar que cada cita sea rastreable y cumpla con estilos internacionales.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>research-lookup</code></h3>
+                    <p>El sensor empírico del framework. Consulta bases de datos académicas (PubMed, arXiv, Semantic Scholar) en tiempo real, proporcionando evidencia verificada para alimentar el proceso de escritura.</p>
+                </div>
+                <div class="glass-card">
+                    <h3><code>peer-review</code></h3>
+                    <p>Sistema de "Red Teaming" científico. Realiza revisiones ciegas simuladas, evaluando el rigor metodológico y la solidez estadística antes de la sumisión real a revistas Q1.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 6: Ética y Estándares -->
+        <section class="slide">
+            <h2>Cumplimiento Académico</h2>
+            <p style="margin-bottom: 2rem;">Validación automática contra estándares internacionales de reporte y ética científica.</p>
+            <div class="definition-grid">
+                <div class="glass-card">
+                    <h3 style="color: var(--primary);">Reporting Standards</h3>
+                    <p style="font-size: 0.9rem;">Kiro integra protocolos internacionales como <strong>PRISMA</strong>, <strong>CONSORT</strong> y <strong>STROBE</strong>. Esto garantiza que el manuscrito contenga todos los elementos requeridos por las revistas de alto impacto (Q1) desde su concepción.</p>
+                </div>
+                <div class="glass-card">
+                    <h3 style="color: var(--primary);">Scientific Provenance</h3>
+                    <p style="font-size: 0.9rem;">Mantiene un hilo de Ariadna digital. Si un dato o hipótesis cambia en la fase de diseño, Kiro identifica y actualiza automáticamente todas las secciones afectadas para prevenir inconsistencias lógicas en el argumento final.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 7: Fin -->
+        <section class="slide">
+            <h1>Architecture Ready.</h1>
+            <p style="color: var(--primary); font-weight: 600; margin-top: 1rem;">La potencia de Kiro reside en su capacidad de automatizar el rigor.</p>
+        </section>
+
+    </div>
+
+    <div class="progress-bar" id="dots"></div>
+    <div class="controls-hint">Flechas ← → para navegar</div>
+
+    <script>
+        const container = document.getElementById('presentation');
+        const slides = document.querySelectorAll('.slide');
+        const dotsContainer = document.getElementById('dots');
+        let currentSlide = 0;
+
+        slides.forEach((_, i) => {
+            const dot = document.createElement('div');
+            dot.classList.add('progress-dot');
+            if (i === 0) dot.classList.add('active');
+            dotsContainer.appendChild(dot);
+        });
+
+        function updateSlide() {
+            container.style.transform = `translateX(-${currentSlide * 100}vw)`;
+            document.querySelectorAll('.progress-dot').forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+        }
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' && currentSlide < slides.length - 1) {
+                currentSlide++; updateSlide();
+            }
+            if (e.key === 'ArrowLeft' && currentSlide > 0) {
+                currentSlide--; updateSlide();
+            }
+        });
+
+        let touchStartX = 0;
+            window.addEventListener('touchstart', e => touchStartX = e.touches[0].clientX);
+            window.addEventListener('touchend', e => {
+                const touchEndX = e.changedTouches[0].clientX;
+                if (touchStartX - touchEndX > 50 && currentSlide < slides.length - 1) {
+                    currentSlide++; updateSlide();
+                } else if (touchEndX - touchStartX > 50 && currentSlide > 0) {
+                    currentSlide--; updateSlide();
+                }
+            });
+    </script>
+</body>
+</html>

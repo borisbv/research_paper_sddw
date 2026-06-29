@@ -1,0 +1,11 @@
+# Categorización de tecnologías de inteligencia artificial según su utilidad para la accesibilidad web bajo las pautas WCAG 2.2 {.unnumbered}
+
+**Autor:** Boris Bustos
+
+**Afiliación:** Universidad de las Américas (UDLA), Quito, Ecuador
+
+**Correo:** boris.bustos@udla.edu.ec
+
+**Palabras clave (ES):** inteligencia artificial, accesibilidad web, WCAG 2.2, tecnologías asistivas, discapacidad, diseño universal
+
+**Keywords (EN):** artificial intelligence, web accessibility, WCAG 2.2, assistive technologies, disability, universal design

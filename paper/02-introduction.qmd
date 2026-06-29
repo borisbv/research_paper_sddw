@@ -1,0 +1,56 @@
+# Introducción
+
+## Planteamiento del problema
+
+La accesibilidad web constituye un principio fundamental para garantizar que todas las personas, independientemente de sus capacidades, puedan acceder, navegar e interactuar con los contenidos digitales de manera efectiva. A pesar de los avances normativos impulsados por el World Wide Web Consortium (W3C) a través de las Pautas de Accesibilidad para el Contenido Web (WCAG), la brecha entre el cumplimiento teórico de estándares y la experiencia real de los usuarios con discapacidad sigue siendo considerable [@vollenwyder2023; @martins2024]. En paralelo, la inteligencia artificial (IA) ha experimentado un crecimiento exponencial en la última década, ofreciendo capacidades de procesamiento de lenguaje natural, visión por computadora, reconocimiento de voz y análisis de señales cerebrales que podrían transformar radicalmente la accesibilidad web [@chemnad2024; @campoverde-molina2025]. Sin embargo, la intersección entre estas dos disciplinas permanece insuficientemente explorada desde una perspectiva sistemática y evaluativa.
+
+El presente estudio surge de la observación de que, si bien existen numerosas tecnologías de IA con potencial para mejorar la accesibilidad web, no se dispone de un marco evaluativo que permita categorizar y comparar estas tecnologías según su utilidad real para distintos tipos de discapacidad bajo los criterios WCAG 2.2. Esta carencia representa un vacío de conocimiento que limita tanto la toma de decisiones informadas por parte de desarrolladores y diseñadores como la formulación de políticas públicas de inclusión digital.
+
+## Accesibilidad web y las pautas WCAG
+
+La accesibilidad web se define como la práctica de diseñar y desarrollar sitios, herramientas y tecnologías web de manera que las personas con discapacidad puedan utilizarlos de forma autónoma y efectiva [@petrie2007; @abascal2016; @lazar2015]. Este concepto trasciende la mera conformidad técnica y abarca dimensiones de usabilidad, equidad y participación social en el entorno digital.
+
+Las Pautas de Accesibilidad para el Contenido Web (WCAG) del W3C constituyen el estándar internacional de referencia para la accesibilidad web. Su evolución refleja la creciente complejidad de las tecnologías web y la diversificación de las necesidades de los usuarios con discapacidad. La versión 1.0, publicada en 1999, estableció los fundamentos iniciales centrados en el contenido HTML estático. La versión 2.0 (2008) amplió el alcance a tecnologías dinámicas mediante principios tecnológicamente neutrales. WCAG 2.1 (2018) incorporó criterios específicos para dispositivos móviles, personas con baja visión y discapacidad cognitiva [@w3c2018wcag21]. La versión más reciente, WCAG 2.2, publicada en octubre de 2023, introdujo nueve criterios de éxito adicionales orientados a mejorar la experiencia de usuarios con discapacidad cognitiva y motora, incluyendo criterios como *focus not obscured*, *dragging movements* y *accessible authentication* [@w3c2023wcag22].
+
+Las pautas WCAG se organizan en torno a cuatro principios fundamentales que definen las condiciones necesarias para la accesibilidad web:
+
+1. **Perceptible**: la información y los componentes de la interfaz de usuario deben ser presentados de forma que los usuarios puedan percibirlos, lo que incluye alternativas textuales para contenido no textual, subtítulos para contenido multimedia y adaptabilidad del contenido. Las tecnologías de IA contribuyen a este principio mediante la generación automática de descripciones de imágenes, el subtitulado automático y la síntesis de voz [@leotta2022; @das2024].
+
+2. **Operable**: los componentes de la interfaz y la navegación deben ser operables por todos los usuarios, lo que implica accesibilidad por teclado, tiempo suficiente para interactuar con el contenido y navegación predecible. Tecnologías como el seguimiento ocular, las interfaces cerebro-computadora y los comandos de voz basados en IA amplían las modalidades de interacción disponibles para personas con discapacidad motora [@belwafi2024; @fischer-janzen2024; @chhimpa2024].
+
+3. **Comprensible**: la información y la operación de la interfaz deben ser comprensibles, lo que incluye legibilidad, predictibilidad y asistencia en la entrada de datos. La IA aporta a este principio a través de herramientas de simplificación de texto, asistentes conversacionales y personalización adaptativa del contenido según las necesidades cognitivas del usuario [@moreno2024; @w3c2021coga; @gartland2022].
+
+4. **Robusto**: el contenido debe ser suficientemente robusto para ser interpretado de forma fiable por una amplia variedad de agentes de usuario, incluidas las tecnologías asistivas. La compatibilidad multiplataforma y multi-navegador de las herramientas basadas en IA es un factor determinante en este principio [@ara2023; @ara2025].
+
+## Inteligencia artificial y tecnologías asistivas
+
+La inteligencia artificial, entendida como la disciplina que desarrolla sistemas capaces de realizar tareas que tradicionalmente requieren inteligencia humana, ha abierto nuevas posibilidades para la accesibilidad web a través de múltiples paradigmas tecnológicos. El procesamiento de lenguaje natural permite la interacción por voz y la simplificación de textos complejos; la visión por computadora posibilita la descripción automática de imágenes y la detección de barreras visuales; el reconocimiento de voz facilita la navegación manos libres; y las interfaces cerebro-computadora ofrecen alternativas de interacción para usuarios con discapacidad motora severa [@giansanti2025; @schaur2025].
+
+Estudios recientes han documentado el potencial de la IA generativa para la accesibilidad web. @acostavargas2024 analizaron cómo las herramientas de IA generativa pueden contribuir a un futuro más inclusivo y sostenible. @campoverde-molina2025 realizaron un mapeo sistemático que identificó las principales líneas de investigación en la intersección IA-accesibilidad web, revelando un crecimiento exponencial de publicaciones en los últimos cinco años pero una fragmentación temática que dificulta la consolidación de marcos teóricos integradores. @lopezgil2025 demostraron que los modelos de lenguaje de gran tamaño (LLM) pueden transformar criterios de éxito WCAG manuales en evaluaciones automáticas, alcanzando niveles de precisión prometedores.
+
+En el ámbito de las tecnologías asistivas específicas, la literatura reciente ha abordado múltiples modalidades. @kuhn2024 evaluaron la precisión de soluciones de reconocimiento automático de voz, un componente crítico para la navegación por voz. @esquivel2024 revisaron la evidencia sobre el uso de asistentes de voz por parte de personas con discapacidad para la vida independiente. @fuglerud2024 exploraron el uso de IA para mejorar las pruebas de accesibilidad de soluciones web. Por su parte, @mowar2024 examinó la integración de accesibilidad en el desarrollo web asistido por IA, y @acosta-vargas2024icedeg estudiaron el uso de herramientas de IA generativa para abordar desafíos de accesibilidad web en contextos educativos.
+
+Sin embargo, estas contribuciones abordan tecnologías de forma individual o parcial, sin ofrecer una evaluación comparativa y sistemática que permita identificar cuáles tecnologías de IA replican de manera más efectiva los criterios de accesibilidad web como buenas prácticas.
+
+## Evaluación y herramientas de accesibilidad web
+
+La evaluación de la accesibilidad web ha sido abordada desde múltiples perspectivas metodológicas. Las herramientas automáticas de evaluación han sido objeto de análisis crítico por parte de diversos investigadores. @doush2023 evaluaron hasta qué punto las herramientas automáticas pueden cubrir los criterios WCAG, concluyendo que existen limitaciones significativas en la detección de barreras que requieren juicio humano. @alsaeedi2020 propuso marcos comparativos para evaluar herramientas de accesibilidad web, destacando la heterogeneidad en los resultados entre distintas herramientas. @brajnik2011 demostraron que el nivel de experiencia del evaluador influye significativamente en los resultados de evaluación, un hallazgo relevante para la estandarización de métodos evaluativos.
+
+Más recientemente, @salehnamadi2025 desarrollaron métodos de detección automática de problemas de accesibilidad utilizando IA generativa, y @ara2023coginfo aplicaron técnicas de aprendizaje automático para la evaluación de accesibilidad web, demostrando que los modelos de clasificación pueden complementar eficazmente las herramientas de evaluación convencionales. @othman2023 investigaron el uso de modelos de lenguaje como ChatGPT para la remediación automática de problemas de accesibilidad web, abriendo nuevas perspectivas sobre el rol de la IA no solo en la evaluación sino también en la corrección de barreras de accesibilidad.
+
+## Pregunta de investigación y objetivos
+
+A partir de la revisión del estado del arte, se identifica que la literatura existente carece de estudios que categoricen y comparen de manera integral las tecnologías de IA según su utilidad para la accesibilidad web, cruzando dimensiones de evaluación con tipos de discapacidad bajo el marco normativo WCAG 2.2. Este vacío limita la comprensión del estado actual de la oferta tecnológica en IA accesible y dificulta la identificación de buenas prácticas transferibles.
+
+El presente estudio busca responder la siguiente pregunta de investigación: **¿Cuáles tecnologías de inteligencia artificial replican de manera más efectiva los criterios de accesibilidad web establecidos por las pautas WCAG 2.2, y qué vacíos de conocimiento teórico y práctico persisten en esta intersección?**
+
+Para abordar esta pregunta, se definen los siguientes objetivos:
+
+- **Objetivo general**: categorizar y evaluar 41 tecnologías de inteligencia artificial según su utilidad para la accesibilidad web bajo las pautas WCAG 2.2, identificando las mejores prácticas y los vacíos de conocimiento en la intersección IA-accesibilidad web.
+
+- **Objetivos específicos**:
+  1. Clasificar las 41 tecnologías por tipo de discapacidad atendida (visual, motora, cognitiva y auditiva) y analizar la distribución de cobertura.
+  2. Evaluar las tecnologías en tres dimensiones (usabilidad, robustez y operabilidad) e identificar las cinco mejor puntuadas como buenas prácticas.
+  3. Debatir la existencia de un vacío de conocimiento teórico y práctico en la integración de IA con los principios WCAG.
+
+El alcance del estudio se circunscribe a un análisis documental-descriptivo de un conjunto de datos de 41 tecnologías de IA con aplicaciones en accesibilidad web, evaluadas según indicadores de usabilidad, robustez y operabilidad. No se incluyen pruebas empíricas con usuarios finales ni desarrollo de software.

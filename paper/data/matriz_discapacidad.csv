@@ -1,0 +1,42 @@
+nombre,Visual,Motora,Cognitiva,Auditiva
+Chat GPT,1,1,1,0
+Microsoft Copilot (anteriormente Bing Chat),1,0,1,0
+Gemini 2.0,1,0,1,0
+Alexa,1,1,1,0
+Google Assistant,1,1,1,0
+Siri,1,1,1,0
+Neuralink,0,1,0,0
+BrainGate,0,1,0,0
+NextMind,0,1,1,0
+CTRL-labs (Meta),0,1,0,0
+OpenBCI (con la plataforma Galea),0,1,1,0
+Emotiv,0,1,1,0
+Neurable,0,1,1,0
+Tobii Dynavox,0,1,0,0
+EyeSpeak,1,1,0,0
+Enable Viacam (eViacam),0,1,0,0
+Sesame Phone,0,1,0,0
+GazeSpeak (Microsoft),0,1,0,0
+Irisbond,0,1,0,0
+Accessibility Insights for Web,1,0,1,0
+UserWay Accessibility Widget,1,0,1,0
+Voice Control for Browser,0,1,0,0
+WAVE,1,0,0,0
+Voiceitt,0,1,1,1
+LipSurf,0,1,0,0
+Tecla,0,1,1,0
+EyeControl,0,1,0,0
+Grid,0,1,1,0
+HeadMouse Nano,0,1,0,0
+Quha Zono,0,1,0,0
+GlassOuse,0,1,0,0
+Jouse3,0,1,0,0
+NVDA,1,0,0,0
+JAWS,1,0,0,0
+Dragon NaturallySpeaking,0,1,0,0
+Project Mariner,1,0,0,0
+BrailleSurf,1,0,0,0
+Deepseek,1,0,1,0
+Otter.ai,0,0,0,1
+AVA,0,0,0,1
+Web Captioner,0,0,0,1

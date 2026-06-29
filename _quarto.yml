@@ -1,0 +1,37 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Categorización de tecnologías de inteligencia artificial según su utilidad para la accesibilidad web bajo WCAG 2.2"
+  author: "Boris Bustos"
+  date: today
+  chapters:
+    - index.qmd
+    - paper/01-abstract.qmd
+    - paper/02-introduction.qmd
+    - paper/03-methodology.qmd
+    - paper/04-results.qmd
+    - paper/05-discussion.qmd
+    - paper/06-conclusion.qmd
+    - paper/07-references.qmd
+
+bibliography: references/references.bib
+csl: apa.csl
+lang: es
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+  pdf:
+    documentclass: article
+    papersize: letter
+    fontsize: 12pt
+    geometry:
+      - margin=2.5cm
+    number-sections: true
+  docx:
+    number-sections: true
+    toc: true

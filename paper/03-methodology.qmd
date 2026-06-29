@@ -1,0 +1,119 @@
+# Metodología
+
+## Diseño de investigación
+
+El presente estudio adopta un diseño documental-descriptivo con enfoque mixto (cualitativo-cuantitativo), orientado a la categorización y evaluación de tecnologías de inteligencia artificial según su utilidad para la accesibilidad web bajo las pautas WCAG 2.2. Este enfoque permite combinar la caracterización cualitativa de las tecnologías con el análisis cuantitativo de sus capacidades, siguiendo las recomendaciones metodológicas de la literatura reciente en evaluación de accesibilidad web [@ara2023; @chemnad2024].
+
+El diseño documental se justifica por la naturaleza del objeto de estudio: las tecnologías de IA son productos comerciales y de investigación cuyas especificaciones técnicas, compatibilidad y funcionalidades se encuentran documentadas en fuentes públicas verificables. El componente descriptivo permite sistematizar la información recopilada en dimensiones comparables, mientras que el enfoque cuantitativo posibilita la aplicación de un modelo de evaluación ponderado para la identificación de las tecnologías más destacadas.
+
+## Muestra y criterios de selección
+
+La muestra del estudio comprende 41 tecnologías de inteligencia artificial con aplicaciones directas o potenciales en accesibilidad web. La selección se realizó mediante un muestreo intencional basado en los siguientes criterios de inclusión:
+
+1. **Relevancia para la accesibilidad web**: la tecnología debe ofrecer funcionalidades que contribuyan al cumplimiento de al menos uno de los cuatro principios WCAG 2.2 (Perceptible, Operable, Comprensible, Robusto).
+2. **Base en inteligencia artificial**: la tecnología debe incorporar al menos una técnica de IA, como procesamiento de lenguaje natural, visión por computadora, reconocimiento de voz, análisis de EEG o *motion tracking*.
+3. **Disponibilidad pública**: la tecnología debe contar con documentación técnica accesible, ya sea como producto comercial, herramienta de código abierto o prototipo de investigación con publicaciones asociadas.
+4. **Vigencia**: la tecnología debe estar activa o haber tenido actualizaciones documentadas en los últimos cinco años (2021-2026).
+
+Los criterios de exclusión descartaron tecnologías sin documentación verificable, proyectos abandonados sin continuidad demostrable y herramientas exclusivamente orientadas a la evaluación de conformidad sin componente de IA (como validadores HTML puros).
+
+## Fuente de datos y estructura del dataset
+
+Los datos fueron recopilados en un dataset estructurado que registra las características técnicas y funcionales de cada tecnología. La base de datos fue construida a partir de documentación oficial de los productos, publicaciones académicas asociadas, especificaciones técnicas publicadas por los desarrolladores y reportes de evaluación independientes.
+
+El dataset contiene las siguientes variables por cada tecnología:
+
+- **Identificación**: nombre, descripción, URL de referencia
+- **Caracterización comercial**: modalidad de pago (gratuita, de pago, freemium), disponibilidad de API para desarrolladores
+- **Clasificación tecnológica**: tipo de producto (asistentes conversacionales, lectores de pantalla avanzados, interfaces cerebro-computadora, seguimiento ocular, control de cursor alternativo, navegación por voz, sistemas de subtitulado automático, herramientas de accesibilidad, entre otros), tipo de tecnología de IA empleada y tipo de discapacidad atendida (visual, motora, cognitiva, auditiva)
+- **Variables de evaluación**: ocho indicadores agrupados en tres dimensiones, descritos en la siguiente sección
+
+## Dimensiones e indicadores de evaluación
+
+La evaluación de las tecnologías se estructura en tres dimensiones, cada una compuesta por indicadores específicos que reflejan aspectos diferenciados del desempeño de la tecnología en el contexto de la accesibilidad web. La selección de estas dimensiones se fundamenta en los principios WCAG 2.2 y en la norma ISO 25010 de calidad de producto de software.
+
+### Usabilidad
+
+La dimensión de usabilidad evalúa la eficacia, eficiencia y satisfacción con que la tecnología cumple su función asistiva. Se operacionaliza mediante tres indicadores:
+
+- **Precisión**: grado de exactitud con que la tecnología ejecuta su función principal (por ejemplo, la precisión del reconocimiento de voz o la fidelidad de la descripción automática de imágenes). Se registra en escala categórica: Baja, Media o Alta.
+- **Sensibilidad**: capacidad de la tecnología para detectar y responder adecuadamente a las necesidades del usuario, incluyendo la adaptación a diferentes patrones de entrada. Se registra en escala categórica: Baja, Media o Alta.
+- **Tiempo de respuesta**: latencia percibida entre la acción del usuario y la respuesta del sistema. Se registra como: Lento, Moderado o Rápido.
+
+### Robustez
+
+La dimensión de robustez evalúa la solidez técnica de la tecnología y su capacidad para funcionar de forma fiable en diversos entornos, en consonancia con el principio Robusto de las WCAG [@w3c2023wcag22]. Se operacionaliza mediante tres indicadores de compatibilidad:
+
+- **Compatibilidad multidispositivo**: funcionamiento en computadoras de escritorio, portátiles, tabletas y dispositivos móviles.
+- **Compatibilidad multi-navegador**: funcionamiento en los principales navegadores web (Chrome, Firefox, Safari, Edge).
+- **Compatibilidad multi-sistema operativo**: funcionamiento en Windows, macOS, Linux, iOS y Android.
+
+Cada indicador de robustez se registra en escala numérica directa de 1 a 5, donde 1 indica compatibilidad mínima (un solo entorno) y 5 indica compatibilidad máxima (todos los entornos evaluados).
+
+### Operabilidad
+
+La dimensión de operabilidad evalúa la capacidad de la tecnología para ser controlada mediante modalidades de interacción alternativas, vinculada directamente con el principio Operable de las WCAG y con la definición de operabilidad de la norma ISO 25010. Se operacionaliza mediante dos indicadores:
+
+- **Navegación por teclado**: compatibilidad de la tecnología con la navegación exclusiva por teclado. Se registra como: No compatible, Parcial o Total.
+- **Comandos de voz**: compatibilidad de la tecnología con el control mediante comandos de voz. Se registra como: No, Parcial o Sí.
+
+## Escala de evaluación y mapeo categórico-numérico
+
+Para posibilitar el análisis cuantitativo comparativo, las variables categóricas fueron transformadas a una escala numérica mediante una tabla de conversión estandarizada. Este mapeo permite calcular puntuaciones agregadas por dimensión y puntuaciones globales ponderadas. La @tbl-mapeo presenta la correspondencia entre valores categóricos y numéricos.
+
+| Variable | Valor categórico | Valor numérico |
+|---|---|:---:|
+| Precisión / Sensibilidad | Baja | 1 |
+| Precisión / Sensibilidad | Media | 3 |
+| Precisión / Sensibilidad | Alta | 5 |
+| Tiempo de respuesta | Lento | 1 |
+| Tiempo de respuesta | Moderado | 3 |
+| Tiempo de respuesta | Rápido | 5 |
+| Navegación por teclado | No compatible | 0 |
+| Navegación por teclado | Parcial | 3 |
+| Navegación por teclado | Total | 5 |
+| Comandos de voz | No | 0 |
+| Comandos de voz | Parcial | 3 |
+| Comandos de voz | Sí | 5 |
+
+: Tabla de conversión categórico-numérica para los indicadores de evaluación {#tbl-mapeo}
+
+La escala adopta valores de 0 a 5 en lugar de una escala Likert convencional de 1 a 5, dado que los indicadores de operabilidad admiten la ausencia total de la funcionalidad (valor 0). Esta decisión metodológica refleja que la incompatibilidad con navegación por teclado o comandos de voz representa una barrera de accesibilidad cualitativamente distinta a un desempeño bajo.
+
+## Cálculo de puntuaciones y método de ponderación
+
+La puntuación por dimensión se calcula como la media aritmética de los indicadores numéricos que la componen:
+
+- **Puntuación de usabilidad** = (precisión + sensibilidad + tiempo de respuesta) / 3
+- **Puntuación de robustez** = (multidispositivo + multi-navegador + multi-OS) / 3
+- **Puntuación de operabilidad** = (navegación por teclado + comandos de voz) / 2
+
+La puntuación global ponderada de cada tecnología se obtiene mediante la siguiente fórmula:
+
+$$P_{global} = 0{,}40 \times P_{usabilidad} + 0{,}30 \times P_{robustez} + 0{,}30 \times P_{operabilidad}$$
+
+Los pesos asignados reflejan la relevancia relativa de cada dimensión para la accesibilidad web efectiva. La usabilidad recibe el mayor peso (40%) porque constituye el factor más directamente vinculado con la experiencia del usuario final con discapacidad: una tecnología que no es precisa, sensible ni ágil en su respuesta difícilmente cumple su propósito asistivo, independientemente de su compatibilidad técnica [@vollenwyder2023]. La robustez y la operabilidad reciben pesos iguales (30% cada una) en reconocimiento de que tanto la compatibilidad multiplataforma como las modalidades alternativas de interacción son igualmente necesarias para garantizar el acceso universal [@w3c2023wcag22].
+
+En caso de empate en la puntuación global, se aplican los siguientes criterios de desempate en orden de prioridad: (1) mayor cobertura de tipos de discapacidad atendidos, (2) disponibilidad gratuita o *freemium* y (3) disponibilidad de API para desarrolladores.
+
+## Categorización por tipo de discapacidad
+
+Cada tecnología fue clasificada según el tipo de discapacidad que atiende de forma primaria, pudiendo atender simultáneamente múltiples tipos de discapacidad. Las categorías empleadas son:
+
+- **Visual**: tecnologías que asisten a personas con ceguera, baja visión o daltonismo (lectores de pantalla, generadores de descripciones de imágenes, herramientas de ampliación).
+- **Motora**: tecnologías que asisten a personas con limitaciones de movilidad en miembros superiores (interfaces cerebro-computadora, seguimiento ocular, control de cursor alternativo, navegación por voz).
+- **Cognitiva**: tecnologías que asisten a personas con discapacidad intelectual, trastornos del aprendizaje o dificultades de comprensión (simplificadores de texto, asistentes conversacionales, interfaces adaptativas) [@w3c2021coga].
+- **Auditiva**: tecnologías que asisten a personas con sordera o hipoacusia (sistemas de subtitulado automático, transcripción en tiempo real).
+
+La clasificación se realizó a partir de la función principal declarada de cada tecnología y de las discapacidades objetivo identificadas en la documentación del producto. Cuando una tecnología atiende múltiples discapacidades, se registraron todas las categorías aplicables, permitiendo análisis de cobertura cruzada.
+
+## Procedimiento de análisis
+
+El procedimiento de análisis se desarrolló en cuatro fases secuenciales:
+
+1. **Recopilación y limpieza de datos**: lectura del dataset original, verificación de completitud de las 41 tecnologías y limpieza de inconsistencias en el formato de registro.
+2. **Transformación cuantitativa**: aplicación de la tabla de mapeo categórico-numérico y cálculo de las puntuaciones por dimensión para cada tecnología.
+3. **Análisis descriptivo y comparativo**: cálculo de estadísticas descriptivas (media, mediana y desviación estándar) por dimensión, generación de la matriz cruzada tecnología × tipo de discapacidad y análisis de distribución de cobertura.
+4. **Ranking y selección**: cálculo de la puntuación global ponderada, ordenamiento descendente, aplicación de criterios de desempate e identificación de las cinco tecnologías mejor puntuadas.
+
+Los scripts de procesamiento de datos y generación de visualizaciones fueron implementados en Python 3.10+ utilizando las bibliotecas pandas para manipulación de datos, numpy para cálculos estadísticos y matplotlib con seaborn para la generación de figuras académicas a 300 DPI.
