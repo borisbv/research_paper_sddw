@@ -1,0 +1,10 @@
+# Abstract {.unnumbered}
+
+<!-- 
+Target: máximo 250 palabras
+Requirements: 1.5, 1.6
+-->
+
+Virtual museums have evolved from static digital catalogues into immersive, interactive environments, yet research and practice in this domain remain fragmented across independent trajectories—immersive technology, user experience, accessibility, metadata standards, and community participation—without a unified framework that positions people rather than technology at the centre of design. This paper proposes the Human-Centred Virtual Museum Framework (HCVMF), a conceptual and methodological model for virtual museum design that systematically integrates these dimensions within a layered architecture. The study employs a mixed-methods approach organised in six iterative stages. Three stages have been completed: (1) a needs assessment through semi-structured interviews and surveys with 18 stakeholders across museum professionals, educators, accessibility advocates, and community representatives; (2) a comparative analysis of twelve international virtual museum implementations evaluated against a 28-indicator rubric; and (3) the design of a technical framework integrating WebXR rendering, WCAG 2.1 compliance, Dublin Core and IIIF metadata alignment, and participatory content structures. Preliminary findings reveal a convergent pattern: immersion, accessibility, metadata standards, and community participation function as interdependent rather than competing dimensions when structurally integrated from initial design decisions. The comparative analysis further indicates that higher immersion does not consistently correlate with improved accessibility, confirming the need for integrative approaches. The HCVMF constitutes the principal contribution, offering cultural institutions a transferable, replicable model adaptable to diverse collections and institutional contexts. Ongoing stages—prototype development, user testing, and iterative refinement—will provide empirical validation of the framework's effectiveness.
+
+**Keywords:** Virtual museums, Digital cultural heritage, Human-centred design, Extended reality, Accessibility

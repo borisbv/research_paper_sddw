@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Virtual Museum Development: Integrating UX, XR, and Digital Heritage Standards"
+  chapters:
+    - paper/00-abstract.md
+    - paper/01-introduction.md
+    - paper/02-state-of-the-art.md
+    - paper/03-methodology.md
+    - paper/04-results.md
+    - paper/05-discussion.md
+    - paper/06-conclusions.md
+
+bibliography: references/references.bib
+csl: apa.csl
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+  pdf:
+    documentclass: article
+    fontsize: 10pt
+    geometry:
+      - margin=1in
+    number-sections: true
+  docx:
+    number-sections: true
